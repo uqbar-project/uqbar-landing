@@ -1,0 +1,222 @@
+/* Toolbar
+-------------------------------------------------------------- */
+.flat-prewiew {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body.has_toolbar {
+    padding-top: 45px;
+}
+
+.toolbar {    
+    top: 0;
+    width: 100%;
+    height: 45px;
+    background: #1a1a1a;
+    z-index: 999;
+    position: fixed;
+}
+
+.toolbar .brand,
+.toolbar .products,
+.toolbar .buttons {
+    float: left;
+}
+
+.toolbar .products,
+.toolbar .buttons {
+    width: 18%;
+}
+
+.toolbar .buttons {
+    text-align: right;
+    float: right;
+}
+
+.toolbar .brand {
+    width: 60%;
+    text-align: center;
+}
+
+.toolbar h1.brand  {
+    line-height: 45px;
+    font-size: 30px;  
+    margin: 0 0;  
+}
+
+.toolbar .brand a img {
+    height: 35px;
+}
+
+.toolbar .brand a {
+    padding: 5px 0 20px 0;
+}
+
+
+.toolbar .buttons {
+    float: right;
+}
+
+.toolbar .active-theme {
+    display: inline-block;
+    min-width: 260px;
+    height: 45px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 45px;
+    background: #2a2a2a;
+    padding: 0 15px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.products .dropdown-item .preview {
+    position: fixed;
+    opacity: 0;
+    transform: translate( 20px, 0);
+    left: 100%;
+    top: 0;
+    padding: 10px;
+    width: 610px;
+    height: 320px;
+    background: #111;
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+.products .active-theme:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 5px solid transparent;
+    border-top-color: #ccc;
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+     -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+.products.active .active-theme:after {
+    border-bottom-color: #ccc;
+    border-top-color: transparent;
+    margin-top: -9px;
+}
+
+.products .dropdown-item a:hover + .preview {
+    opacity: 1;
+    transform: translate( 0, 0);
+}
+
+.products .dropdown-item:not(:first-child) a {
+    border-top: 1px solid #2f2f2f;
+}
+
+.products .dropdown a {
+    color: #919191;
+    display: block;
+    padding: 15px;
+}
+
+.products .dropdown-item:hover, 
+.products .dropdown-item.selected {
+    background: #111;
+}
+
+.products .dropdown-item {
+    position: relative;
+    display: block;
+}
+
+.products .dropdown {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    transform: translate(0, 20px);
+    list-style: none;
+    background: #2a2a2a;
+    color: #fff;
+    width: 100%;
+    max-height: 90vh;
+    z-index: 9999;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.products.active .dropdown {
+    opacity: 1;
+    transform: translate(0, 0);
+    visibility: visible;
+}
+
+.products {
+    position: relative;
+    margin-left: 25px;
+    float: left;
+}
+
+.products .dropdown-item .item-type {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    background: #ccc;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    font-size: 9px;
+    font-weight: bold;
+    transform: translate( 0, -50% );
+    border-radius: 2px;
+}
+
+.products .dropdown-item .item-type.wordpress {
+    background: #94BD57;
+    color: #fff;
+}
+
+/* btn */
+.btn.green {
+    background-color: #94bd57;
+    color: #fff;
+    padding: 0 50px;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 12px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    float: left;
+    border-radius: 0;
+}
+
+.btn.black {   
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    opacity: 1;
+    font-size: 20px;
+}
