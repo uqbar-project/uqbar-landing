@@ -1,0 +1,37 @@
+---
+layout: landing
+---
+
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+{% include header.html %}
+
+<body class="header-sticky">
+<div class="boxed">
+
+    <!-- Wrap-slide -->
+    <div class="wrap-slider header-style1">
+        <!-- Header -->
+        {% include top_bar.html %}
+
+        {{ content }}
+    </div> <!-- /.wrap-slider -->
+
+    {% include sections.html %}<!-- /flat-row -->
+    <!-- Footer -->
+    {% include footer.html %}
+
+    <!-- Go Top -->
+    {% include go_top.html %}
+
+    {% include scripts.html %}
+</div>
+</body>
+</html>
+
+
+
+
+
