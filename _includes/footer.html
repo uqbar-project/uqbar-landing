@@ -12,21 +12,41 @@
                             </p>
                         </div><!-- /.textwidget -->
                         <ul class="flat-socials">
+                            {% if site.twitter_username %}
                             <li class="twitter">
-                                <a href="#">
+                                <a href="https://twitter.com/{{ site.twitter_username }}">
                                     <i class="fa fa-twitter"></i>
                                 </a>
                             </li>
+                            {% endif %}
+                            {% if site.twitter_username %}
                             <li class="facebook">
-                                <a href="#">
+                                <a href="https://www.facebook.com/{{ site.facebook_username }}">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
-                            <li class="mail">
-                                <a href="#">
-                                    <i class="fa fa-envelope"></i>
+                            {% endif %}
+                            {% if site.github_username %}
+                            <li class="github">
+                                <a href="https://github.com/{{ site.github_username }}">
+                                    <i class="fa fa-github"></i>
                                 </a>
                             </li>
+                            {% endif %}
+                            {% if site.youtube_username %}
+                            <li class="youtube">
+                                <a href="http://www.youtube.com/channel/{{ site.youtube_username }}?feature=watch">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                            {% endif %}
+                            {% if site.googleplus_username %}
+                            <li class="google-plus">
+                                <a href="https://plus.google.com/{{ site.googleplus_username }}?rel=author">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            {% endif %}
                         </ul>
                     </div><!-- /.widget -->
                 </div><!-- /.col-md-4 -->

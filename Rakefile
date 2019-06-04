@@ -5,7 +5,7 @@ require 'bundler/setup'
 
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "bossiernesto/uqbar-jekyll-proposal"
+GITHUB_REPONAME = "uqbar-project/uqbar-landing"
 DEST_BRANCH = "gh-pages"
 SOURCE_BRANCH = "master"
 

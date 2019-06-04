@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 ---
 
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html" xml:lang="en-US" lang="en-US"><!--<![endif]-->
-
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
 {% include header.html %}
 
 <body class="header-sticky">
@@ -23,12 +24,17 @@ layout: default
                 <div class="row">
                     <div class="col-md-12">
                         <div class="page-title-heading">
-                            <h2 class="title">{{ page.page_title }}</h2>
+                            <div class="post-heading">
+                                <h1>{{ page.title }}</h1>
+                                {% if page.subtitle %}
+                                <h2 class="subheading">{{ page.subtitle }}</h2>
+                                {% endif %}
+                                <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                            </div>
                         </div>
                         <div class="breadcrumbs">
                             <ul>
                                 <li class="home"><a href="home.html">Home</a></li>
-                                <li>{{ page.breadcumb }}</li>
                             </ul>
                         </div>
                     </div><!-- /.col-md-12 -->
@@ -48,3 +54,8 @@ layout: default
 </div>
 </body>
 </html>
+
+
+
+
+
