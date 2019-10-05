@@ -1,22 +1,27 @@
-.App {
-  text-align: center;
+.app{
+  width:100%;
+  font-size:1.6rem;
+  line-height:2.4rem;
+}
+a{
+  color:#0082FF;
+  text-decoration:none;
+  transition: all 0.3s ease-in-out;
+}
+a:hover{
+ color:#6B6A81
+}
+h1, h2, h3, h4{
+  font-family: 'Prompt', sans-serif;
+}
+.color-muted{
+  color:#6B6A81;
 }
 
-.App-logo {
-  height: 40vmin;
+strong{
+  font-weight:600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+img{
+  max-width:100%;
 }

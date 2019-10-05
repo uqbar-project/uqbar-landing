@@ -1,0 +1,48 @@
+.container{
+  max-width:111.2rem;
+  margin:0 auto;
+}
+.header{
+  padding:3.2rem 0;
+}
+.uqbarlogo{
+  max-width:20rem;
+  display:inline-block;
+}
+.navbar{
+  float:right;
+  text-align:right;
+  font-weight:600;
+}
+.navbar ul{
+  list-style:none;
+}
+.navbar ul li {
+  margin-left:0.8rem;
+  display:inline-block;
+}
+.navbar ul li a {
+  padding:1.6rem;
+  color:#6B6A81;
+}
+.navbar ul li a:hover{
+  color:#0082FF;
+}
+
+@media screen and (max-width: 800px) {
+  .header{
+    padding:2.4rem 0
+  }
+  .container{
+    padding:0 2.4rem;
+  }
+  .navbar{
+    display:none;
+  }
+  .uqbarlogo{
+    width: 100%;
+    text-align:center;
+    display:block;
+    margin:0 auto;
+  }
+}

@@ -1,0 +1,146 @@
+.equipo {
+  padding: 8rem 0;
+  background-color: #f7f7fa;
+}
+.container {
+  max-width: 111.2rem;
+  margin: 0 auto;
+}
+.equipoListado {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+/* Inactive member */
+.member {
+  border: 1px solid #e3e2ef;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px #e3e2ef;
+  border-radius: 8px;
+  padding: 1.6rem;
+  flex-basis: 24%;
+  margin: 0.5%;
+  transition: all 0.3s ease-in-out;
+}
+.photo {
+  width: 4.8rem;
+  height: 4.8rem;
+  display: inline-block;
+  vertical-align: top;
+}
+.photo img {
+  border-radius: 100%;
+}
+.description {
+  padding-left: 1.6rem;
+  padding-top: 1.4rem;
+  width: calc(100% - 4.8rem);
+  display: inline-block;
+  position: relative;
+}
+.closeIcon {
+  position: absolute;
+  right: 1.6rem;
+  cursor: pointer;
+  display: none;
+}
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  display: block;
+}
+.bio {
+  display: block;
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  display: none;
+}
+/* Active member */
+.member.active {
+  padding: 0;
+  flex-basis: 49%;
+}
+.member.active .photo {
+  width: 19.4rem;
+  height: 30.2rem;
+}
+.member.active .photo img {
+  width: auto;
+  height: 30.2rem;
+  border-radius: 8px 0 0 8px;
+  position: absolute;
+  clip-path: inset(0 5.2rem 0 5.2rem);
+  margin-left: -5.2rem;
+}
+.member.active .description {
+  width: calc(100% - 20rem);
+  padding-left: 2.4rem;
+}
+.member.active .closeIcon {
+  display: block;
+}
+.member.active .bio {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  .equipo {
+    padding: 2.4rem 0;
+  }
+  .container {
+    padding: 0 2.4rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    text-align: left;
+  }
+  .member {
+    flex-basis: 19%;
+    margin: 0.5%;
+    padding: 0.8rem;
+  }
+  .photo {
+    width: 100%;
+    height: auto;
+  }
+  .description {
+    padding-top: 0.4rem;
+    width: calc(100% - 3.2rem);
+    display: none;
+  }
+  .name {
+    font-size: 1.6rem;
+  }
+
+  /* Active member */
+  .member.active {
+    padding: 0.8rem;
+    flex-basis: 100%;
+  }
+  .member.active .photo {
+    width: 5.6rem;
+    height: 5.6rem;
+  }
+  .member.active .photo img {
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 100%;
+    position: relative;
+    clip-path: none;
+    margin-left: 0;
+  }
+  .member.active .description {
+    width: calc(100% - 6.4rem);
+    padding: 1.6rem 0rem 1.6rem 2.4rem;
+    display:inline-block;
+  }
+  .member.active .closeIcon {
+    display: block;
+    right:0
+  }
+  .member.active .bio {
+    display: block;
+  }
+}

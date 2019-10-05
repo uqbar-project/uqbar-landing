@@ -1,0 +1,99 @@
+.inicio{
+  z-index:2;
+}
+.container {
+  max-width: 111.2rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  padding-bottom: 4.8rem;
+}
+.content {
+  display: flex;
+}
+.contentLeft {
+  max-width: 47.2rem;
+}
+.contentRight {
+  margin-left: 4rem;
+  flex-grow: 1;
+  text-align:right;
+}
+.quienessomos {
+  font-size: 2rem;
+  line-height: 3.2rem;
+}
+.color-muted {
+  color: #6b6a81;
+}
+ul.valores {
+  background: #ffffff;
+  border: 1px solid #e3e2ef;
+  box-shadow: 0px 4px 10px #e3e2ef;
+  border-radius: 8px;
+  width: 100%;
+  margin: 2.4rem 0;
+  padding: 1.2rem 2.4rem;
+  list-style: none;
+}
+ul.valores li {
+  border-bottom: 1px solid #e3e2ef;
+  padding: 1rem 0;
+  display: block;
+  padding-left: 4rem;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+ul.valores li:last-child {
+  border-bottom: none;
+}
+.valor01 {
+  background-image: url(valores01.svg);
+}
+.valor02 {
+  background-image: url(valores02.svg);
+}
+.valor03 {
+  background-image: url(valores03.svg);
+}
+.valor04 {
+  background-image: url(valores04.svg);
+}
+
+@media screen and (max-width: 800px) {
+  .container{
+    padding:0 2.4rem;
+    font-size:1.4rem;
+  }
+  h1 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    text-align: left;
+    padding-bottom: 2.4rem;
+  }
+  .content{
+    flex-wrap:wrap;
+  }
+  .contentLeft{
+    flex-basis:100%;
+    flex-shrink: 0;
+    order:2;
+  }
+  .contentRight{
+    flex-basis:100%;
+    order:1;
+    flex-shrink: 0;
+    margin-left:0;
+  }
+  .quienessomos {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+  ul.valores {
+    font-size:1.4rem;
+  }
+}

@@ -1,10 +1,17 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Livvic:400,600|Prompt:700&display=swap');
+
+*{
+  box-sizing:border-box;
+}
+body,html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: 'Livvic', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size:10px;
+  color:#302F3D;
 }
 
 code {
