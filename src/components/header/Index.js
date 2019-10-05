@@ -12,19 +12,19 @@ export default function Header() {
           <div className={styles["navbar"]}>
             <ul>
               <li>
-                <a href="#">Inicio</a>
+                <a href="#Inicio">Inicio</a>
               </li>
               <li>
-                <a href="#">Donaciones</a>
+                <a href="#Donaciones">Donaciones</a>
               </li>
               <li>
-                <a href="#">Proyectos</a>
+                <a href="#Proyectos">Proyectos</a>
               </li>
               <li>
-                <a href="#">Equipo</a>
+                <a href="#Equipo">Equipo</a>
               </li>
               <li>
-                <a href="#">Contacto</a>
+                <a href="#Contacto">Contacto</a>
               </li>
             </ul>
           </div>

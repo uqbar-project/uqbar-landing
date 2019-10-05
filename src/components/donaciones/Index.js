@@ -5,7 +5,7 @@ import styles from "./Index.module.css";
 
 export default function Donaciones() {
   return (
-    <div className={styles["donaciones"]}>
+    <div className={styles["donaciones"]} id="Donaciones">
       <div className={styles["container"]}>
         <div className={styles["content"]}>
           <div className={styles["contentLeft"]}>

@@ -20,7 +20,7 @@ export function Miembro({ name, photo, bio }) {
 
 export default function Equipo() {
   return (
-    <div className={styles["equipo"]}>
+    <div className={styles["equipo"]} id="Equipo">
       <div className={styles["container"]}>
         <h2>Equipo</h2>
         <div className={styles["equipoListado"]}>

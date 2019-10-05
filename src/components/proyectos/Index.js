@@ -32,7 +32,7 @@ export function ProyectoIndividual({
 
 export default function Proyectos() {
   return (
-    <div className={styles["proyectos"]}>
+    <div className={styles["proyectos"]} id="Proyectos">
       <div className={styles["container"]}>
         <h2>Proyectos</h2>
         <div className={styles["proyectosListado"]}>
