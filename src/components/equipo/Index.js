@@ -25,7 +25,7 @@ export default function Equipo() {
         <h2>Equipo</h2>
         <div className={styles["equipoListado"]}>
           <Miembro
-            name="Agustín Ruiz"
+            name="Nicolás Passerini a dos líneas"
             photo={demo}
             bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
           />
