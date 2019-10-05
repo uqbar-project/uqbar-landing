@@ -9,7 +9,8 @@ import yanapiri from "./proyecto-yanapiri.png";
 export function ProyectoIndividual({
   projectName,
   projectDescription,
-  projectLogo
+  projectLogo,
+  link
 }) {
   return (
     <div className={styles["proyectoIndividual"]}>
@@ -22,7 +23,9 @@ export function ProyectoIndividual({
           />
         </div>
         <div className={styles["projectName"]}>
-          <a href="#">{projectName}</a>
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            {projectName}
+          </a>
         </div>
       </div>
       <p className={styles["projectDescription"]}>{projectDescription}</p>
@@ -37,26 +40,31 @@ export default function Proyectos() {
         <h2>Proyectos</h2>
         <div className={styles["proyectosListado"]}>
           <ProyectoIndividual
+            link="http://www.wollok.org"
             projectLogo={wollok}
             projectName="Wollok"
             projectDescription="Wollok es un lenguaje de programación y entorno de desarrollo integrado (IDE) para ser utilizado en el dictado de materias iniciales de programación a objetos. Es ideal para aprender a programar con objetos ya que permite ir incorporando los conceptos gradualmente permitiendo programar y modelar desde el primer día."
           />
           <ProyectoIndividual
+            link="http://wiki.uqbar.org/v"
             projectLogo={uqbarwiki}
             projectName="Uqbar Wiki"
             projectDescription="La herramienta colaborativa del equipo de uqbar, que agrupa y organiza el conocimiento con el que trabajamos, con el objetivo de compartirlo tanto entre las distintas universidades en las que nos desempeñamos como para la comunidad en general."
           />
           <ProyectoIndividual
+            link="http://arena.uqbar-project.org/"
             projectLogo={arena}
             projectName="Arena MMVC framework"
             projectDescription="Arena es un framework para la construcción de interfaces de usuario diseñado para posibilitar que todo el comportamiento pueda ser definido en base a modelos. Es una herramienta pensada con fines educativos, pero también ha sido utilizada exitosamente para proyectos profesionales."
           />
           <ProyectoIndividual
+            link="https://github.com/uqbar-project/yanapiri"
             projectLogo={yanapiri}
             projectName="Yanapiri"
             projectDescription="Yanapiri es un vocablo aymara que significa ayudante o el que ayuda. A partir de este humilde aporte, es también una aplicación de línea de comandos (CLI) para asistir a docentes en ciertas tareas relacionadas al manejo de entregas a través de GitHub Classroom."
           />
           <ProyectoIndividual
+            link="https://github.com/uqbar-project/SGit"
             projectLogo={sgit}
             projectName="SGit"
             projectDescription="SGit es un plugin de eclipse simplificado, pensado para estudiantes que están dando sus primeros pasos en la programación. SGit posibilita un primer acercamiento al uso de herramientas de versionado y repositorios de código evitando las complejidades que aparecen en las herramientas profesionales."
