@@ -14,12 +14,17 @@
   background: #f7f7fa;
   border: 1px solid #e3e2ef;
   box-sizing: border-box;
-  box-shadow: 0px 4px 10px #e3e2ef;
+  box-shadow: 0 4px 10px -4px rgba(70, 70, 130, 0.3);
   border-radius: 8px;
   padding: 0.8rem;
   flex-grow:1;
   flex-basis:0;
   margin:1%;
+  transition:all 0.3s ease-in-out;
+  position:relative;
+}
+.proyectoIndividual:hover{
+  box-shadow: 0 10px 20px -10px rgba(70, 70, 130, 0.5);
 }
 .proyectoIndividual:nth-child(1), .proyectoIndividual:nth-child(2){
   flex-grow:2;
@@ -75,9 +80,12 @@
     font-size:1.4rem;
   }
   .projectLogo {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0rem;
   }
   .projectLogo img {
     max-height: 8rem;
+  }
+  .header {
+   text-align:center;
   }
 }
