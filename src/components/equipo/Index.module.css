@@ -12,6 +12,7 @@
   grid-gap: 1.6rem;
   grid-auto-rows: min-content max-content auto;
   grid-auto-flow: dense;
+  align-content: space-around;	
 }
 /* Inactive member */
 .member {
