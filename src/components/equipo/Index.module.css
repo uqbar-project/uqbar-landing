@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-gap: 1.6rem;
-  grid-auto-rows: minmax(auto);
+  grid-auto-rows: min-content max-content auto;
   grid-auto-flow: dense;
 }
 /* Inactive member */
@@ -22,7 +22,7 @@
   border-radius: 8px;
   padding: 1.6rem;
   margin: 0.5%;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in;
   position: relative;
   top: 0;
   grid-column-end: span 1;
@@ -43,6 +43,8 @@
 .photo img {
   border-radius: 100%;
   transition: all 0.3s ease-in-out;
+  width: 4.8rem;
+  height: 4.8rem;
 }
 .description {
   padding-left: 1.6rem;
@@ -71,14 +73,14 @@
   display: block;
   height: 0px;
   opacity: 0;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in;
 }
 /* Active member */
 .member.active {
   padding: 0;
   box-shadow: 0 10px 20px -10px rgba(70, 70, 130, 0.5);
   grid-column-end: span 2;
-  grid-row-end: span 2;
+  grid-row-end: span 3;
 }
 .member.active:hover {
   box-shadow: 0 10px 20px -10px rgba(70, 70, 130, 0.5);
@@ -86,15 +88,15 @@
 }
 .member.active .photo {
   width: 19.8rem;
-  height: 30.2rem;
+  height: 100%;
 }
 .member.active .photo img {
   width: auto;
-  height: 30.2rem;
+  height: 100%;
   border-radius: 8px 0 0 8px;
   position: absolute;
-  clip-path: inset(0 5.2rem 0 5.2rem);
-  margin-left: -5.2rem;
+  clip-path: inset(0 4rem 0 4rem);
+  margin-left: -4rem;
 }
 .member.active .description {
   width: calc(100% - 21rem);
@@ -108,6 +110,8 @@
   display: block;
   opacity: 1;
   margin-top: 1.6rem;
+  height: auto;
+  transition: all 0.6s ease-in;
 }
 @media screen and (max-width: 800px) {
   .equipo {
@@ -122,11 +126,8 @@
     text-align: left;
   }
   .equipoListado {
-    display: grid;
-    grid-template-columns: repeat(3, 33.3333%);
+    grid-template-columns: repeat(4, 25%);
     grid-gap: 0rem;
-    grid-auto-rows: minmax(auto);
-    grid-auto-flow: dense;
   }
   .member {
     margin: 5%;
@@ -135,6 +136,7 @@
   .photo {
     width: 100%;
     height: auto;
+    text-align: center;
   }
   .description {
     padding-top: 0.4rem;
@@ -148,7 +150,7 @@
   /* Active member */
   .member.active {
     padding: 0.8rem;
-    grid-column-end: span 3;
+    grid-column-end: span 4;
     grid-row-end: span 1;
     margin: 1%;
   }
@@ -176,6 +178,6 @@
   .member.active .bio {
     display: block;
     margin-top: 0.8rem;
-    height:auto;
+    height: auto;
   }
 }
