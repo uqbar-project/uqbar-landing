@@ -1,16 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./Index.module.css";
-import close from "./icono-cerrar.svg";
 import demo from "./demo.jpg";
 
-export function Miembro({ name, photo, bio }) {
+import miembros from '../../equipo.json';
+import { setState } from "expect/build/jestMatchersObject";
+
+export function Miembro({ name, photo, bio, onClick, active }) {
   return (
-    <div className={[styles.member, styles.inactive].join(" ")}>
+    <div className={[styles.member, active ? styles.active:styles.inactive].join(" ")} onClick={onClick}>
       <div className={styles["photo"]}>
         <img src={photo} alt={name} />
       </div>
       <div className={styles["description"]}>
-        <img src={close} alt="Close" className={styles["closeIcon"]} />
         <div className={styles["name"]}>{name}</div>
         <div className={styles["bio"]}>{bio}</div>
       </div>
@@ -19,136 +20,17 @@ export function Miembro({ name, photo, bio }) {
 }
 
 export default function Equipo() {
+  const [active, setActive] = useState(null);
   return (
     <div className={styles["equipo"]} id="Equipo">
       <div className={styles["container"]}>
         <h2>Equipo</h2>
         <div className={styles["equipoListado"]}>
-          <Miembro
-            name="Nicolás Passerini a dos líneas"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
-          <Miembro
-            name="Agustín Ruiz"
-            photo={demo}
-            bio="Demasiado académico para la ingeniería, demasiado práctico para la ciencia. Nico fue docente, investigador e ingeniero durante 20 años construyendo software en muchos lenguajes incluyendo algunos diseñados por él mismo. Padre de dos hijos y muchísimos proyectos locos. Le gusta cocinar (y comer), elaborar cerveza, el ajedrez, el fútbol, pero sobre todas las cosas llevar la teoría a la práctica."
-          />
+        {
+          miembros.map(({name, bio}, index)=>(
+            <Miembro name={name} bio={bio} photo={demo} onClick={()=>setActive(index)} active={index === active}/>
+          ))
+        }
         </div>
       </div>
     </div>
