@@ -22,7 +22,6 @@
   box-shadow: 0 4px 10px -4px rgba(70, 70, 130, 0.3);
   border-radius: 8px;
   padding: 1.6rem;
-  margin: 0.5%;
   transition: all 0.5s ease-in;
   position: relative;
   top: 0;
@@ -50,6 +49,7 @@
 .description {
   padding-left: 1.6rem;
   padding-top: 0;
+  
   width: calc(100% - 4.8rem);
   display: inline-block;
   position: relative;
@@ -82,6 +82,7 @@
   box-shadow: 0 10px 20px -10px rgba(70, 70, 130, 0.5);
   grid-column-end: span 2;
   grid-row-end: span 3;
+  position:relative;
 }
 .member.active:hover {
   box-shadow: 0 10px 20px -10px rgba(70, 70, 130, 0.5);
@@ -89,20 +90,21 @@
 }
 .member.active .photo {
   width: 19.8rem;
+  height: inherit;
   height: 100%;
+  position: absolute;
 }
 .member.active .photo img {
-  width: auto;
-  height: 100%;
   border-radius: 8px 0 0 8px;
-  position: absolute;
-  clip-path: inset(0 4rem 0 4rem);
-  margin-left: -4rem;
+  object-fit: cover;
+  width:auto;
+  height:inherit;
 }
 .member.active .description {
-  width: calc(100% - 21rem);
-  padding-left: 2.4rem;
+  width: calc(100% - 21.4rem);
+  margin-left: 19.8rem;
   padding-top: 2.4rem;
+  padding-bottom:4rem;
 }
 .member.active .closeIcon {
   display: block;
@@ -169,8 +171,9 @@
   }
   .member.active .description {
     width: calc(100% - 6.4rem);
-    padding: 0.8rem 0rem 0.8rem 2.4rem;
+    padding: 0.8rem 0rem 1.6rem 2.4rem;
     display: inline-block;
+    margin-left: 4.8rem;
   }
   .member.active .closeIcon {
     display: block;
