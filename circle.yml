@@ -17,20 +17,9 @@ jobs:
         name: Install yarn
         command: npm install -g yarn
 
-      - restore_cache:
-        name: Restore Yarn Package Cache
-        keys:
-          # Yarn cache if available
-          - yarn-packages-{{checksum "yarn.lock"}}
       - run:
         name: Install dependencies
         command: yarn install --frozen-lockfile
-
-      - save_cache:
-          name: Save Yarn Package Cache
-          key: yarn-packages-{{ checksum "yarn.lock" }}
-          paths:
-            - ~/.cache/yarn
 
       - run:
           name: Publishing
