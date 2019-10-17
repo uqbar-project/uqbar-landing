@@ -22,10 +22,9 @@ jobs:
       - run:
           name: Install dependencies
           command: yarn install
-          
       - run:
           name: Publishing
-          command: yarn run deploy-ci
+          command: yarn run deploy
 
 workflows:
   version: 2

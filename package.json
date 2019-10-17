@@ -13,8 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
-    "deploy-ci": "set \"CI=false\" && gh-pages -d build",
+    "deploy": "set \"CI=false\" && gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
