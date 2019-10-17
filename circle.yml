@@ -7,6 +7,9 @@ jobs:
       TZ: "/usr/share/zoneinfo/America/Argentina/Buenos_Aires"
     paralelism: 2
     steps:
+      - env/set-env-var:
+          var-name: CI
+          var-value: false
       - add_ssh_keys:
           fingerprints:
           - "72:6d:5a:4f:9c:d4:81:10:b5:1e:99:cb:da:8e:4a:6a"
