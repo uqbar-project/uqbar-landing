@@ -36,7 +36,7 @@ jobs:
 
       - run:
           name: Publishing
-          command: yarn run deploy
+          command: yarn run deploy-ci
 
 workflows:
   version: 2
