@@ -5,7 +5,6 @@ jobs:
       - image: circleci/node:latest
     environment:
       TZ: "/usr/share/zoneinfo/America/Argentina/Buenos_Aires"
-    paralelism: 2
     steps:
       - env/set-env-var:
           var-name: CI
