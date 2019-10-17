@@ -14,8 +14,10 @@ jobs:
       - run: git config --global user.name "UqbarLandingCI"
       - checkout
       - run:
+          command: npm set prefix=/home/circleci/npm && echo 'export PATH=$HOME/circleci/npm/bin:$PATH' >> /home/circleci/.bashrc
+      - run:
           name: Install yarn
-          command: npm install -g yarn
+          command: npm install yarn
 
       - restore_cache:
           name: Restore Yarn Package Cache
