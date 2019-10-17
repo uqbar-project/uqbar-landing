@@ -1,19 +1,21 @@
-version: 2.1
+version: 2
 jobs:
   build:
     docker:
       - image: circleci/node:latest
     environment:
       TZ: "/usr/share/zoneinfo/America/Argentina/Buenos_Aires"
+    paralelism: 2
     steps:
-      - env/set-env-var:
-          var-name: CI
-          var-value: false
       - add_ssh_keys:
           fingerprints:
           - "72:6d:5a:4f:9c:d4:81:10:b5:1e:99:cb:da:8e:4a:6a"
       - run: git config --global user.email "bot@uqbar.com"
       - run: git config --global user.name "UqbarLandingCI"
+      - run: 
+          name: "Setup CI environment variable"
+          command: |
+            echo 'export CI="false"' >> $BASH_ENV
       - checkout
       - run:
           command: npm set prefix=/home/circleci/npm && echo 'export PATH=$HOME/circleci/npm/bin:$PATH' >> /home/circleci/.bashrc
