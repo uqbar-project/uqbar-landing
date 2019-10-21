@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "025972d5bbe9e2907a1253e9a15a7c40",
+    "revision": "c85b7ae0ca603facc19a8b299976851a",
     "url": "/uqbar-landing/index.html"
   },
   {
-    "revision": "fafdf2110097a935b38a",
+    "revision": "8919b32e6381a16c4b2a",
     "url": "/uqbar-landing/static/css/main.80aa8f58.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uqbar-landing/static/js/2.f14e775c.chunk.js"
   },
   {
-    "revision": "fafdf2110097a935b38a",
-    "url": "/uqbar-landing/static/js/main.4ce7d5b9.chunk.js"
+    "revision": "8919b32e6381a16c4b2a",
+    "url": "/uqbar-landing/static/js/main.ab38f46c.chunk.js"
   },
   {
     "revision": "495cafa910517d84a64a",
