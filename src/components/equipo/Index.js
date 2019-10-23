@@ -1,15 +1,13 @@
 import React, {useState} from "react";
 import styles from "./Index.module.css";
-import demo from "./demo.jpg";
 
-import miembros from '../../equipo.json';
-import { setState } from "expect/build/jestMatchersObject";
+import miembros from './equipo.json';
 
-export function Miembro({ name, photo, bio, onClick, active }) {
+export function Miembro({ name, bio, onClick, active }) {
   return (
-    <div className={[styles.member, active ? styles.active:styles.inactive].join(" ")} onClick={onClick}>
+    <div className={[styles.member, active ? styles.active:styles.inactive].join(" ")} onClick={onClick} onBlur={() => console.log("AAAA")}>
       <div className={styles["photo"]}>
-        <img src={photo} alt={name} />
+        <img src={require("./photos/" + name + ".jpg")} alt={name} />
       </div>
       <div className={styles["description"]}>
         <div className={styles["name"]}>{name}</div>
@@ -27,8 +25,8 @@ export default function Equipo() {
         <h2>Equipo</h2>
         <div className={styles["equipoListado"]}>
         {
-          miembros.map(({name, bio}, index)=>(
-            <Miembro name={name} bio={bio} photo={demo} onClick={()=>setActive(index)} active={index === active}/>
+          miembros.map((miembro, index)=>(
+            <Miembro key={index} onClick={()=>setActive(index)} active={index === active} {...miembro}/>
           ))
         }
         </div>
