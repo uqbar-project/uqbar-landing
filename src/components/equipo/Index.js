@@ -3,6 +3,8 @@ import styles from "./Index.module.css";
 
 import miembros from './equipo.json';
 
+miembros.sort(() => 0.5 - Math.random()) // shuffle
+
 export function Miembro({ name, bio, email, onClick, active }) {
   return (
     <div className={[styles.member, active ? styles.active:styles.inactive].join(" ")} onClick={onClick}>
