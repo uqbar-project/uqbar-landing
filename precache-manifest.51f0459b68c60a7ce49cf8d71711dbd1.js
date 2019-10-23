@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92a73b4a8a57018e3958ce4a41c16e24",
+    "revision": "db2d896903e769b1af7be33a29dc2716",
     "url": "/uqbar-landing/index.html"
   },
   {
-    "revision": "3a525a854dffd0fb258d",
+    "revision": "0a0d4d56a5ffab04e19e",
     "url": "/uqbar-landing/static/css/main.80aa8f58.chunk.css"
   },
   {
@@ -12,24 +12,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uqbar-landing/static/js/2.aef96d7e.chunk.js"
   },
   {
-    "revision": "3a525a854dffd0fb258d",
-    "url": "/uqbar-landing/static/js/main.b8681765.chunk.js"
+    "revision": "0a0d4d56a5ffab04e19e",
+    "url": "/uqbar-landing/static/js/main.c76974f2.chunk.js"
   },
   {
     "revision": "495cafa910517d84a64a",
     "url": "/uqbar-landing/static/js/runtime-main.d6842fb7.js"
   },
   {
-    "revision": "782d0cece7c24b164fda95e64a7cdd16",
-    "url": "/uqbar-landing/static/media/Alfredo Sanzo.782d0cec.jpg"
+    "revision": "2eb9fbbc69474451ad968f819abe7c7e",
+    "url": "/uqbar-landing/static/media/Alfredo Sanzo.2eb9fbbc.jpg"
   },
   {
-    "revision": "62d2cbd42e346ddc4ec04e64c787eb07",
-    "url": "/uqbar-landing/static/media/Fernando Dodino.62d2cbd4.jpg"
+    "revision": "44c7f9e41fe3087a288d3e5f40ee6927",
+    "url": "/uqbar-landing/static/media/Fernando Dodino.44c7f9e4.jpg"
   },
   {
-    "revision": "81a803b14ee6f832325b2cc3f3821523",
-    "url": "/uqbar-landing/static/media/Gisela Decuzzi.81a803b1.jpg"
+    "revision": "e9a02710b2a59efc69d909e5741e6203",
+    "url": "/uqbar-landing/static/media/Gisela Decuzzi.e9a02710.jpg"
   },
   {
     "revision": "8c91ebd7b0f97b6a4c3431be10648a4f",
@@ -44,20 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uqbar-landing/static/media/Nicolás Passerini.c1f5d222.jpg"
   },
   {
-    "revision": "f2beb39d6b6f20ab48d2fdd531d1d251",
-    "url": "/uqbar-landing/static/media/Nicolás Scarcella.f2beb39d.jpg"
+    "revision": "e4d932bd3a0bca890f4dcc552baea968",
+    "url": "/uqbar-landing/static/media/Nicolás Scarcella.e4d932bd.jpg"
   },
   {
     "revision": "1d028248cc2b9b809198fb25464d15e4",
     "url": "/uqbar-landing/static/media/Pablo Tesone.1d028248.jpg"
   },
   {
-    "revision": "f3ab2d83b1a166469bc918ae2eec179e",
-    "url": "/uqbar-landing/static/media/Pablo de Haro.f3ab2d83.jpg"
+    "revision": "3b4301274ea191e9291c4ea4e85aa9b7",
+    "url": "/uqbar-landing/static/media/Pablo de Haro.3b430127.jpg"
   },
   {
-    "revision": "22e403e751af3286e256567004b63a6b",
-    "url": "/uqbar-landing/static/media/ilustracion01.22e403e7.svg"
+    "revision": "143272cf6c337099393fdf48a64948a8",
+    "url": "/uqbar-landing/static/media/ilustracion01.143272cf.svg"
   },
   {
     "revision": "754ea763035ce43cdfbf2187f070f61e",
