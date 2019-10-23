@@ -7,8 +7,7 @@ export default function Inicio() {
     <div className={styles["inicio"]} id="Inicio">
       <div className={styles["container"]}>
         <h1>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a
-          tincidunt lectus, quis consectetur tortor.
+          Innovando, descubriendo y construyendo nuevos caminos para que las ciencias de la computación y la educación se fortalezcan.
         </h1>
         <div className={styles["content"]}>
           <div className={styles["contentLeft"]}>

@@ -11,12 +11,14 @@ export default function Donaciones() {
           <div className={styles["contentLeft"]}>
             <h2>Donaciones</h2>
             <p className={styles["destacado"]}>
-              <strong>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-              </strong>
-              Donec volutpat elit sit amet auctor tempus. Vivamus dapibus lectus
-              at purus euismod volutpat. Ut aliquet massa nec dolor iaculis
-              rutrum.
+              Todo el trabajo que realizamos en Uqbar se sostiene gracias al 
+              aporte de tiempo y ganas de sus integrantes. Para mover sus engranajes, 
+              para invitar a quienes quieren participar pero no se lo pueden permitir, 
+              todo aporte adicional es bienvenido. Los fondos donados serán utilizados 
+              para entregar becas a alumnas y alumnos que desean aportar en nuestros proyectos, 
+              para el equipo que nos da una mano con las redes y la administración, 
+              para la divulgación de contenidos y para mantener viva la parte administrativa 
+              de la fundación.
             </p>
             <p>
               <strong>Aceptamos donaciones a través de MercadoPago</strong>.
