@@ -1,19 +1,20 @@
 import React, {useState} from "react";
 import styles from "./Index.module.css";
-import demo from "./demo.jpg";
 
-import miembros from '../../equipo.json';
-import { setState } from "expect/build/jestMatchersObject";
+import miembros from './equipo.json';
 
-export function Miembro({ name, photo, bio, onClick, active }) {
+miembros.sort(() => 0.5 - Math.random()) // shuffle
+
+export function Miembro({ name, bio, email, onClick, active }) {
   return (
     <div className={[styles.member, active ? styles.active:styles.inactive].join(" ")} onClick={onClick}>
       <div className={styles["photo"]}>
-        <img src={photo} alt={name} />
+        <img src={require("./photos/" + name + ".jpg")} alt={name} />
       </div>
       <div className={styles["description"]}>
         <div className={styles["name"]}>{name}</div>
         <div className={styles["bio"]}>{bio}</div>
+        <div className={styles["bio"]}>{email}</div>
       </div>
     </div>
   );
@@ -21,14 +22,15 @@ export function Miembro({ name, photo, bio, onClick, active }) {
 
 export default function Equipo() {
   const [active, setActive] = useState(null);
+  const isActive = (index) => index === active
   return (
     <div className={styles["equipo"]} id="Equipo">
       <div className={styles["container"]}>
         <h2>Equipo</h2>
         <div className={styles["equipoListado"]}>
         {
-          miembros.map(({name, bio}, index)=>(
-            <Miembro name={name} bio={bio} photo={demo} onClick={()=>setActive(index)} active={index === active}/>
+          miembros.map((miembro, index)=>(
+            <Miembro key={index} onClick={()=>setActive(isActive(index) ? null : index)} active={isActive(index)} {...miembro}/>
           ))
         }
         </div>
