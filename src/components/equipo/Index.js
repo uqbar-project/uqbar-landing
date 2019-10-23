@@ -12,9 +12,7 @@ export function Miembro({ name, bio, email, onClick, active }) {
       <div className={styles["description"]}>
         <div className={styles["name"]}>{name}</div>
         <div className={styles["bio"]}>{bio}</div>
-        <div className={styles["bio"]}>
-          <a href={`mailto:${email}`}>{email}</a>
-        </div>
+        <div className={styles["bio"]}>{email}</div>
       </div>
     </div>
   );
@@ -22,6 +20,7 @@ export function Miembro({ name, bio, email, onClick, active }) {
 
 export default function Equipo() {
   const [active, setActive] = useState(null);
+  const isActive = (index) => index === active
   return (
     <div className={styles["equipo"]} id="Equipo">
       <div className={styles["container"]}>
@@ -29,7 +28,7 @@ export default function Equipo() {
         <div className={styles["equipoListado"]}>
         {
           miembros.map((miembro, index)=>(
-            <Miembro key={index} onClick={()=>setActive(index)} active={index === active} {...miembro}/>
+            <Miembro key={index} onClick={()=>setActive(isActive(index) ? null : index)} active={isActive(index)} {...miembro}/>
           ))
         }
         </div>
