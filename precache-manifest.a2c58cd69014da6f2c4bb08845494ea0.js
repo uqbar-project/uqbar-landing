@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db2d896903e769b1af7be33a29dc2716",
+    "revision": "ab7556eaa6d405caaeba46e19f5a566a",
     "url": "/uqbar-landing/index.html"
   },
   {
-    "revision": "0a0d4d56a5ffab04e19e",
+    "revision": "c7a3086ad8b9bd315d09",
     "url": "/uqbar-landing/static/css/main.80aa8f58.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uqbar-landing/static/js/2.aef96d7e.chunk.js"
   },
   {
-    "revision": "0a0d4d56a5ffab04e19e",
-    "url": "/uqbar-landing/static/js/main.c76974f2.chunk.js"
+    "revision": "c7a3086ad8b9bd315d09",
+    "url": "/uqbar-landing/static/js/main.e758387d.chunk.js"
   },
   {
     "revision": "495cafa910517d84a64a",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uqbar-landing/static/media/Pablo de Haro.3b430127.jpg"
   },
   {
-    "revision": "143272cf6c337099393fdf48a64948a8",
-    "url": "/uqbar-landing/static/media/ilustracion01.143272cf.svg"
+    "revision": "ad3866ecefc584874e5b9e6104b0ba8b",
+    "url": "/uqbar-landing/static/media/ilustracion01.ad3866ec.svg"
   },
   {
     "revision": "754ea763035ce43cdfbf2187f070f61e",

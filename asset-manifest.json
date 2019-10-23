@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/uqbar-landing/static/css/main.80aa8f58.chunk.css",
-    "main.js": "/uqbar-landing/static/js/main.c76974f2.chunk.js",
-    "main.js.map": "/uqbar-landing/static/js/main.c76974f2.chunk.js.map",
+    "main.js": "/uqbar-landing/static/js/main.e758387d.chunk.js",
+    "main.js.map": "/uqbar-landing/static/js/main.e758387d.chunk.js.map",
     "runtime-main.js": "/uqbar-landing/static/js/runtime-main.d6842fb7.js",
     "runtime-main.js.map": "/uqbar-landing/static/js/runtime-main.d6842fb7.js.map",
     "static/js/2.aef96d7e.chunk.js": "/uqbar-landing/static/js/2.aef96d7e.chunk.js",
     "static/js/2.aef96d7e.chunk.js.map": "/uqbar-landing/static/js/2.aef96d7e.chunk.js.map",
     "index.html": "/uqbar-landing/index.html",
-    "precache-manifest.51f0459b68c60a7ce49cf8d71711dbd1.js": "/uqbar-landing/precache-manifest.51f0459b68c60a7ce49cf8d71711dbd1.js",
+    "precache-manifest.a2c58cd69014da6f2c4bb08845494ea0.js": "/uqbar-landing/precache-manifest.a2c58cd69014da6f2c4bb08845494ea0.js",
     "service-worker.js": "/uqbar-landing/service-worker.js",
     "static/css/main.80aa8f58.chunk.css.map": "/uqbar-landing/static/css/main.80aa8f58.chunk.css.map",
     "static/media/Alfredo Sanzo.jpg": "/uqbar-landing/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
@@ -20,7 +20,7 @@
     "static/media/Nicolás Scarcella.jpg": "/uqbar-landing/static/media/Nicolás Scarcella.e4d932bd.jpg",
     "static/media/Pablo Tesone.jpg": "/uqbar-landing/static/media/Pablo Tesone.1d028248.jpg",
     "static/media/Pablo de Haro.jpg": "/uqbar-landing/static/media/Pablo de Haro.3b430127.jpg",
-    "static/media/ilustracion01.svg": "/uqbar-landing/static/media/ilustracion01.143272cf.svg",
+    "static/media/ilustracion01.svg": "/uqbar-landing/static/media/ilustracion01.ad3866ec.svg",
     "static/media/ilustracion02.svg": "/uqbar-landing/static/media/ilustracion02.754ea763.svg",
     "static/media/ilustracion03.svg": "/uqbar-landing/static/media/ilustracion03.d3a0c840.svg",
     "static/media/logo.svg": "/uqbar-landing/static/media/logo.4f2a531d.svg",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.d6842fb7.js",
     "static/js/2.aef96d7e.chunk.js",
     "static/css/main.80aa8f58.chunk.css",
-    "static/js/main.c76974f2.chunk.js"
+    "static/js/main.e758387d.chunk.js"
   ]
 }
