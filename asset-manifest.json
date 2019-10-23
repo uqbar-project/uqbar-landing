@@ -1,17 +1,25 @@
 {
   "files": {
     "main.css": "/uqbar-landing/static/css/main.80aa8f58.chunk.css",
-    "main.js": "/uqbar-landing/static/js/main.ff7c7be1.chunk.js",
-    "main.js.map": "/uqbar-landing/static/js/main.ff7c7be1.chunk.js.map",
+    "main.js": "/uqbar-landing/static/js/main.b8681765.chunk.js",
+    "main.js.map": "/uqbar-landing/static/js/main.b8681765.chunk.js.map",
     "runtime-main.js": "/uqbar-landing/static/js/runtime-main.d6842fb7.js",
     "runtime-main.js.map": "/uqbar-landing/static/js/runtime-main.d6842fb7.js.map",
-    "static/js/2.f14e775c.chunk.js": "/uqbar-landing/static/js/2.f14e775c.chunk.js",
-    "static/js/2.f14e775c.chunk.js.map": "/uqbar-landing/static/js/2.f14e775c.chunk.js.map",
+    "static/js/2.aef96d7e.chunk.js": "/uqbar-landing/static/js/2.aef96d7e.chunk.js",
+    "static/js/2.aef96d7e.chunk.js.map": "/uqbar-landing/static/js/2.aef96d7e.chunk.js.map",
     "index.html": "/uqbar-landing/index.html",
-    "precache-manifest.931b750a090fb8cb368d41db2f8b4e80.js": "/uqbar-landing/precache-manifest.931b750a090fb8cb368d41db2f8b4e80.js",
+    "precache-manifest.394360bb67e1533fda94775df9902f5a.js": "/uqbar-landing/precache-manifest.394360bb67e1533fda94775df9902f5a.js",
     "service-worker.js": "/uqbar-landing/service-worker.js",
     "static/css/main.80aa8f58.chunk.css.map": "/uqbar-landing/static/css/main.80aa8f58.chunk.css.map",
-    "static/media/demo.jpg": "/uqbar-landing/static/media/demo.f119eb5f.jpg",
+    "static/media/Alfredo Sanzo.jpg": "/uqbar-landing/static/media/Alfredo Sanzo.782d0cec.jpg",
+    "static/media/Fernando Dodino.jpg": "/uqbar-landing/static/media/Fernando Dodino.62d2cbd4.jpg",
+    "static/media/Gisela Decuzzi.jpg": "/uqbar-landing/static/media/Gisela Decuzzi.81a803b1.jpg",
+    "static/media/Lucas Spigariol.jpg": "/uqbar-landing/static/media/Lucas Spigariol.8c91ebd7.jpg",
+    "static/media/Nahuel Palumbo.jpg": "/uqbar-landing/static/media/Nahuel Palumbo.9140f78c.jpg",
+    "static/media/Nicolás Passerini.jpg": "/uqbar-landing/static/media/Nicolás Passerini.c1f5d222.jpg",
+    "static/media/Nicolás Scarcella.jpg": "/uqbar-landing/static/media/Nicolás Scarcella.f2beb39d.jpg",
+    "static/media/Pablo Tesone.jpg": "/uqbar-landing/static/media/Pablo Tesone.1d028248.jpg",
+    "static/media/Pablo de Haro.jpg": "/uqbar-landing/static/media/Pablo de Haro.f3ab2d83.jpg",
     "static/media/ilustracion01.svg": "/uqbar-landing/static/media/ilustracion01.22e403e7.svg",
     "static/media/ilustracion02.svg": "/uqbar-landing/static/media/ilustracion02.754ea763.svg",
     "static/media/ilustracion03.svg": "/uqbar-landing/static/media/ilustracion03.d3a0c840.svg",
@@ -25,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d6842fb7.js",
-    "static/js/2.f14e775c.chunk.js",
+    "static/js/2.aef96d7e.chunk.js",
     "static/css/main.80aa8f58.chunk.css",
-    "static/js/main.ff7c7be1.chunk.js"
+    "static/js/main.b8681765.chunk.js"
   ]
 }
