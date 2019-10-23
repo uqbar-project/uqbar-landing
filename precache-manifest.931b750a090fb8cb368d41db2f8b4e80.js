@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c85b7ae0ca603facc19a8b299976851a",
+    "revision": "e586d36128409a3690c5b8d00637183f",
     "url": "/uqbar-landing/index.html"
   },
   {
-    "revision": "8919b32e6381a16c4b2a",
+    "revision": "2e803330d261672cb82b",
     "url": "/uqbar-landing/static/css/main.80aa8f58.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uqbar-landing/static/js/2.f14e775c.chunk.js"
   },
   {
-    "revision": "8919b32e6381a16c4b2a",
-    "url": "/uqbar-landing/static/js/main.ab38f46c.chunk.js"
+    "revision": "2e803330d261672cb82b",
+    "url": "/uqbar-landing/static/js/main.ff7c7be1.chunk.js"
   },
   {
     "revision": "495cafa910517d84a64a",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uqbar-landing/static/media/demo.f119eb5f.jpg"
   },
   {
-    "revision": "b5dd20af564fb1efaab1f93ca4f61a6b",
-    "url": "/uqbar-landing/static/media/ilustracion01.b5dd20af.svg"
+    "revision": "22e403e751af3286e256567004b63a6b",
+    "url": "/uqbar-landing/static/media/ilustracion01.22e403e7.svg"
   },
   {
     "revision": "754ea763035ce43cdfbf2187f070f61e",
