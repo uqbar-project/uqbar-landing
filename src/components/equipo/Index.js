@@ -3,15 +3,18 @@ import styles from "./Index.module.css";
 
 import miembros from './equipo.json';
 
-export function Miembro({ name, bio, onClick, active }) {
+export function Miembro({ name, bio, email, onClick, active }) {
   return (
-    <div className={[styles.member, active ? styles.active:styles.inactive].join(" ")} onClick={onClick} onBlur={() => console.log("AAAA")}>
+    <div className={[styles.member, active ? styles.active:styles.inactive].join(" ")} onClick={onClick}>
       <div className={styles["photo"]}>
         <img src={require("./photos/" + name + ".jpg")} alt={name} />
       </div>
       <div className={styles["description"]}>
         <div className={styles["name"]}>{name}</div>
         <div className={styles["bio"]}>{bio}</div>
+        <div className={styles["bio"]}>
+          <a href={`mailto:${email}`}>{email}</a>
+        </div>
       </div>
     </div>
   );
