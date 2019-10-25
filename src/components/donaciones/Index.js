@@ -22,13 +22,12 @@ export default function Donaciones() {
             </p>
             <p>
               <strong>Aceptamos donaciones a través de MercadoPago</strong>.
-              Seleccioná un monto o donanos lo que puedas a través de estos
-              links:
+              Te invitamos a donar en base a una suscripción mensual de alguno de estos montos. ¡Toda ayuda nos sirve para continuar!
             </p>
             <div className={styles["linksMercadoPago"]}>
               <a
                 mp-mode="dftl"
-                href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=459677732-ca60b8ed-ba7c-4675-82cd-f2276b7c0b27"
+                href="https://www.mercadopago.com/mla/debits/new?preapproval_plan_id=86becb39fe1b442d8caa57bffa3d14fd"
                 name="MP-payButton"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -37,7 +36,7 @@ export default function Donaciones() {
               </a>
               <a
                 mp-mode="dftl"
-                href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=459677732-892b033e-e35b-4863-bcf1-46ebd5f92ed1"
+                href="http://mpago.la/4fkm8P"
                 name="MP-payButton"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -46,22 +45,14 @@ export default function Donaciones() {
               </a>
               <a
                 mp-mode="dftl"
-                href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=459677732-b4aba3ee-b849-4440-9e3d-9f6649cea277"
-                name="MP-payButton"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                $500
-              </a>
-              <a
-                mp-mode="dftl"
-                href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=459677732-830f85e7-13bb-499a-97c6-1cd1c0c75cbc"
+                href="https://www.mercadopago.com/mla/debits/new?preapproval_plan_id=69587702784c4752903c06161892c2e1"
                 name="MP-payButton"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 $1000
               </a>
+              
               
             </div>
             <div className={styles["logoMercadoPago"]}>
