@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uqbar-landing/static/css/main.04b01bf2.chunk.css",
+    "main.css": "/uqbar-landing/static/css/main.edc0eb17.chunk.css",
     "main.js": "/uqbar-landing/static/js/main.03657df5.chunk.js",
     "main.js.map": "/uqbar-landing/static/js/main.03657df5.chunk.js.map",
     "runtime-main.js": "/uqbar-landing/static/js/runtime-main.d6842fb7.js",
@@ -8,9 +8,9 @@
     "static/js/2.aef96d7e.chunk.js": "/uqbar-landing/static/js/2.aef96d7e.chunk.js",
     "static/js/2.aef96d7e.chunk.js.map": "/uqbar-landing/static/js/2.aef96d7e.chunk.js.map",
     "index.html": "/uqbar-landing/index.html",
-    "precache-manifest.3233100100a325c0c893261fb9090af6.js": "/uqbar-landing/precache-manifest.3233100100a325c0c893261fb9090af6.js",
+    "precache-manifest.8528f3e3d4b52dc2f77e73f6ba434f21.js": "/uqbar-landing/precache-manifest.8528f3e3d4b52dc2f77e73f6ba434f21.js",
     "service-worker.js": "/uqbar-landing/service-worker.js",
-    "static/css/main.04b01bf2.chunk.css.map": "/uqbar-landing/static/css/main.04b01bf2.chunk.css.map",
+    "static/css/main.edc0eb17.chunk.css.map": "/uqbar-landing/static/css/main.edc0eb17.chunk.css.map",
     "static/media/Alfredo Sanzo.jpg": "/uqbar-landing/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
     "static/media/Fernando Dodino.jpg": "/uqbar-landing/static/media/Fernando Dodino.44c7f9e4.jpg",
     "static/media/Gisela Decuzzi.jpg": "/uqbar-landing/static/media/Gisela Decuzzi.e9a02710.jpg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.d6842fb7.js",
     "static/js/2.aef96d7e.chunk.js",
-    "static/css/main.04b01bf2.chunk.css",
+    "static/css/main.edc0eb17.chunk.css",
     "static/js/main.03657df5.chunk.js"
   ]
 }
