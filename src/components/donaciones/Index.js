@@ -88,6 +88,15 @@ export default function Donaciones() {
               </a>
               <a
                 mp-mode="dftl"
+                href="http://mpago.la/2v5a7r"
+                name="MP-payButton"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                $500
+              </a>
+              <a
+                mp-mode="dftl"
                 href="https://www.mercadopago.com/mla/debits/new?preapproval_plan_id=69587702784c4752903c06161892c2e1"
                 name="MP-payButton"
                 target="_blank"
