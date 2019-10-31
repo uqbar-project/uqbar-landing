@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4dd6b01cb7cb66bf8fe90ff4444e5a93",
+    "revision": "987b9f41eeae92e50adc55ed7a3ef14d",
     "url": "/index.html"
   },
   {
-    "revision": "40b1a6791c2dc4fff764",
-    "url": "/static/css/main.c44455dc.chunk.css"
+    "revision": "ffd0f8a73a216d6610e0",
+    "url": "/static/css/main.51df2d4c.chunk.css"
   },
   {
-    "revision": "dd10b90d3e08d3df3cf8",
-    "url": "/static/js/2.aef96d7e.chunk.js"
+    "revision": "e492cf6c061a9a286cb3",
+    "url": "/static/js/2.b0dff598.chunk.js"
   },
   {
-    "revision": "40b1a6791c2dc4fff764",
-    "url": "/static/js/main.f365e381.chunk.js"
+    "revision": "ffd0f8a73a216d6610e0",
+    "url": "/static/js/main.2b7d2f82.chunk.js"
   },
   {
     "revision": "7b34c0dbe8308f8dd637",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Lucas Spigariol.8c91ebd7.jpg"
   },
   {
+    "revision": "180cd632d2859e8591ec1e8f462953f1",
+    "url": "/static/media/Micaela Pizarro.180cd632.jpg"
+  },
+  {
     "revision": "9140f78cf1dce3fc9245f2cc0da87a81",
     "url": "/static/media/Nahuel Palumbo.9140f78c.jpg"
   },
@@ -56,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Pablo de Haro.3b430127.jpg"
   },
   {
+    "revision": "91f3d88967bf014fadbdd27a93a100d1",
+    "url": "/static/media/concurso-wollok-game.91f3d889.jpg"
+  },
+  {
     "revision": "ad3866ecefc584874e5b9e6104b0ba8b",
     "url": "/static/media/ilustracion01.ad3866ec.svg"
   },
@@ -66,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d3a0c840c5fe67ad683eccfe1bff21c8",
     "url": "/static/media/ilustracion03.d3a0c840.svg"
+  },
+  {
+    "revision": "0938c454fe1ded4116ba58e10f6344dd",
+    "url": "/static/media/jornadas-docentes.0938c454.jpg"
   },
   {
     "revision": "4f2a531d62e75f01d5d2ca9b08709464",
