@@ -1,46 +1,20 @@
 import React from "react";
 import styles from "./Index.module.css";
+import UqbarCard from "../utils/UqbarCard.js"
 import concursoWollokGame from "./concurso-wollok-game.jpg";
 import jornadasDocentes from "./jornadas-docentes.jpg";
 
-export function ProyectoIndividual({
-  projectName,
-  projectDescription,
-  projectLogo,
-  link
-}) {
-  return (
-    <div className={styles["proyectoIndividual"]}>
-      <div className={styles["header"]}>
-        <div className={styles["projectLogo"]}>
-          <img
-            src={projectLogo}
-            alt={projectName}
-            className={styles["projectLogo"]}
-          />
-        </div>
-        <div className={styles["projectName"]}>
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            {projectName}
-          </a>
-        </div>
-      </div>
-      <p className={styles["projectDescription"]}>{projectDescription}</p>
-    </div>
-  );
-}
-
 export default function Eventos() {
   return (
-    <div className={styles["proyectos"]} id="Proyectos">
-      <div className={styles["proyectosListado"]}>
-        <ProyectoIndividual
+    <div className={styles["eventos"]} id="Eventos">
+      <div className={styles["eventosListado"]}>
+        <UqbarCard
           link=""
           projectLogo={jornadasDocentes}
           projectName="Jornada Enseñanza Programacion"
           projectDescription="Un espacio de formación para compartir experiencias y discutir estrategias, metodologías y recursos para enseñar a programar en instituciones educativas."
         />
-        <ProyectoIndividual
+        <UqbarCard
           link="https://docs.google.com/document/d/1hIyF7JHVLJ2u-a69tJRH5YfxPIdaiMDav3tCArkX-qc/view"
           projectLogo={concursoWollokGame}
           projectName="Concurso Wollok Game"
