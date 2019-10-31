@@ -43,5 +43,10 @@
         "name": "Pablo Tesone",
         "bio": "Pablo es uno de los miembros fundadores de Uqbar. Actualmente se encuentra trabajando en Francia como parte del Pharo Project (www.pharo.org). Uno de los colaborador iniciales de Wollok y que todavía cada tanto despunta el vicio. Un poco el responsable de la infraestructura.",
         "email": "tesonep@gmail.com"
+    },
+    {
+        "name": "Micaela Pizarro",
+        "bio": "Profesora de lengua y literatura, trapecista y burbujóloga. Hace poquito llegué a Uqbar para hacer todo lo que no es programar.",
+        "email": "mapizarro93@gmail.com"
     }
 ]
