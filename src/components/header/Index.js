@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import styles from "./Index.module.css";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Header() {
   return (
@@ -12,19 +13,34 @@ export default function Header() {
           <div className={styles["navbar"]}>
             <ul>
               <li>
-                <a href="#Inicio">Inicio</a>
+                <Link to="/#Inicio">
+                  Inicio
+                </Link>
               </li>
               <li>
-                <a href="#Donaciones">Donaciones</a>
+                <Link to="/#Donaciones">
+                  Donaciones
+                </Link>
               </li>
               <li>
-                <a href="#Proyectos">Proyectos</a>
+                <Link to="/#Proyectos">
+                  Proyectos
+                </Link>
               </li>
               <li>
-                <a href="#Equipo">Equipo</a>
+                <Link to="/#Equipo">
+                  Equipo
+                </Link>
               </li>
               <li>
-                <a href="#Contacto">Contacto</a>
+                <Link to="/#Contacto">
+                  Contacto
+                </Link>
+              </li>
+              <li>
+                <Link to="/eventos">
+                  Eventos
+                </Link>
               </li>
             </ul>
           </div>
