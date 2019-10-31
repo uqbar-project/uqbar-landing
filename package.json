@@ -2,7 +2,7 @@
   "name": "uqbar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://uqbar-project.github.io/uqbar-landing/",
+  "homepage": "https://www.uqbar.org/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
