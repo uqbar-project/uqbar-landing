@@ -6,6 +6,7 @@ import Donaciones from "./components/donaciones/Index.js";
 import Proyectos from "./components/proyectos/Index.js";
 import Equipo from "./components/equipo/Index.js";
 import Contacto from "./components/contacto/Index.js";
+import Eventos from "./components/eventos/Index.js";
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,7 +20,7 @@ function App() {
         <Header/>
         <Switch>
           <Route path="/eventos">
-            <p>HOLA</p>
+            <Eventos/>
           </Route>
           <Route path="/">
             <Inicio/>
