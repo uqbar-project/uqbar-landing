@@ -9,7 +9,7 @@ export default function Eventos() {
     <div className={styles["eventos"]} id="Eventos">
       <div className={styles["eventosListado"]}>
         <UqbarCard
-          link=""
+          link="https://docs.google.com/document/d/1rJdrULtkcoLSuSzcp98ishrMS_04xPBdVW0Gyp3llno/edit"
           projectLogo={jornadasDocentes}
           projectName="Jornada Enseñanza Programacion"
           projectDescription="Un espacio de formación para compartir experiencias y discutir estrategias, metodologías y recursos para enseñar a programar en instituciones educativas."
