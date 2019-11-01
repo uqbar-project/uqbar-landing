@@ -13,11 +13,6 @@ export default function Header() {
           <div className={styles["navbar"]}>
             <ul>
               <li>
-                <Link to="/#Inicio">
-                  Inicio
-                </Link>
-              </li>
-              <li>
                 <Link to="/#Donaciones">
                   Donaciones
                 </Link>

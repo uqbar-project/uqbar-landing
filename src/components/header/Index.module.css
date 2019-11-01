@@ -37,7 +37,21 @@
     padding:0 2.4rem;
   }
   .navbar{
-    display:none;
+    float:right;
+    width: 100%;
+  }
+  .navbar ul{
+    margin: auto;
+    padding: inherit;
+    text-align: center;
+  }
+  .navbar ul li {
+    margin-left:0rem;
+    display:inline-block;
+  }
+  .navbar ul li a {
+    padding:0.4rem;
+    color:#6B6A81;
   }
   .uqbarlogo{
     width: 100%;
