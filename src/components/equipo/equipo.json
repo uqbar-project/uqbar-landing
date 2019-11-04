@@ -48,5 +48,10 @@
         "name": "Micaela Pizarro",
         "bio": "Profesora de lengua y literatura, trapecista y burbujóloga. Hace poquito llegué a Uqbar para hacer todo lo que no es programar.",
         "email": "mapizarro93@gmail.com"
+    },
+    {
+        "name": "Mariana Matos",
+        "bio": "Ingeniera en Sistemas de Información, violinista y docente de la UTN, donde trata de contagiar la pasión por el desarrollo de software a las nuevas generaciones. Jazzera vieja de alma, infantil en todo lo demás para compensar.",
+        "email": "mmatos87@gmail.com"
     }
 ]
