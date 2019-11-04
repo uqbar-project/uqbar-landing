@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e478b6e748d6909b10aa3b627fa30bdf",
+    "revision": "dd66d18bbda057d97f6542c9df10d8d6",
     "url": "/index.html"
   },
   {
-    "revision": "2d42f43fe5312a74c448",
+    "revision": "5c673af7e41e85a5e145",
     "url": "/static/css/main.3ce7cbfa.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9b094a1f.chunk.js"
   },
   {
-    "revision": "2d42f43fe5312a74c448",
-    "url": "/static/js/main.61c24045.chunk.js"
+    "revision": "5c673af7e41e85a5e145",
+    "url": "/static/js/main.6f33dd75.chunk.js"
   },
   {
     "revision": "7b34c0dbe8308f8dd637",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8c91ebd7b0f97b6a4c3431be10648a4f",
     "url": "/static/media/Lucas Spigariol.8c91ebd7.jpg"
+  },
+  {
+    "revision": "7a8f6fd44fd214e9f7fa87f447c8e290",
+    "url": "/static/media/Mariana Matos.7a8f6fd4.jpg"
   },
   {
     "revision": "180cd632d2859e8591ec1e8f462953f1",
