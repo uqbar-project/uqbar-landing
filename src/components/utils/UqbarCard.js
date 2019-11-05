@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Index.module.css";
+import { Event } from "../tracking/Index.js";
 
 export default function UqbarCard({
     projectName,
@@ -18,7 +19,7 @@ export default function UqbarCard({
             />
           </div>
           <div className={styles["projectName"]}>
-            <a href={link} target="_blank" rel="noopener noreferrer">
+            <a onClick={() => Event("UQBAR-LINK", "Clicking Uqbar Card", projectName)} href={link} target="_blank" rel="noopener noreferrer">
               {projectName}
             </a>
           </div>
