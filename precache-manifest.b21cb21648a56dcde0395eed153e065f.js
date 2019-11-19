@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a496987b7ad2f51ec6ea627b7cf4b384",
+    "revision": "7ba099dc78e2b1840baeb92e384d0a4e",
     "url": "/index.html"
   },
   {
-    "revision": "d918b7e01746ab0c21e8",
-    "url": "/static/css/main.3ce7cbfa.chunk.css"
+    "revision": "4ec62d63449d3a35daee",
+    "url": "/static/css/main.d480929e.chunk.css"
   },
   {
-    "revision": "7bcb162aa1dad0821b3c",
-    "url": "/static/js/2.cef6c7cc.chunk.js"
+    "revision": "54d580bb603257ef8349",
+    "url": "/static/js/2.59c8c424.chunk.js"
   },
   {
-    "revision": "d918b7e01746ab0c21e8",
-    "url": "/static/js/main.5f4f7277.chunk.js"
+    "revision": "4ec62d63449d3a35daee",
+    "url": "/static/js/main.3a8a7f15.chunk.js"
   },
   {
     "revision": "7b34c0dbe8308f8dd637",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Pablo de Haro.3b430127.jpg"
   },
   {
-    "revision": "91f3d88967bf014fadbdd27a93a100d1",
-    "url": "/static/media/concurso-wollok-game.91f3d889.jpg"
+    "revision": "b8a6067138627e7690cbf35c22212a1a",
+    "url": "/static/media/concurso-wollok-game.b8a60671.jpg"
   },
   {
     "revision": "ad3866ecefc584874e5b9e6104b0ba8b",
