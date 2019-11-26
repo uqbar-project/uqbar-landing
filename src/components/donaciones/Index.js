@@ -17,7 +17,7 @@ export default function Donaciones() {
               para invitar a quienes quieren participar pero no se lo pueden permitir, 
               todo aporte adicional es bienvenido. Los fondos donados serán utilizados 
               para entregar becas a alumnas y alumnos que desean aportar en nuestros proyectos, 
-              para el equipo que nos da una mano con las redes y la administración, 
+              para el equipo que nos da una mano con las redes, 
               para la divulgación de contenidos y para mantener viva la parte administrativa 
               de la fundación.
             </p>
