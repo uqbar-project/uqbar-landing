@@ -14,7 +14,7 @@ export default function Inicio() {
             <p className={styles["quienessomos"]}>
               Fundación Uqbar es un grupo de docentes, ingenieros e
               investigadores que tiene por objetivo promover el desarrollo de la
-              educación en informática para <strong>favorecer el acceso inclusivo a la educación y las innovaciones
+              educación en informática para <strong>favorecer el acceso inclusivo al conocimiento y las innovaciones
                 tecnológicas.</strong>
             </p>
             <p className={styles["color-muted"]}>
