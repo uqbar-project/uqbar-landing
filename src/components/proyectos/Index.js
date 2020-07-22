@@ -20,7 +20,7 @@ export default function Proyectos() {
             projectDescription="Wollok es un lenguaje de programación y entorno de desarrollo integrado (IDE) para ser utilizado en el dictado de materias iniciales de programación a objetos. Es ideal para aprender a programar con objetos ya que permite ir incorporando los conceptos gradualmente permitiendo programar y modelar desde el primer día."
           />
           <UqbarCard
-            link="http://wiki.uqbar.org/v"
+            link="http://wiki.uqbar.org/"
             projectLogo={uqbarwiki}
             projectName="Uqbar Wiki"
             projectDescription="La herramienta colaborativa del equipo de uqbar, que agrupa y organiza el conocimiento con el que trabajamos, con el objetivo de compartirlo tanto entre las distintas universidades en las que nos desempeñamos como para la comunidad en general."
