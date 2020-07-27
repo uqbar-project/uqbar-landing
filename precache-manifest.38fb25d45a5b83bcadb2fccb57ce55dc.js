@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b13afded001e5de37315254ea407f577",
+    "revision": "9ff48cbb71ffeac26f147adb1edaba53",
     "url": "/index.html"
   },
   {
-    "revision": "e7233930f740dda47550",
-    "url": "/static/css/main.d480929e.chunk.css"
+    "revision": "7ad4938e495a5247c5bc",
+    "url": "/static/css/main.e15f2437.chunk.css"
   },
   {
-    "revision": "54d580bb603257ef8349",
-    "url": "/static/js/2.59c8c424.chunk.js"
+    "revision": "95a91fcd0b42d97e72aa",
+    "url": "/static/js/2.6ce94aab.chunk.js"
   },
   {
-    "revision": "e7233930f740dda47550",
-    "url": "/static/js/main.03cba10f.chunk.js"
+    "revision": "7ad4938e495a5247c5bc",
+    "url": "/static/js/main.6d28f8fb.chunk.js"
   },
   {
     "revision": "7b34c0dbe8308f8dd637",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2eb9fbbc69474451ad968f819abe7c7e",
     "url": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg"
+  },
+  {
+    "revision": "f8389ca1a741a115313bede9ac02e2c0",
+    "url": "/static/media/Discord-Logo-Color.f8389ca1.svg"
   },
   {
     "revision": "44c7f9e41fe3087a288d3e5f40ee6927",
