@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
+import discord from "./Discord-Logo-Color.svg"
 import styles from "./Index.module.css";
 import { HashLink as Link } from "react-router-hash-link";
 
@@ -36,6 +37,13 @@ export default function Header() {
                 <Link to="/eventos">
                   Eventos
                 </Link>
+              </li>
+              
+              <li>
+                <a href="https://discord.gg/AeKsUU">
+                  Únete a Nuestro Discord! 
+                  <img src={discord} alt="Discord" className={styles["discordlogo"]}/>
+                </a>
               </li>
             </ul>
           </div>
