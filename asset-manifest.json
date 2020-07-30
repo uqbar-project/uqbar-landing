@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e15f2437.chunk.css",
-    "main.js": "/static/js/main.6d28f8fb.chunk.js",
-    "main.js.map": "/static/js/main.6d28f8fb.chunk.js.map",
+    "main.js": "/static/js/main.ed5d4ad8.chunk.js",
+    "main.js.map": "/static/js/main.ed5d4ad8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eb893b3b.js",
     "runtime-main.js.map": "/static/js/runtime-main.eb893b3b.js.map",
     "static/js/2.6ce94aab.chunk.js": "/static/js/2.6ce94aab.chunk.js",
     "static/js/2.6ce94aab.chunk.js.map": "/static/js/2.6ce94aab.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.38fb25d45a5b83bcadb2fccb57ce55dc.js": "/precache-manifest.38fb25d45a5b83bcadb2fccb57ce55dc.js",
+    "precache-manifest.0f777c1c83c407fad33bf8f10e0de630.js": "/precache-manifest.0f777c1c83c407fad33bf8f10e0de630.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e15f2437.chunk.css.map": "/static/css/main.e15f2437.chunk.css.map",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.eb893b3b.js",
     "static/js/2.6ce94aab.chunk.js",
     "static/css/main.e15f2437.chunk.css",
-    "static/js/main.6d28f8fb.chunk.js"
+    "static/js/main.ed5d4ad8.chunk.js"
   ]
 }
