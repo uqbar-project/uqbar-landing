@@ -40,7 +40,7 @@ export default function Header() {
               </li>
               
               <li>
-                <a href="https://discord.gg/AeKsUU">
+                <a href="https://discord.gg/5wVEwse">
                   Únete a Nuestro Discord! 
                   <img src={discord} alt="Discord" className={styles["discordlogo"]}/>
                 </a>
