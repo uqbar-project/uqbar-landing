@@ -28,15 +28,6 @@ export default function Donaciones() {
             <h3>Donaciones de única vez</h3>
             <p>A través de esta opción nos harás una única donación con el monto que selecciones más abajo.</p>
             <div className={styles["linksMercadoPago"]}>
-            <a
-                mp-mode="dftl"
-                href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=459677732-ca60b8ed-ba7c-4675-82cd-f2276b7c0b27"
-                name="MP-payButton"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                $100
-              </a>
               <a
                 mp-mode="dftl"
                 href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=459677732-892b033e-e35b-4863-bcf1-46ebd5f92ed1"
@@ -77,15 +68,6 @@ export default function Donaciones() {
             <h3>Donación mensual</h3>
             <p>Te invitamos a donar en base a una suscripción mensual de alguno de estos montos. ¡Toda ayuda nos sirve para continuar!</p>
             <div className={styles["linksMercadoPago"]}>
-              <a
-                mp-mode="dftl"
-                href="https://www.mercadopago.com/mla/debits/new?preapproval_plan_id=86becb39fe1b442d8caa57bffa3d14fd"
-                name="MP-payButton"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                $100
-              </a>
               <a
                 mp-mode="dftl"
                 href="http://mpago.la/4fkm8P"
