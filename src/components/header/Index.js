@@ -9,7 +9,9 @@ export default function Header() {
       <div className={styles["header"]}>
         <div className={styles["container"]}>
           <div className={styles["uqbarlogo"]}>
-            <img src={logo} alt="Uqbar"/>
+            <Link to="/">
+              <img src={logo} alt="Uqbar"/>
+            </Link>
           </div>
           <div className={styles["navbar"]}>
             <ul>
