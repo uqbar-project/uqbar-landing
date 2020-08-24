@@ -14,11 +14,6 @@ export default function Header() {
           <div className={styles["navbar"]}>
             <ul>
               <li>
-                <Link to="/#Donaciones">
-                  Donaciones
-                </Link>
-              </li>
-              <li>
                 <Link to="/#Proyectos">
                   Proyectos
                 </Link>
@@ -26,6 +21,11 @@ export default function Header() {
               <li>
                 <Link to="/#Equipo">
                   Equipo
+                </Link>
+              </li>
+              <li>
+                <Link to="/#Donaciones">
+                  Donaciones
                 </Link>
               </li>
               <li>

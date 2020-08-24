@@ -24,9 +24,9 @@ function App() {
           </Route>
           <Route path="/">
             <Inicio/>
-            <Donaciones/>
             <Proyectos/>
             <Equipo/>
+            <Donaciones/>
             <Contacto/>
           </Route>
         </Switch>
