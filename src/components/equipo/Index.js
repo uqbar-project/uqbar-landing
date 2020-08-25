@@ -1,13 +1,13 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
+import { Badge, Button } from "@material-ui/core";
 import styles from "./Index.module.css";
-
 import miembros from './equipo.json';
 
 miembros.sort(() => 0.5 - Math.random()) // shuffle
 
-export function Miembro({ name, bio, email, onClick, active }) {
+export function Miembro({ name, bio, email, badge, onClick, active }) {
   return (
-    <div className={[styles.member, active ? styles.active:styles.inactive].join(" ")} onClick={onClick}>
+    <div className={[styles.member, active ? styles.active : styles.inactive].join(" ")} onClick={onClick}>
       <div className={styles["photo"]}>
         <img src={require("./photos/" + name + ".jpg")} alt={name} />
       </div>
@@ -15,6 +15,13 @@ export function Miembro({ name, bio, email, onClick, active }) {
         <div className={styles["name"]}>{name}</div>
         <div className={styles["bio"]}>{bio}</div>
         <div className={styles["bio"]}>{email}</div>
+        {badge &&
+          <Badge badgeContent={4} color="primary" className={styles["badge"]}>
+            <Button variant="outlined" onClick={event => event.stopPropagation()}>
+              {badge?.text}
+            </Button>
+          </Badge>
+        }
       </div>
     </div>
   );
@@ -28,11 +35,11 @@ export default function Equipo() {
       <div className={styles["container"]}>
         <h2>Equipo</h2>
         <div className={styles["equipoListado"]}>
-        {
-          miembros.map((miembro, index)=>(
-            <Miembro key={index} onClick={()=>setActive(isActive(index) ? null : index)} active={isActive(index)} {...miembro}/>
-          ))
-        }
+          {
+            miembros.map((miembro, index) => (
+              <Miembro key={index} onClick={() => setActive(isActive(index) ? null : index)} active={isActive(index)} {...miembro} />
+            ))
+          }
         </div>
       </div>
     </div>

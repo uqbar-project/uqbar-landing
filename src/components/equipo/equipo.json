@@ -7,7 +7,7 @@
     {
         "name": "Pablo de Haro",
         "bio": "Ing. en Sistemas y docente en la UTN FRBA. Entusiasta y desarrollador de videojuegos, creador de SuperCat (https://pablitar.games/). Facilitador del taller Ludover para aprender a llevar adelante proyectos de juegos.",
-        "email": "pablitar@gmail.com "
+        "email": "pablitar@gmail.com"
     },
     {
         "name": "Fernando Dodino",
@@ -32,7 +32,10 @@
     {
         "name": "Nicolás Scarcella",
         "bio": "Docente, desarrollador y cofundador de Uqbar. No le gusta escribir sobre si mismo, pero está convencido de que nadie va a leer su descripción.",
-        "email": "nscarcella@gmail.com"
+        "email": "nscarcella@gmail.com",
+        "badge": {
+            "text": "Yo sí leí 😠"
+        }
     },
     {
         "name": "Lucas Spigariol",
