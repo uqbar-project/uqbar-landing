@@ -6,9 +6,9 @@ import badgeApi from "../utils/badgeApi";
 
 miembros.sort(() => 0.5 - Math.random()) // shuffle
 
-export function Miembro({ name, bio, email, badge, badgeData, sumBadgeClick, onClick, active }) {
+export function Miembro({ name, bio, email, badge, badgeData, sumBadgeClick }) {
   return (
-    <div className={[styles.member, active ? styles.active : styles.inactive].join(" ")} onClick={onClick}>
+    <>
       <div className={styles["photo"]}>
         <img src={require("./photos/" + name + ".jpg")} alt={name} />
       </div>
@@ -24,7 +24,7 @@ export function Miembro({ name, bio, email, badge, badgeData, sumBadgeClick, onC
           </Badge>
         }
       </div>
-    </div>
+    </>
   );
 }
 
@@ -50,7 +50,12 @@ export default function Equipo() {
         <div className={styles["equipoListado"]}>
           {
             miembros.map((miembro, index) => (
-              <Miembro key={index} onClick={() => setActive(isActive(index) ? null : index)} active={isActive(index)} badgeData={badgeData} sumBadgeClick={sumBadgeClick} {...miembro} />
+              <div key={index} 
+                className={[styles.member, isActive(index) ? styles.active : styles.inactive].join(" ")} 
+                onClick={() => setActive(isActive(index) ? null : index)} 
+              >
+                <Miembro badgeData={badgeData} sumBadgeClick={sumBadgeClick} {...miembro} />
+              </div>
             ))
           }
         </div>
