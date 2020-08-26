@@ -3,6 +3,7 @@ import styles from "./Index.module.css";
 import UqbarCard from "../utils/UqbarCard.js"
 import arena from "./proyecto-arena.png";
 import sgit from "./proyecto-sgit.png";
+import labfunciones from "./proyecto-labfunciones.png";
 import uqbarwiki from "./proyecto-uqbarwiki.png";
 import wollok from "./proyecto-wollok.png";
 import yanapiri from "./proyecto-yanapiri.png";
@@ -42,6 +43,12 @@ export default function Proyectos() {
             projectLogo={sgit}
             projectName="SGit"
             projectDescription="SGit es un plugin de eclipse simplificado, pensado para estudiantes que están dando sus primeros pasos en la programación. SGit posibilita un primer acercamiento al uso de herramientas de versionado y repositorios de código evitando las complejidades que aparecen en las herramientas profesionales."
+          />
+          <UqbarCard
+            link="https://github.com/uqbar-project/function-laboratory"
+            projectLogo={labfunciones}
+            projectName="Laboratorio de Funciones"
+            projectDescription="El Laboratorio de funciones permite visualizar las funciones y valores como bloques que se van encastrando, permitiendo entender la estructura de las expresiones más fácilmente que con texto."
           />
         </div>
       </div>
