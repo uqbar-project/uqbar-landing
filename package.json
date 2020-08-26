@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://www.uqbar.org/",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",

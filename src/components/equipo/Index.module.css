@@ -76,6 +76,13 @@
   opacity: 0;
   transition: all 0.1s ease-in;
 }
+.badge {
+  margin-top: 0;
+  display: block;
+  height: 0px;
+  opacity: 0;
+  transition: all 0.1s ease-in;
+}
 /* Active member */
 .member.active {
   padding: 0;
@@ -111,6 +118,12 @@
 }
 .member.active .bio {
   display: block;
+  opacity: 1;
+  margin-top: 1.6rem;
+  height: auto;
+  transition: all 0.6s ease-in;
+}
+.member.active .badge {
   opacity: 1;
   margin-top: 1.6rem;
   height: auto;
