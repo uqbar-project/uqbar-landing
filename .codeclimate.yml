@@ -1,0 +1,5 @@
+version: "2"         # required to adjust maintainability checks
+checks:
+  method-lines:
+    config:
+      threshold: 50 # because 25 lines is not enough long on a normal ract.js function
