@@ -14,12 +14,11 @@ export default function Contacto() {
             Contactanos a través de nuestras redes sociales, o directamente enviándonos un mail, te contestaremos lo antes posible.
             </p>
             <ul className={styles["modosContacto"]}>
-              <li className={styles["contacto01"]}><a href="https://www.facebook.com/fundacionuqbar/" target="_blank" rel="noopener noreferrer">@fundacionuqbar</a></li>
-              <li className={styles["contacto02"]}><a href="https://www.instagram.com/fundacionuqbar/" target="_blank" rel="noopener noreferrer">@fundacionuqbar</a></li>
-              <li className={styles["contacto03"]}><a href="https://twitter.com/UqbarProject" target="_blank" rel="noopener noreferrer">@UqbarProject</a></li>
-              <li className={styles["contacto04"]}><a href="https://www.youtube.com/channel/UCcj9rZ9TeeJDnvcVA9cmYMw" target="_blank" rel="noopener noreferrer">@Uqbar</a></li>
-              <li className={styles["contacto05"]}><a href="mailto:org.uqbar@gmail.com" target="_blank" rel="noopener noreferrer">org.uqbar@gmail.com</a></li>
-              
+              <LinkDeContacto style={styles["contacto01"]} url={"https://www.facebook.com/fundacionuqbar/"} value={"@fundacionuqbar"}/>
+              <LinkDeContacto style={styles["contacto02"]} url={"https://www.instagram.com/fundacionuqbar/"} value={"@fundacionuqbar"}/>
+              <LinkDeContacto style={styles["contacto03"]} url={"https://twitter.com/UqbarProject"} value={"@UqbarProject"}/>
+              <LinkDeContacto style={styles["contacto04"]} url={"https://www.youtube.com/channel/UCcj9rZ9TeeJDnvcVA9cmYMw"} value={"@Uqbar"}/>
+              <LinkDeContacto style={styles["contacto05"]} url={"mailto:org.uqbar@gmail.com"} value={"org.uqbar@gmail.com"}/>
             </ul>
           </div>
           <div className={styles["contentRight"]}>
@@ -29,4 +28,10 @@ export default function Contacto() {
       </div>
     </div>
   );
+}
+
+function LinkDeContacto({style, url, value}) {
+    return(
+        <li className={style}><a href={url} target="_blank" rel="noopener noreferrer">{value}</a></li>
+    );
 }
