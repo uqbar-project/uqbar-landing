@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a4fef0df.chunk.css",
-    "main.js": "/static/js/main.9d9ae8a2.chunk.js",
-    "main.js.map": "/static/js/main.9d9ae8a2.chunk.js.map",
+    "main.js": "/static/js/main.cf04e11d.chunk.js",
+    "main.js.map": "/static/js/main.cf04e11d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.08fc9823.js",
     "runtime-main.js.map": "/static/js/runtime-main.08fc9823.js.map",
-    "static/js/2.29201463.chunk.js": "/static/js/2.29201463.chunk.js",
-    "static/js/2.29201463.chunk.js.map": "/static/js/2.29201463.chunk.js.map",
+    "static/js/2.a224c918.chunk.js": "/static/js/2.a224c918.chunk.js",
+    "static/js/2.a224c918.chunk.js.map": "/static/js/2.a224c918.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dfcc56deabc78a39ef35d8ca92cfb0a2.js": "/precache-manifest.dfcc56deabc78a39ef35d8ca92cfb0a2.js",
+    "precache-manifest.05d2d48472a28e2951645a8e21788b5c.js": "/precache-manifest.05d2d48472a28e2951645a8e21788b5c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a4fef0df.chunk.css.map": "/static/css/main.a4fef0df.chunk.css.map",
-    "static/js/2.29201463.chunk.js.LICENSE.txt": "/static/js/2.29201463.chunk.js.LICENSE.txt",
+    "static/js/2.a224c918.chunk.js.LICENSE.txt": "/static/js/2.a224c918.chunk.js.LICENSE.txt",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
     "static/media/Discord-Logo-Color.svg": "/static/media/Discord-Logo-Color.f8389ca1.svg",
     "static/media/Fernando Dodino.jpg": "/static/media/Fernando Dodino.44c7f9e4.jpg",
@@ -26,6 +26,7 @@
     "static/media/Pablo de Haro.jpg": "/static/media/Pablo de Haro.3b430127.jpg",
     "static/media/concurso-wollok-game.jpg": "/static/media/concurso-wollok-game.b8a60671.jpg",
     "static/media/convocatoria-docente.jpeg": "/static/media/convocatoria-docente.8b14490b.jpeg",
+    "static/media/convocatoria-oct2020.jpg": "/static/media/convocatoria-oct2020.e9495493.jpg",
     "static/media/ilustracion01.svg": "/static/media/ilustracion01.ad3866ec.svg",
     "static/media/ilustracion02.svg": "/static/media/ilustracion02.754ea763.svg",
     "static/media/ilustracion03.svg": "/static/media/ilustracion03.d3a0c840.svg",
@@ -41,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.08fc9823.js",
-    "static/js/2.29201463.chunk.js",
+    "static/js/2.a224c918.chunk.js",
     "static/css/main.a4fef0df.chunk.css",
-    "static/js/main.9d9ae8a2.chunk.js"
+    "static/js/main.cf04e11d.chunk.js"
   ]
 }
