@@ -5,7 +5,8 @@ export default function UqbarCard({
     projectName,
     projectDescription,
     projectLogo,
-    link
+    link,
+    children
   }) {
     return (
       <div className={styles["uqbarCard"]}>
@@ -24,6 +25,7 @@ export default function UqbarCard({
           </div>
         </div>
         <p className={styles["projectDescription"]}>{projectDescription}</p>
+        {children}
       </div>
     );
   }

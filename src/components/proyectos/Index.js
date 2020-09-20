@@ -6,6 +6,7 @@ import sgit from "./proyecto-sgit.png";
 import uqbarwiki from "./proyecto-uqbarwiki.png";
 import wollok from "./proyecto-wollok.png";
 import yanapiri from "./proyecto-yanapiri.png";
+import podcast from "./proyecto-podcast.png";
 
 export default function Proyectos() {
   return (
@@ -43,6 +44,14 @@ export default function Proyectos() {
             projectName="SGit"
             projectDescription="SGit es un plugin de eclipse simplificado, pensado para estudiantes que están dando sus primeros pasos en la programación. SGit posibilita un primer acercamiento al uso de herramientas de versionado y repositorios de código evitando las complejidades que aparecen en las herramientas profesionales."
           />
+          <UqbarCard
+            link="https://anchor.fm/pojoynada"
+            projectLogo={podcast}
+            projectName="Podcast Pojo y Nada"
+            projectDescription="Pojo y Nada es un podcast en el que hablamos sobre programación, sobre tecnologías asociadas y la industria del software. Somos: Gise, Pablo, Nico y Alf."
+          >
+            <iframe title="pojoynada" src="https://anchor.fm/pojoynada/embed/episodes/Nos-fuimos-para-el-otro-lado-ejhd8o" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+          </UqbarCard>
         </div>
       </div>
     </div>
