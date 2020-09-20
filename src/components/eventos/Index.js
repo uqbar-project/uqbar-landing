@@ -20,8 +20,6 @@ export default function Eventos() {
 ¿Qué herramientas te son útiles?
 Una serie de encuentros virtuales para dialogar sobre las experiencias educativas en torno a la enseñanza de la Programación"
         />
-      </div>
-      <div className={styles["eventosListado"]}>
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vRcVrBm-xzDVPhR2CL1YsTK7xYRtT93KPSdisAaRq_KtERJjciRRl-cukJS0Sen87zVCSqflVD2DQRc/pub"
           projectLogo={convocatoriaDocente}
