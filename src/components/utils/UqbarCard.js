@@ -9,14 +9,16 @@ export default function UqbarCard({
     children
   }) {
     return (
-      <div className={styles["uqbarCard"]}>
+      <div id={projectName.replace(/\W/g,'_')} className={styles["uqbarCard"]}>
         <div className={styles["header"]}>
           <div className={styles["projectLogo"]}>
-            <img
-              src={projectLogo}
-              alt={projectName}
-              className={styles["projectLogo"]}
-            />
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <img
+                src={projectLogo}
+                alt={projectName}
+                className={styles["projectLogo"]}
+              />
+            </a>
           </div>
           <div className={styles["projectName"]}>
             <a href={link} target="_blank" rel="noopener noreferrer">
