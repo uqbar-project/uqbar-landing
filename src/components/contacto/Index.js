@@ -18,7 +18,7 @@ export default function Contacto() {
               <LinkDeContacto style={styles["contacto02"]} url={"https://www.instagram.com/fundacionuqbar/"} value={"@fundacionuqbar"}/>
               <LinkDeContacto style={styles["contacto03"]} url={"https://twitter.com/UqbarProject"} value={"@UqbarProject"}/>
               <LinkDeContacto style={styles["contacto04"]} url={"https://www.youtube.com/channel/UCcj9rZ9TeeJDnvcVA9cmYMw"} value={"@Uqbar"}/>
-              <LinkDeContacto style={styles["contacto05"]} url={"mailto:org.uqbar@gmail.com"} value={"org.uqbar@gmail.com"}/>
+              <LinkDeContacto style={styles["contacto05"]} url={"mailto:info@uqbar.org"} value={"info@uqbar.org"}/>
             </ul>
           </div>
           <div className={styles["contentRight"]}>
