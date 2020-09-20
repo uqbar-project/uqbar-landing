@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a4fef0df.chunk.css",
-    "main.js": "/static/js/main.ca8b3bbf.chunk.js",
-    "main.js.map": "/static/js/main.ca8b3bbf.chunk.js.map",
+    "main.js": "/static/js/main.9d9ae8a2.chunk.js",
+    "main.js.map": "/static/js/main.9d9ae8a2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.08fc9823.js",
     "runtime-main.js.map": "/static/js/runtime-main.08fc9823.js.map",
-    "static/js/2.e9d1baf3.chunk.js": "/static/js/2.e9d1baf3.chunk.js",
-    "static/js/2.e9d1baf3.chunk.js.map": "/static/js/2.e9d1baf3.chunk.js.map",
+    "static/js/2.29201463.chunk.js": "/static/js/2.29201463.chunk.js",
+    "static/js/2.29201463.chunk.js.map": "/static/js/2.29201463.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a42185969f28029166c32953d1e82784.js": "/precache-manifest.a42185969f28029166c32953d1e82784.js",
+    "precache-manifest.dfcc56deabc78a39ef35d8ca92cfb0a2.js": "/precache-manifest.dfcc56deabc78a39ef35d8ca92cfb0a2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a4fef0df.chunk.css.map": "/static/css/main.a4fef0df.chunk.css.map",
-    "static/js/2.e9d1baf3.chunk.js.LICENSE.txt": "/static/js/2.e9d1baf3.chunk.js.LICENSE.txt",
+    "static/js/2.29201463.chunk.js.LICENSE.txt": "/static/js/2.29201463.chunk.js.LICENSE.txt",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
     "static/media/Discord-Logo-Color.svg": "/static/media/Discord-Logo-Color.f8389ca1.svg",
     "static/media/Fernando Dodino.jpg": "/static/media/Fernando Dodino.44c7f9e4.jpg",
@@ -33,6 +33,7 @@
     "static/media/logo.svg": "/static/media/logo.4f2a531d.svg",
     "static/media/mercadopago.svg": "/static/media/mercadopago.bb0623b8.svg",
     "static/media/proyecto-arena.png": "/static/media/proyecto-arena.f8889df2.png",
+    "static/media/proyecto-podcast.png": "/static/media/proyecto-podcast.c6c3947f.png",
     "static/media/proyecto-uqbarwiki.png": "/static/media/proyecto-uqbarwiki.a613c25a.png",
     "static/media/proyecto-wollok.png": "/static/media/proyecto-wollok.8f5c1e0f.png",
     "static/media/proyecto-yanapiri.png": "/static/media/proyecto-yanapiri.4a4e30bf.png",
@@ -40,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.08fc9823.js",
-    "static/js/2.e9d1baf3.chunk.js",
+    "static/js/2.29201463.chunk.js",
     "static/css/main.a4fef0df.chunk.css",
-    "static/js/main.ca8b3bbf.chunk.js"
+    "static/js/main.9d9ae8a2.chunk.js"
   ]
 }
