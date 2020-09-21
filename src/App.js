@@ -8,7 +8,7 @@ import Equipo from "./components/equipo/Index.js";
 import Contacto from "./components/contacto/Index.js";
 import Eventos from "./components/eventos/Index.js";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
