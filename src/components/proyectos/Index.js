@@ -7,6 +7,7 @@ import labfunciones from "./proyecto-labfunciones.png";
 import uqbarwiki from "./proyecto-uqbarwiki.png";
 import wollok from "./proyecto-wollok.png";
 import yanapiri from "./proyecto-yanapiri.png";
+import podcast from "./proyecto-podcast.png";
 
 export default function Proyectos() {
   return (
@@ -20,6 +21,14 @@ export default function Proyectos() {
             projectName="Wollok"
             projectDescription="Wollok es un lenguaje de programación y entorno de desarrollo integrado (IDE) para ser utilizado en el dictado de materias iniciales de programación a objetos. Es ideal para aprender a programar con objetos ya que permite ir incorporando los conceptos gradualmente permitiendo programar y modelar desde el primer día."
           />
+          <UqbarCard
+            link="https://anchor.fm/pojoynada"
+            projectLogo={podcast}
+            projectName="Podcast Pojo y Nada"
+            projectDescription="Pojo y Nada es un podcast en el que hablamos sobre programación, sobre tecnologías asociadas y la industria del software. Somos: Gise, Pablo, Nico y Alf."
+          >
+            <iframe title="pojoynada" src="https://anchor.fm/pojoynada/embed/episodes/Nos-fuimos-para-el-otro-lado-ejhd8o" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+          </UqbarCard>
           <UqbarCard
             link="http://wiki.uqbar.org/"
             projectLogo={uqbarwiki}

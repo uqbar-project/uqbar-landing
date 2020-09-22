@@ -4,13 +4,14 @@
   "private": true,
   "homepage": "https://www.uqbar.org/",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-router-dom": "^5.1.2",
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "^3.4.3",
-    "yarn": "^1.22.0"
+    "yarn": "^1.22.5"
   },
   "scripts": {
     "start": "react-scripts start",

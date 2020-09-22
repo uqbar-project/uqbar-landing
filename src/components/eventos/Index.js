@@ -4,6 +4,7 @@ import UqbarCard from "../utils/UqbarCard.js"
 import concursoWollokGame from "./imgs/concurso-wollok-game.jpg";
 import jornadasDocentes from "./imgs/jornadas-docentes.jpg";
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg";
+import convocatoriaOct2020 from "./imgs/convocatoria-oct2020.jpg";
 
 export default function Eventos() {
   return (
@@ -11,6 +12,17 @@ export default function Eventos() {
       <h2>Próximos</h2>
       <div className={styles["eventosListado"]}>
         <UqbarCard
+          styles={{ minHeight: "493px" }}
+          link="https://docs.google.com/document/d/e/2PACX-1vR0H_oeXpi7sVUwNQrdkwYqLOyY4stEBEAIkQlWEyCq7X_5lEHTSPZCgZUBdBFa1o4v3L5fivlhCz9q/pub"
+          projectLogo={convocatoriaOct2020}
+          projectName='Encuentros virtuales "Enseñando a programar" Octubre 2020'
+          projectDescription="¿Qué estrategias usas para enseñar a programar?
+¿Con qué problemas te encontrás?
+¿Qué herramientas te son útiles?
+Una serie de encuentros virtuales para dialogar sobre las experiencias educativas en torno a la enseñanza de la Programación"
+        />
+        <UqbarCard
+          styles={{ minHeight: "493px" }}
           link="https://docs.google.com/document/d/e/2PACX-1vRcVrBm-xzDVPhR2CL1YsTK7xYRtT93KPSdisAaRq_KtERJjciRRl-cukJS0Sen87zVCSqflVD2DQRc/pub"
           projectLogo={convocatoriaDocente}
           projectName="Convocatoria Docente"
