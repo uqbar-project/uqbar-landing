@@ -8,6 +8,7 @@ import uqbarwiki from "./proyecto-uqbarwiki.png";
 import wollok from "./proyecto-wollok.png";
 import yanapiri from "./proyecto-yanapiri.png";
 import podcast from "./proyecto-podcast.png";
+import ozono from "./proyecto-ozono.png";
 import tallerlenguajes from "./proyecto-tallerlenguajes.svg";
 
 export default function Proyectos() {
@@ -65,6 +66,12 @@ export default function Proyectos() {
             projectLogo={arena}
             projectName="Arena MMVC framework"
             projectDescription="Arena es un framework para la construcción de interfaces de usuario diseñado para posibilitar que todo el comportamiento pueda ser definido en base a modelos. Es una herramienta pensada con fines educativos, pero también ha sido utilizada exitosamente para proyectos profesionales."
+          />
+          <UqbarCard
+            link="http://ozono.uqbar-project.org/"
+            projectLogo={ozono}
+            projectName="Ozono"
+            projectDescription="Ozono es una herramienta educativa, desarrollada en Pharo Smalltalk, para enseñar programación orientada a objetos haciendo hincapié en la idea de objeto-mensaje."
           />
         </div>
       </div>
