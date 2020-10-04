@@ -4,7 +4,7 @@ import UqbarCard from "../utils/UqbarCard.js"
 import concursoWollokGame from "./imgs/concurso-wollok-game.jpg";
 import jornadasDocentes from "./imgs/jornadas-docentes.jpg";
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg";
-import convocatoriaOct2020 from "./imgs/convocatoria-oct2020.jpg";
+import convocatoriaOct2020 from "./imgs/encuentro-virtual-primer-encuentro.jpg";
 
 export default function Eventos() {
   return (
