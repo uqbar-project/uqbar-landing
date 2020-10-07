@@ -9,7 +9,6 @@ import wollok from "./proyecto-wollok.png";
 import yanapiri from "./proyecto-yanapiri.png";
 import podcast from "./proyecto-podcast.png";
 import ozono from "./proyecto-ozono.png";
-import tallerlenguajes from "./proyecto-tallerlenguajes.svg";
 
 export default function Proyectos() {
   return (
@@ -57,7 +56,7 @@ export default function Proyectos() {
           />
           <UqbarCard
             link="https://github.com/uqbar-taller-de-lenguajes/taller-2017/wiki"
-            projectLogo={tallerlenguajes}
+            projectLogo="https://raw.githubusercontent.com/wiki/uqbar-taller-de-lenguajes/taller-2017/images/temas.jpg"
             projectName="Taller de lenguajes"
             projectDescription="Taler dictado en 2017 para aprender a construir las herramientas que definen un lenguaje desde un enfoque práctico."
           />
