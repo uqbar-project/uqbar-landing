@@ -71,7 +71,7 @@ export default function Proyectos() {
             link="http://ozono.uqbar-project.org/"
             projectLogo={ozono}
             projectName="Ozono"
-            projectDescription="Ozono es una herramienta educativa, desarrollada en Pharo Smalltalk, para enseñar programación orientada a objetos haciendo hincapié en la idea de objeto-mensaje."
+            projectDescription="Ozono es una herramienta educativa, desarrollada en Pharo Smalltalk, para enseñar programación orientada a objetos haciendo hincapié en la idea de objeto-mensaje. Es el semillero de ideas de lo que después se convertiría en Wollok."
           />
         </div>
       </div>
