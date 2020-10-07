@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46cb3e0700cb3f60d14d6c4f92789400",
+    "revision": "94fdd13a97813b35ce2e77a1baa8d602",
     "url": "/index.html"
   },
   {
-    "revision": "08823c976caab7f201bc",
+    "revision": "e58ca9862dbe584eaab5",
     "url": "/static/css/main.6fec2729.chunk.css"
   },
   {
-    "revision": "99dfae8c91f66c65ec56",
-    "url": "/static/js/2.7bb0c855.chunk.js"
+    "revision": "f0ffa2fdb6f49fe50c4b",
+    "url": "/static/js/2.12a39aa1.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.7bb0c855.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.12a39aa1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "08823c976caab7f201bc",
-    "url": "/static/js/main.c5366d00.chunk.js"
+    "revision": "e58ca9862dbe584eaab5",
+    "url": "/static/js/main.32192b9c.chunk.js"
   },
   {
     "revision": "e53dba2f5f20724c9356",
@@ -118,10 +118,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6c3947f5e43c317068b3e7c149b83d1",
     "url": "/static/media/proyecto-podcast.c6c3947f.png"
-  },
-  {
-    "revision": "4f2a531d62e75f01d5d2ca9b08709464",
-    "url": "/static/media/proyecto-tallerlenguajes.4f2a531d.svg"
   },
   {
     "revision": "a613c25a6f815c0b306f5613c09b9ac2",
