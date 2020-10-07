@@ -28,7 +28,7 @@ export default function UqbarCard({
         </div>
       </div>
       <p className={styles["projectDescription"]}>{projectDescription}</p>
-      {children}
+      <div className={styles["projectDescription"]}>{children}</div>
     </div>
   );
 }
