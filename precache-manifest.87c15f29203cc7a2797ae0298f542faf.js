@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94fdd13a97813b35ce2e77a1baa8d602",
+    "revision": "ea7758f7a090ec24b752b74f0532a000",
     "url": "/index.html"
   },
   {
-    "revision": "e58ca9862dbe584eaab5",
+    "revision": "c9c1b3fb4805abb195a2",
     "url": "/static/css/main.6fec2729.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.12a39aa1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e58ca9862dbe584eaab5",
-    "url": "/static/js/main.32192b9c.chunk.js"
+    "revision": "c9c1b3fb4805abb195a2",
+    "url": "/static/js/main.23909dad.chunk.js"
   },
   {
     "revision": "e53dba2f5f20724c9356",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/convocatoria-docente.8b14490b.jpeg"
   },
   {
-    "revision": "9fe8a79af70fd914d2551541d847948f",
-    "url": "/static/media/encuentro-virtual-primer-encuentro.9fe8a79a.jpg"
+    "revision": "ee34eacbb6627b9e551b1be8b62a20af",
+    "url": "/static/media/encuentro-virtual-segundo-encuentro.ee34eacb.jpg"
   },
   {
     "revision": "ad3866ecefc584874e5b9e6104b0ba8b",
