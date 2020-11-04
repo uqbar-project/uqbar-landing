@@ -57,19 +57,13 @@
 }
 
 @media screen and (max-width: 800px) {
-  h2 {
-    font-size: 2.4rem;
-    line-height: 3.2rem;
-    text-align: left;
-  }
   .uqbarCard {
     flex-grow: 1;
     flex-basis: 100%;
     margin: 0 -1.6rem;
     margin-bottom: 0.8rem;
   }
-  .uqbarCard:nth-child(1),
-  .uqbarCard:nth-child(2) {
+  .uqbarCard:nth-child(n) {
     flex-grow: 1;
     flex-basis: 100%;
   }
@@ -79,9 +73,6 @@
   }
   .projectLogo {
     margin-bottom: 0rem;
-  }
-  .projectLogo img {
-    max-height: 8rem;
   }
   .header {
     text-align: center;
