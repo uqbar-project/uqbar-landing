@@ -16,7 +16,7 @@ export default function Eventos() {
           link="https://docs.google.com/document/d/1mpsdbLlw2Y5r6hCcxQilL3LFHzuXUZ16xmAOGT8F9-w/view"
           projectLogo={concursoWollokGame2020}
           projectName="Concurso Wollok Game"
-          projectDescription="Si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y queres mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
+          projectDescription="Si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y querés mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
         />
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vR0H_oeXpi7sVUwNQrdkwYqLOyY4stEBEAIkQlWEyCq7X_5lEHTSPZCgZUBdBFa1o4v3L5fivlhCz9q/pub"
