@@ -4,7 +4,7 @@ import UqbarCard from "../utils/UqbarCard.js"
 import concursoWollokGame2019 from "./imgs/concurso-wollok-game-2019.jpg";
 import jornadasDocentes from "./imgs/jornadas-docentes.jpg";
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg";
-import convocatoriaOct2020 from "./imgs/encuentro-virtual-segundo-encuentro.jpg";
+import encuentroVirtual from "./imgs/encuentro-virtual.jpg";
 import concursoWollokGame2020 from "./imgs/concurso-wollok-game-2020.jpg";
 
 export default function Eventos() {
@@ -20,7 +20,7 @@ export default function Eventos() {
         />
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vR0H_oeXpi7sVUwNQrdkwYqLOyY4stEBEAIkQlWEyCq7X_5lEHTSPZCgZUBdBFa1o4v3L5fivlhCz9q/pub"
-          projectLogo={convocatoriaOct2020}
+          projectLogo={encuentroVirtual}
           projectName='Encuentros virtuales "Enseñando a programar" 2020'
           projectDescription="¿Qué estrategias usas para enseñar a programar?
 ¿Con qué problemas te encontrás?
