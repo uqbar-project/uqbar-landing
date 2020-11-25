@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.399f4881.chunk.css",
-    "main.js": "/static/js/main.5d4092ea.chunk.js",
-    "main.js.map": "/static/js/main.5d4092ea.chunk.js.map",
+    "main.js": "/static/js/main.aefcfecd.chunk.js",
+    "main.js.map": "/static/js/main.aefcfecd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.08fc9823.js",
     "runtime-main.js.map": "/static/js/runtime-main.08fc9823.js.map",
     "static/js/2.371cc42d.chunk.js": "/static/js/2.371cc42d.chunk.js",
     "static/js/2.371cc42d.chunk.js.map": "/static/js/2.371cc42d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9646438206462e8a9aea928a1439cd9e.js": "/precache-manifest.9646438206462e8a9aea928a1439cd9e.js",
+    "precache-manifest.4ecf43037dae44f5dde214327734a8e4.js": "/precache-manifest.4ecf43037dae44f5dde214327734a8e4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.399f4881.chunk.css.map": "/static/css/main.399f4881.chunk.css.map",
     "static/js/2.371cc42d.chunk.js.LICENSE.txt": "/static/js/2.371cc42d.chunk.js.LICENSE.txt",
@@ -27,7 +27,7 @@
     "static/media/concurso-wollok-game-2019.jpg": "/static/media/concurso-wollok-game-2019.b8a60671.jpg",
     "static/media/concurso-wollok-game-2020.jpg": "/static/media/concurso-wollok-game-2020.478b40b0.jpg",
     "static/media/convocatoria-docente.jpeg": "/static/media/convocatoria-docente.8b14490b.jpeg",
-    "static/media/encuentro-virtual-segundo-encuentro.jpg": "/static/media/encuentro-virtual-segundo-encuentro.cb4203a3.jpg",
+    "static/media/encuentro-virtual.jpg": "/static/media/encuentro-virtual.65b47265.jpg",
     "static/media/ilustracion01.svg": "/static/media/ilustracion01.ad3866ec.svg",
     "static/media/ilustracion02.svg": "/static/media/ilustracion02.754ea763.svg",
     "static/media/ilustracion03.svg": "/static/media/ilustracion03.d3a0c840.svg",
@@ -46,6 +46,6 @@
     "static/js/runtime-main.08fc9823.js",
     "static/js/2.371cc42d.chunk.js",
     "static/css/main.399f4881.chunk.css",
-    "static/js/main.5d4092ea.chunk.js"
+    "static/js/main.aefcfecd.chunk.js"
   ]
 }
