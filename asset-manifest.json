@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.399f4881.chunk.css",
-    "main.js": "/static/js/main.118f02c3.chunk.js",
-    "main.js.map": "/static/js/main.118f02c3.chunk.js.map",
+    "main.js": "/static/js/main.4d865e8a.chunk.js",
+    "main.js.map": "/static/js/main.4d865e8a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.08fc9823.js",
     "runtime-main.js.map": "/static/js/runtime-main.08fc9823.js.map",
     "static/js/2.371cc42d.chunk.js": "/static/js/2.371cc42d.chunk.js",
     "static/js/2.371cc42d.chunk.js.map": "/static/js/2.371cc42d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cef6886716dd10917f4caf18dd97f44c.js": "/precache-manifest.cef6886716dd10917f4caf18dd97f44c.js",
+    "precache-manifest.8fcd1ad724136b4908fabb7573292896.js": "/precache-manifest.8fcd1ad724136b4908fabb7573292896.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.399f4881.chunk.css.map": "/static/css/main.399f4881.chunk.css.map",
     "static/js/2.371cc42d.chunk.js.LICENSE.txt": "/static/js/2.371cc42d.chunk.js.LICENSE.txt",
@@ -25,7 +25,6 @@
     "static/media/Pablo Tesone.jpg": "/static/media/Pablo Tesone.1d028248.jpg",
     "static/media/Pablo de Haro.jpg": "/static/media/Pablo de Haro.3b430127.jpg",
     "static/media/concurso-wollok-game-2019.jpg": "/static/media/concurso-wollok-game-2019.b8a60671.jpg",
-    "static/media/concurso-wollok-game-2020.jpg": "/static/media/concurso-wollok-game-2020.478b40b0.jpg",
     "static/media/convocatoria-docente.jpeg": "/static/media/convocatoria-docente.8b14490b.jpeg",
     "static/media/encuentro-virtual.jpg": "/static/media/encuentro-virtual.65b47265.jpg",
     "static/media/ilustracion01.svg": "/static/media/ilustracion01.ad3866ec.svg",
@@ -40,12 +39,13 @@
     "static/media/proyecto-uqbarwiki.png": "/static/media/proyecto-uqbarwiki.a613c25a.png",
     "static/media/proyecto-wollok.png": "/static/media/proyecto-wollok.8f5c1e0f.png",
     "static/media/proyecto-yanapiri.png": "/static/media/proyecto-yanapiri.4a4e30bf.png",
-    "static/media/Index.module.css": "/static/media/valores04.9643593f.svg"
+    "static/media/Index.module.css": "/static/media/valores04.9643593f.svg",
+    "static/media/votacion-concurso-wollok-game-2020.jpg": "/static/media/votacion-concurso-wollok-game-2020.43d65304.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.08fc9823.js",
     "static/js/2.371cc42d.chunk.js",
     "static/css/main.399f4881.chunk.css",
-    "static/js/main.118f02c3.chunk.js"
+    "static/js/main.4d865e8a.chunk.js"
   ]
 }

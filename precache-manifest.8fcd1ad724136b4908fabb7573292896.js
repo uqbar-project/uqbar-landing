@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80dbac729ca1adc94f98028cb74eb86f",
+    "revision": "d31450d6172ea63970bb79d003ff566c",
     "url": "/index.html"
   },
   {
-    "revision": "0178ef7c6b47c6523913",
+    "revision": "59c0192c0697cb12d7af",
     "url": "/static/css/main.399f4881.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.371cc42d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0178ef7c6b47c6523913",
-    "url": "/static/js/main.118f02c3.chunk.js"
+    "revision": "59c0192c0697cb12d7af",
+    "url": "/static/js/main.4d865e8a.chunk.js"
   },
   {
     "revision": "e53dba2f5f20724c9356",
@@ -74,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b8a6067138627e7690cbf35c22212a1a",
     "url": "/static/media/concurso-wollok-game-2019.b8a60671.jpg"
-  },
-  {
-    "revision": "478b40b040910dc83afdc036cfac7f9b",
-    "url": "/static/media/concurso-wollok-game-2020.478b40b0.jpg"
   },
   {
     "revision": "8b14490b15e79b098064b7babcaec5e4",
@@ -170,5 +166,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9643593f7994aff532c3c2d3053dbd7b",
     "url": "/static/media/valores04.9643593f.svg"
+  },
+  {
+    "revision": "43d653040bd8c2505d052ee2f294af22",
+    "url": "/static/media/votacion-concurso-wollok-game-2020.43d65304.jpg"
   }
 ]);
