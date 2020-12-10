@@ -5,7 +5,7 @@ import concursoWollokGame2019 from "./imgs/concurso-wollok-game-2019.jpg";
 import jornadasDocentes from "./imgs/jornadas-docentes.jpg";
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg";
 import encuentroVirtual from "./imgs/encuentro-virtual.jpg";
-import concursoWollokGame2020 from "./imgs/concurso-wollok-game-2020.jpg";
+import concursoWollokGame2020 from "./imgs/votacion-concurso-wollok-game-2020.jpg";
 
 export default function Eventos() {
   return (
