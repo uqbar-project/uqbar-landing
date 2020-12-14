@@ -6,11 +6,18 @@ import jornadasDocentes from "./imgs/jornadas-docentes.jpg";
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg";
 import encuentroVirtual from "./imgs/encuentro-virtual.jpg";
 import concursoWollokGame2020 from "./imgs/votacion-concurso-wollok-game-2020.jpg";
+import ultimoEvento2020 from "./imgs/ultimo-evento-2020.jpg";
 
 export default function Eventos() {
   return (
     <div className={styles["eventos"]} id="Eventos">
       <h2>Próximos</h2>
+      <UqbarCard
+        link="https://docs.google.com/document/d/e/2PACX-1vQKRcflFRkujk9JtQwC4njuVQm87VhlsdOrL7gD2yCr9ObbvBP1BJeIEZDkcMw5vQyHf2GV6WgvT0xR/pub"
+        projectLogo={ultimoEvento2020}
+        projectName="¡Último evento del año!"
+        projectDescription="El próximo viernes 18 de diciembre, a las 19 horas, nos reuniremos de manera virtual para presentar los trabajos realizados a lo largo del año sobre nuestros diferentes proyectos y realizaremos el cierre del concurso Jugando con Wollok Game: ¡Ya finalizaron las inscripciones y es el momento de elegir a los juegos ganadores y entregarles sus premios!"
+      />
       <div className={styles["eventosListado"]}>
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vRovuWOwqDfeF0CddazQwDGWlIAhVrvJJUYF45Jxnh5g5sL_lHIjy9xyv7kw8wCYaJmzM9x0kmVJCBd/pub"
