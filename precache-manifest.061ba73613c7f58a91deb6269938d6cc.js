@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3217e45a4b7272821c42895c94a82afb",
+    "revision": "5029bae0bb169e83af6f370b82bb2e7a",
     "url": "/index.html"
   },
   {
-    "revision": "dd6b1558e70a2702e604",
-    "url": "/static/css/main.399f4881.chunk.css"
+    "revision": "8aaeb8b4c77638820227",
+    "url": "/static/css/main.f44ba932.chunk.css"
   },
   {
-    "revision": "bf4595e6b632effabc0e",
-    "url": "/static/js/2.29a29ee2.chunk.js"
+    "revision": "db0dfb485eaf472ad865",
+    "url": "/static/js/2.62df6c59.chunk.js"
   },
   {
     "revision": "03ffe45858ec13b5e4d5dc93aa818310",
-    "url": "/static/js/2.29a29ee2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.62df6c59.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd6b1558e70a2702e604",
-    "url": "/static/js/main.4b60df06.chunk.js"
+    "revision": "8aaeb8b4c77638820227",
+    "url": "/static/js/main.b94d1d87.chunk.js"
   },
   {
     "revision": "e53dba2f5f20724c9356",
@@ -104,6 +104,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.4f2a531d.svg"
   },
   {
+    "revision": "bfefcda43a969e5a695112a4475183e1",
+    "url": "/static/media/ludover.bfefcda4.png"
+  },
+  {
+    "revision": "24d2f720af321f941d16adf6a0111b81",
+    "url": "/static/media/maquinas-virtuales.24d2f720.jpg"
+  },
+  {
     "revision": "bb0623b8bcc061ced1b845a09fc21fc5",
     "url": "/static/media/mercadopago.bb0623b8.svg"
   },
@@ -154,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "44c40f61006d4edca8b56f82570a51bc",
     "url": "/static/media/ultimo-evento-2020.44c40f61.jpg"
+  },
+  {
+    "revision": "2c6d0f3a5f4930fd15148900eb458b95",
+    "url": "/static/media/uqbar-talleres.2c6d0f3a.jpeg"
   },
   {
     "revision": "1efa9df16c349b5c063820ff606e1ab8",
