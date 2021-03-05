@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./Index.module.css";
 import UqbarCard from "../utils/UqbarCard.js"
+import UqbarCardGrid from "../utils/UqbarCardGrid.js"
 import concursoWollokGame2019 from "./imgs/concurso-wollok-game-2019.jpg";
 import jornadasDocentes from "./imgs/jornadas-docentes.jpg";
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg";
@@ -10,15 +10,15 @@ import ultimoEvento2020 from "./imgs/ultimo-evento-2020.jpg";
 
 export default function Eventos() {
   return (
-    <div className={styles["eventos"]} id="Eventos">
-      <h2>Próximos</h2>
-      <UqbarCard
-        link="https://docs.google.com/document/d/e/2PACX-1vQKRcflFRkujk9JtQwC4njuVQm87VhlsdOrL7gD2yCr9ObbvBP1BJeIEZDkcMw5vQyHf2GV6WgvT0xR/pub"
-        projectLogo={ultimoEvento2020}
-        projectName="¡Último evento del año!"
-        projectDescription="El próximo viernes 18 de diciembre, a las 19 horas, nos reuniremos de manera virtual para presentar los trabajos realizados a lo largo del año sobre nuestros diferentes proyectos y realizaremos el cierre del concurso Jugando con Wollok Game: ¡Ya finalizaron las inscripciones y es el momento de elegir a los juegos ganadores y entregarles sus premios!"
-      />
-      <div className={styles["eventosListado"]}>
+    <div className="container" id="Eventos">
+      <h2>2020</h2>
+      <UqbarCardGrid>
+        <UqbarCard
+          link="https://docs.google.com/document/d/e/2PACX-1vQKRcflFRkujk9JtQwC4njuVQm87VhlsdOrL7gD2yCr9ObbvBP1BJeIEZDkcMw5vQyHf2GV6WgvT0xR/pub"
+          projectLogo={ultimoEvento2020}
+          projectName="¡Último evento del año!"
+          projectDescription="El próximo viernes 18 de diciembre, a las 19 horas, nos reuniremos de manera virtual para presentar los trabajos realizados a lo largo del año sobre nuestros diferentes proyectos y realizaremos el cierre del concurso Jugando con Wollok Game: ¡Ya finalizaron las inscripciones y es el momento de elegir a los juegos ganadores y entregarles sus premios!"
+        />
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vRovuWOwqDfeF0CddazQwDGWlIAhVrvJJUYF45Jxnh5g5sL_lHIjy9xyv7kw8wCYaJmzM9x0kmVJCBd/pub"
           projectLogo={concursoWollokGame2020}
@@ -40,9 +40,10 @@ Una serie de encuentros virtuales para dialogar sobre las experiencias educativa
           projectName="Convocatoria Docente"
           projectDescription="¿Cuáles son los desafíos que se presentan al momento de enseñar programación? ¿Qué herramientas usamos dentro del aula? Desde la Fundación Uqbar nos interesa poder conversar sobre las experiencias educativas y reflexionar sobre los aprendizajes que se construyeron y se siguen construyendo en el contexto del aislamiento social preventivo obligatorio."
         />
-      </div>
-      <h2>Anteriores</h2>
-      <div className={styles["eventosListado"]}>
+      </UqbarCardGrid>
+      <h2>2019</h2>
+      <UqbarCardGrid>
+
         <UqbarCard
           link="https://docs.google.com/document/d/1hIyF7JHVLJ2u-a69tJRH5YfxPIdaiMDav3tCArkX-qc/view"
           projectLogo={concursoWollokGame2019}
@@ -55,7 +56,7 @@ Una serie de encuentros virtuales para dialogar sobre las experiencias educativa
           projectName="Jornada Enseñanza Programacion"
           projectDescription="Un espacio de formación para compartir experiencias y discutir estrategias, metodologías y recursos para enseñar a programar en instituciones educativas."
         />
-      </div>
+      </UqbarCardGrid>
     </div>
   );
 }

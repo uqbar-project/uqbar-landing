@@ -38,7 +38,8 @@
 
 @media screen and (max-width: 800px) {
   .header{
-    padding:2.4rem 0
+    padding:2.4rem 0;
+    margin-bottom: 5rem;
   }
   .container{
     padding:0 2.4rem;
