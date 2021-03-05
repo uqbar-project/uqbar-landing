@@ -1,10 +1,6 @@
 .proyectos {
   padding: 8rem 0;
 }
-.container {
-  max-width: 111.2rem;
-  margin: 0 auto;
-}
 .proyectosListado {
   display: flex;
   justify-content:space-between;

@@ -45,7 +45,7 @@ export default function Equipo() {
 
   return (
     <div className={styles["equipo"]} id="Equipo">
-      <div className={styles["container"]}>
+      <div className="container">
         <h2>Equipo</h2>
         <div className={styles["equipoListado"]}>
           {

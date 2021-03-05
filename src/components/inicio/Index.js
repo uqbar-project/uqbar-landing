@@ -5,7 +5,7 @@ import styles from "./Index.module.css";
 export default function Inicio() {
   return (
     <div className={styles["inicio"]} id="Inicio">
-      <div className={styles["container"]}>
+      <div className="container">
         <h1>
           Innovando, descubriendo y construyendo nuevos caminos para que las ciencias de la computación y la educación se fortalezcan.
         </h1>

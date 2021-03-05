@@ -38,4 +38,7 @@ img{
     line-height: 3.2rem;
     text-align: center;
   }
+  .container{
+    padding:0 2.4rem;
+  }
 }

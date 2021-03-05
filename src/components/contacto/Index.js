@@ -6,7 +6,7 @@ import ilustracion03 from "./ilustracion03.svg";
 export default function Contacto() {
   return (
     <div className={styles["contacto"]} id="Contacto">
-      <div className={styles["container"]}>
+      <div className="container">
       <div className={styles["content"]}>
           <div className={styles["contentLeft"]}>
             <h2>Contacto</h2>

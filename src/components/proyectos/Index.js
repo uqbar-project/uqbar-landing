@@ -13,7 +13,7 @@ import ozono from "./proyecto-ozono.png";
 export default function Proyectos() {
   return (
     <div className={styles["proyectos"]} id="Proyectos">
-      <div className={styles["container"]}>
+      <div className="container">
         <h2>Proyectos</h2>
         <div className={styles["proyectosListado"]}>
           <UqbarCard

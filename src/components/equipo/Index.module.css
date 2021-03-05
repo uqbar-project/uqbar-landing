@@ -2,10 +2,6 @@
   padding: 8rem 0;
   background-color: #f7f7fa;
 }
-.container {
-  max-width: 111.2rem;
-  margin: 0 auto;
-}
 .equipoListado {
   display: grid;
   grid-template-columns: repeat(4, 25%);
