@@ -28,7 +28,7 @@ export default function Proyectos() {
             projectName="Podcast Pojo y Nada"
             projectDescription="Pojo y Nada es un podcast en el que hablamos sobre programación, sobre tecnologías asociadas y la industria del software. Somos: Gise, Pablo, Nico y Alf."
           >
-            <iframe title="pojoynada" src="https://anchor.fm/pojoynada/embed/episodes/Nos-fuimos-para-el-otro-lado-ejhd8o" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
+            <iframe title="pojoynada" src="https://anchor.fm/pojoynada/embed" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
           </UqbarCard>
           <UqbarCard
             link="http://wiki.uqbar.org/"
