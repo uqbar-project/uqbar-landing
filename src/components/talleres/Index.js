@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./Index.module.css"
 import UqbarCard from "../utils/UqbarCard.js"
+import UqbarCardGrid from "../utils/UqbarCardGrid.js"
 import ludover from "./ludover.png"
 import maquinasVirtuales from "./maquinas-virtuales.jpg"
 import talleresBanner from "./uqbar-talleres.jpeg"
@@ -13,7 +14,7 @@ export default function Proyectos() {
         <img src={talleresBanner} alt="Talleres Uqbar" />
       </a>
       <p className={styles["description"]}>Desde la Fundación, durante la primera parte del año 2021 se dictarán dos talleres gratuitos: <strong>Ludover (taller de videojuegos)</strong> y <strong>Máquinas Virtuales</strong>.</p>
-      <div className={styles["proyectosListado"]}>
+      <UqbarCardGrid>
         <UqbarCard
           link="https://talleres.uqbar.org/"
           projectLogo={ludover}
@@ -26,7 +27,7 @@ export default function Proyectos() {
           projectName="Máquinas Virtuales"
           projectDescription="Taller de máquinas virtuales es un espacio para aprender sobre el funcionamiento de la implementación de lenguajes de programación modernos. El objetivo principal del taller es aprender haciendo, y trabajar sobre técnicas de implementación y optimización."
         />
-      </div>
+      </UqbarCardGrid>
     </div>
   )
 }

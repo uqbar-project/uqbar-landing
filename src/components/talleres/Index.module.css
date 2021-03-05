@@ -2,13 +2,3 @@
   text-align: center;
   font-size: larger;
 }
-.proyectosListado {
-  display: flex;
-  justify-content:space-between;
-  flex-wrap:wrap;
-}
-@media screen and (max-width: 800px) {
-  .proyectos {
-    padding: 2.4rem 0;
-  }
-}

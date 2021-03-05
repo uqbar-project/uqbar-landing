@@ -1,3 +1,9 @@
+.uqbarCardGrid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .uqbarCard {
   background: #f7f7fa;
   border: 1px solid #e3e2ef;
