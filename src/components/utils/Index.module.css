@@ -46,15 +46,6 @@
   font-size: 2rem;
   font-weight: 600;
 }
-.projectLogo {
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .projectLogo img {
   width: auto;
 }

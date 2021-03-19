@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Badge, Button } from "@material-ui/core";
+import header from './header-equipo.jpeg';
 import styles from "./Index.module.css";
 import miembros from './equipo.json';
 import badgeApi from "../utils/badgeApi";
@@ -46,7 +47,9 @@ export default function Equipo() {
   return (
     <div className={styles["equipo"]} id="Equipo">
       <div className="container">
-        <h2>Equipo</h2>
+        <div className={"header projectLogo"}>
+          <img src={header} alt="Equipo" />
+        </div>
         <div className={styles["equipoListado"]}>
           {
             miembros.map((miembro, index) => (

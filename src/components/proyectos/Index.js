@@ -1,6 +1,7 @@
 import React from "react";
 import UqbarCard from "../utils/UqbarCard.js"
 import UqbarCardGrid from "../utils/UqbarCardGrid.js"
+import header from "./header-proyectos.jpeg";
 import arena from "./proyecto-arena.png";
 import sgit from "./proyecto-sgit.png";
 import labfunciones from "./proyecto-labfunciones.png";
@@ -13,7 +14,9 @@ import ozono from "./proyecto-ozono.png";
 export default function Proyectos() {
   return (
     <div className="container" id="Proyectos">
-      <h2>Proyectos</h2>
+      <div className={"header projectLogo"}>
+        <img src={header} alt="Proyectos" />
+      </div>
       <UqbarCardGrid>
         <UqbarCard
           link="http://www.wollok.org"

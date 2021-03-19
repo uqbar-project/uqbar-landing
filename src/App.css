@@ -3,9 +3,24 @@
   font-size:1.6rem;
   line-height:2.4rem;
 }
+
 .container {
   max-width: 111.2rem;
   margin: 0 auto;
+}
+
+.projectLogo {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  margin-top: 5rem;
 }
 
 a{
