@@ -21,9 +21,17 @@ export default function Donaciones() {
               para la divulgación de contenidos y para mantener viva la parte administrativa
               de la fundación.
             </p>
+
+          </div>
+          <div className={styles["contentRight"]}>
+            <img src={ilustracion02} alt="Donaciones" />
+          </div>
+        </div>
+
+        <div className={styles["content"]}>
+          <div className={styles["contentLeft"]}>
             <p>
               <strong>Aceptamos donaciones a través de MercadoPago</strong>. Podés donarnos en dos modalidades: una única vez o en formato de suscripción mensual. Ambas formas nos ayudan a continuar nuestra labor :)
-
             </p>
             <h3>Donaciones de única vez</h3>
             <p>A través de esta opción nos harás una única donación con el monto que selecciones más abajo.</p>
@@ -56,7 +64,15 @@ export default function Donaciones() {
             </div>
           </div>
           <div className={styles["contentRight"]}>
-            <img src={ilustracion02} alt="Donaciones" />
+            <p>
+              También aceptamos <strong>transferencias bancarias</strong> directamente a nuestra cuenta:
+            </p>
+            <p className={styles["cuentaBancaria"] + " " + styles["dataBanco"]}>
+              CUIT/CUIL: 33-71604076-9
+              <br/>BANCO SANTANDER RIO
+              <br/>CBU: 0720162820000001193954
+              <br/>Cuenta corriente
+            </p>
           </div>
         </div>
       </div>

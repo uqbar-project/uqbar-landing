@@ -15,21 +15,23 @@ h2 {
 }
 .contentLeft {
   max-width: 60.8rem;
+  text-align: justify;
 }
 .contentRight {
   margin-left: 4rem;
   flex-grow: 1;
-  text-align: right;
+  text-align: justify;
 }
 .destacado {
   font-size: 2rem;
   line-height: 3.2rem;
   color: #6b6a81;
+  text-align: justify;
 }
 h3{
   margin-bottom:0;
 }
-.linksMercadoPago {
+.linksMercadoPago, .cuentaBancaria {
   text-align: center;
   display: inline-block;
   margin-bottom:2.4rem;
@@ -58,6 +60,10 @@ h3{
   display: inline-block;
   width: 100%;
   margin-top: 2.4rem;
+}
+.dataBanco {
+  background-color: lightgray;
+  font-family: monospace;
 }
 
 @media screen and (max-width: 800px) {
