@@ -7,10 +7,21 @@ import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg";
 import encuentroVirtual from "./imgs/encuentro-virtual.jpg";
 import concursoWollokGame2020 from "./imgs/votacion-concurso-wollok-game-2020.jpg";
 import ultimoEvento2020 from "./imgs/ultimo-evento-2020.jpg";
+import concursoWollokGame2021 from "./imgs/concurso-wollok-game-2021.png";
 
 export default function Eventos() {
   return (
     <div className="container" id="Eventos">
+      <h2>ACTUALES</h2>
+      <UqbarCardGrid>
+        <UqbarCard
+          link="https://docs.google.com/document/d/e/2PACX-1vTmBpmoVX52Kn2KKJME6AkZNoCZcqaMgrV9cRWDeG0Wc3zuT8BRFuahmFtoUeVXJfBfwCF8Mn4FrobP/pub"
+          projectLogo={concursoWollokGame2021}
+          projectName="Concurso Wollok Game"
+          projectDescription="Si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y querés mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
+        />
+      </UqbarCardGrid>
+    
       <h2>2020</h2>
       <UqbarCardGrid>
         <UqbarCard
@@ -22,7 +33,7 @@ export default function Eventos() {
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vRovuWOwqDfeF0CddazQwDGWlIAhVrvJJUYF45Jxnh5g5sL_lHIjy9xyv7kw8wCYaJmzM9x0kmVJCBd/pub"
           projectLogo={concursoWollokGame2020}
-          projectName="Concurso Wollok Game"
+          projectName="Concurso Wollok Game 2020"
           projectDescription="Si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y querés mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
         />
         <UqbarCard
@@ -41,6 +52,7 @@ Una serie de encuentros virtuales para dialogar sobre las experiencias educativa
           projectDescription="¿Cuáles son los desafíos que se presentan al momento de enseñar programación? ¿Qué herramientas usamos dentro del aula? Desde la Fundación Uqbar nos interesa poder conversar sobre las experiencias educativas y reflexionar sobre los aprendizajes que se construyeron y se siguen construyendo en el contexto del aislamiento social preventivo obligatorio."
         />
       </UqbarCardGrid>
+
       <h2>2019</h2>
       <UqbarCardGrid>
 
