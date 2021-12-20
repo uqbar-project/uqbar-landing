@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 import discord from "./Discord-Logo-Color.svg"
 import styles from "./Index.module.css";
 import { HashLink as Link } from "react-router-hash-link";
-import { Badge } from "@material-ui/core";
 
 export default function Header() {
   return (
@@ -38,9 +37,7 @@ export default function Header() {
               </li>
               <li>
                 <Link to="/eventos">
-                  <Badge badgeContent={1} color="secondary" className={styles["badge"]}>
                     Eventos
-                  </Badge>
                 </Link>
               </li>
               
