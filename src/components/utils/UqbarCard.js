@@ -6,11 +6,13 @@ export default function UqbarCard({
   projectDescription,
   projectLogo,
   link,
+  onClick,
   children,
   style,
 }) {
   return (
-    <div id={projectName.replace(/\W/g, '_')} className={styles["uqbarCard"]} style={style}>
+    <div id={projectName.replace(/\W/g, '_')} className={styles["uqbarCard"]} style={style}
+        onClick={onClick}>
       <div className={styles["header"]}>
         <div className={styles["projectLogo"]}>
           <a href={link} target="_blank" rel="noopener noreferrer">

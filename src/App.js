@@ -8,6 +8,7 @@ import Talleres from "./components/talleres/Index.js";
 import Equipo from "./components/equipo/Index.js";
 import Contacto from "./components/contacto/Index.js";
 import Eventos from "./components/eventos/Index.js";
+import Ideas from "./components/ideas/Index.jsx";
 import {
   HashRouter as Router,
   Switch,
@@ -22,6 +23,9 @@ function App() {
         <Switch>
           <Route path="/eventos">
             <Eventos/>
+          </Route>
+          <Route path="/ideas">
+            <Ideas/>
           </Route>
           <Route path="/">
             <Inicio/>
