@@ -50,7 +50,7 @@ const ideas = [
         context: linterContext,
         goal: "Wollok ya cuenta con una forma de definir y correr tests automatizados dentro del lenguaje. El objetivo es servirlo como servicio LSP para poder ejecutar y visualizar los resultados de los tests desde el IDE.",
         url: linter,
-        mentors: [ fer, nicoS, alf ]
+        mentors: [ fer, nicoS, nahue ]
     },
     {
         name: "Wollok - Consola",
@@ -58,15 +58,7 @@ const ideas = [
         context: linterContext,
         goal: "En la versión actual Wollok cuenta con una consola REPL que permite hacer pruebas manuales sobre el código. El objetivo es contar con esta misma herramienta en la nueva versión del servidor LSP para poder usarse desde los nuevos IDEs.",
         url: linter,
-        mentors: [ fer, nicoS, alf ]
-    },
-    {
-        name: "Wollok - Quick fixes & Refactors",
-        img: wollokImg,
-        context: linterContext,
-        goal: "El objetivo de esta idea es brindar ayuda para resolver los problemas detectados en el código (quick fixes) sugiriendo alternativas ya conocidas para editar el código de manera automática. De forma análoga, queremos ofrecer la posibilidad de hacer cambios al código de manera orgánica (refactors), como por ejemplo: renombrar algún elemento y sus usos, mover métodos entre entidades.",
-        url: linter,
-        mentors: [ fer, nicoS, alf ]
+        mentors: [ fer, nicoS, nahue ]
     },
     {
         name: "Wollok - Quick fixes & Refactors",
@@ -90,7 +82,7 @@ const ideas = [
         context: linterContext,
         goal: "El objetivo aquí es implementar un módulo en el servidor LSP que ofrezca la posibilidad de debuggear la ejecución de un programa. Actualmente la implementación del lenguaje ya cuenta con una API para poder debuggear su ejecución y tenemos hecha una prueba de concepto sobre esto.",
         url: linter,
-        mentors: [ fer, nicoS, alf ]
+        mentors: [ fer, nicoS, nahue ]
     },
     {
         name: "Wollok - Sistema de tipos",
@@ -120,7 +112,7 @@ const ideas = [
         name: "Laboratorio de Funciones",
         context: laboContext,
         img: laboFuncionesImg,
-        goal: "El objetivo de esta idea es continuar con el desarrollo de algunas funcionalidades como: definición de funciones propias, mejorar la visualización de errores, terminar la biblioteca de funcinoes básicas y sus reducciones",
+        goal: "El objetivo de esta idea es continuar con el desarrollo de algunas funcionalidades como: definición de funciones propias, mejorar la visualización de errores, terminar la biblioteca de funciones básicas y sus reducciones",
         url: laboFunciones,
         mentors: [ nahue, alf ]
     },
