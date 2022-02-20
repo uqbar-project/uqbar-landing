@@ -64,7 +64,7 @@ const ideas = [
         name: "Wollok - Consola",
         img: consoleImg,
         context: linterContext,
-        goal: "En la versión actual Wollok cuenta con una consola REPL que permite hacer pruebas manuales sobre el código. El objetivo es contar con esta misma herramienta en la nueva versión del servidor LSP para poder usarse desde los nuevos IDEs.",
+        goal: "En la versión actual Wollok cuenta con una consola REPL que permite hacer pruebas manuales sobre el código. El objetivo es contar con una herramienta similar (REPL o archivo worksheet como Scala) en la nueva versión del servidor LSP para poder usarse desde los nuevos IDEs.",
         url: linter,
         mentors: [ fer, nicoS, nahue ]
     },
