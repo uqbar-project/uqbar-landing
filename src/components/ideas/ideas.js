@@ -88,7 +88,7 @@ const ideas = [
         name: "Wollok - Debugger",
         img: debuggerImg,
         context: linterContext,
-        goal: "El objetivo aquí es implementar un módulo en el servidor LSP que ofrezca la posibilidad de debuggear la ejecución de un programa. Actualmente la implementación del lenguaje ya cuenta con una API para poder debuggear su ejecución y tenemos hecha una prueba de concepto sobre esto.",
+        goal: "El objetivo aquí es implementar un módulo en el servidor LSP que ofrezca la posibilidad de debuggear la ejecución de un programa. Actualmente la implementación del lenguaje ya cuenta con una API para poder debuggear su ejecución y tenemos hecha una prueba de concepto funcional en https://game.wollok.org/debugger.",
         url: linter,
         mentors: [ fer, nicoS, nahue ]
     },
