@@ -104,7 +104,7 @@ const ideas = [
         name: "Wollok Game Web",
         context: gameContext,
         img: gameWebImg,
-        goal: "El objetivo de esta idea es seguir con el desarrollo del cliente web para poder ejecutar todos los juegos desarrollados en el IDE. Esto implica mejorar algunos temas de performance, descubrir comportamientos extraños comparados con la versión del IDE y mejorar en la interfaz de usuario del sitio.",
+        goal: "El objetivo de esta idea es seguir con el desarrollo del cliente web para poder ejecutar todos los juegos desarrollados en el IDE. Esto implica mejorar algunos temas de performance, descubrir comportamientos extraños comparados con la versión del IDE actual (en Xtext) y mejorar en la interfaz de usuario del sitio.",
         url: wollokClient,
         mentors: [ nahue, nicoS ]
     },
