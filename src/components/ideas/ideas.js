@@ -56,7 +56,7 @@ const ideas = [
         name: "Wollok - Test Runner",
         img: testRunnerImg,
         context: linterContext,
-        goal: "Wollok ya cuenta con una forma de definir y correr tests automatizados dentro del lenguaje. El objetivo es servirlo como servicio LSP para poder ejecutar y visualizar los resultados de los tests desde el IDE.",
+        goal: "Wollok ya cuenta con una forma de definir y correr tests automatizados dentro del lenguaje. El objetivo es implementarlo como servicio LSP para poder ejecutar y visualizar los resultados de los tests desde el IDE.",
         url: linter,
         mentors: [ fer, nicoS, nahue ]
     },
