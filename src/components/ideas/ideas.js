@@ -5,7 +5,7 @@ import laboFuncionesImg from './imgs/labo_funciones_icon.png'
 // Contexts
 const wollokContext = "Wollok es un lenguaje de programación y entorno de desarrollo integrado (IDE) para ser utilizado en el dictado de materias iniciales de programación orientada a objetos con la capacidad de ir agregando conceptos de forma incremental y programando desde el primer día."
 
-const linterContext = `${wollokContext} Actualmente nos encontramos migrando la tecnología de base (IDE + Lenguaje) de la versión actual realizada sobre Eclipse a una basada en Language Server Protocol (LSP) para poder usarse desde, por ejemplo, VSCode. Esto implica además el desarrollo de todas las herramientas presentes en la versión actual.`
+const linterContext = `${wollokContext} Actualmente nos encontramos migrando la tecnología de base (IDE + Lenguaje) de la versión actual realizada sobre Eclipse a una basada en Language Server Protocol (LSP) en TypeScript para poder usarse desde, por ejemplo, VSCode. Esto implica además el desarrollo de todas las herramientas presentes en la versión actual.`
 
 const gameContext = `${wollokContext} Además, Wollok cuenta con una herramienta que permite el desarrollo de videojuegos básicos llamada Wollok Game. En los últimos años estuvimos desarrollando un cliente web capaz de poder correr estos juegos desde un navegador, sin necesidad de instalarse el entorno de desarrollo.`
 
@@ -32,7 +32,7 @@ const ideas = [
         name: "Wollok - Validador",
         img: wollokImg,
         context: linterContext,
-        goal: "El objetivo de esta idea es terminar de implementar todas las validaciones del lenguage en la nueva versión del mismo, desarrollada sobre TypeScript, y poder mostrarlas (en más de un idioma) en el IDE.",
+        goal: "El objetivo de esta idea es terminar de implementar todas las validaciones del lenguage en la nueva versión del mismo y poder mostrarlas (en más de un idioma) en el IDE.",
         url: linter,
         mentors: [ fer, nicoS, alf ]
     },
