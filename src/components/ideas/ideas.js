@@ -112,7 +112,7 @@ const ideas = [
         name: "Wollok Mobile",
         context: mobileContext,
         img: wollokMobileImg,
-        goal: "Como este es un proyecto nuevo y a prueba, hay varias líneas de trabajo. El objetivo principal es probar la aplicación y mejorar la forma propuesta para crear programas: visualización de entidades y métodos, armado de expresiones, navegación y layout.",
+        goal: "Como éste es un proyecto nuevo y a prueba, hay varias líneas de trabajo. El objetivo principal es probar la aplicación y mejorar la forma propuesta para crear programas: visualización de entidades y métodos, armado de expresiones, navegación y layout.",
         url: wollokMobile,
         mentors: [ nahue, ivo ]
     },
