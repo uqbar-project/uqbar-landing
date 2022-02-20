@@ -19,7 +19,7 @@ const gameContext = `${wollokContext} Además, Wollok cuenta con una herramienta
 
 const mobileContext = `${wollokContext} A modo de prueba, comenzamos a desarrollar Wollok Mobile, una aplicación que permite crear y ejecutar programas (en forma NO textual) desde un dispositivo móvil. Éste es un proyecto nuevo, desarrollado en React Native, que nos permitirá investigar una forma alternativa de programar desde otros dispositivos.`
 
-const laboContext = "Este proyecto fue creado con la intención de familiarizarse con el paradigma de programación Funcional. Consiste en visualizar las funciones y valores como bloques que se van encastrando, permitiendo entender la estructura de las expresiones más fácilmente que con texto. Cuenta con un checkeo de tipos, currificación posicional y reducción de algunas expresiones."
+const laboContext = "Este proyecto fue creado con la intención de familiarizarse con el paradigma de programación Funcional. Consiste en visualizar las funciones y valores como bloques que se van encastrando, permitiendo entender la estructura de las expresiones más fácilmente que con texto. Cuenta con un chequeo de tipos, currificación posicional y reducción de algunas expresiones."
 
 // Mentors
 const alf = "Alfredo Sanzo - alfredo.sanzo@gmail.com"
