@@ -30,10 +30,10 @@ export default function IdeaModal({ open, onClose, idea, translations }) {
         {mentors?.map((mentor, i) => <p key={i}>{mentor}</p>)}
         <br /><br />
         <span>
-          ➡️&nbsp;
+        <span role="img" aria-label="arrow">➡️</span>&nbsp;
           {t('look')} &nbsp;
           <a href={url} target="_blank" rel="noopener noreferrer">{url}</a>
-          &nbsp;⬅️
+          &nbsp;<span role="img" aria-label="arrow">⬅️</span>
         </span>
       </div>
     </Modal>

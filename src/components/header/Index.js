@@ -37,7 +37,7 @@ export default function Header() {
               </li>
               <li>
                 <Link to="/ideas">
-                    Ideas
+                    Ideas GSoC
                 </Link>
               </li>
               <li>

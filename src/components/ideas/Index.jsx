@@ -33,8 +33,8 @@ export default function Ideas() {
   return (
     <div className="container" id="Ideas">
       <div className={styles['lang-buttons']}>
-        <button onClick={() => setLang('ES')}>🇦🇷 ES</button>
-        <button onClick={() => setLang('EN')}>🇬🇧 EN</button>
+        <button onClick={() => setLang('ES')}><span role="img" aria-label="español">🇦🇷</span> ES</button>
+        <button onClick={() => setLang('EN')}><span role="img" aria-label="english">🇬🇧</span> EN</button>
       </div>
 
       <Description />
