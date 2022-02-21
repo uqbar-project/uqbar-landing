@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33c5062270573906ec9fdc69e7bee629",
+    "revision": "05340b5e2c71af053c72acf2a00b45d8",
     "url": "/index.html"
   },
   {
-    "revision": "563ffc47416d2bad818e",
-    "url": "/static/css/main.f92eab0a.chunk.css"
+    "revision": "e471bdf85cdcb4d56b13",
+    "url": "/static/css/main.1211db80.chunk.css"
   },
   {
-    "revision": "382f83abd0488fac7848",
-    "url": "/static/js/2.2a94a3f9.chunk.js"
+    "revision": "2002b519526fd45fe003",
+    "url": "/static/js/2.22370170.chunk.js"
   },
   {
     "revision": "03ffe45858ec13b5e4d5dc93aa818310",
-    "url": "/static/js/2.2a94a3f9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.22370170.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "563ffc47416d2bad818e",
-    "url": "/static/js/main.40caaf1e.chunk.js"
+    "revision": "e471bdf85cdcb4d56b13",
+    "url": "/static/js/main.b9a1862b.chunk.js"
   },
   {
     "revision": "e53dba2f5f20724c9356",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Pablo de Haro.3b430127.jpg"
   },
   {
+    "revision": "ed598483633b79d66346964b463a5a6a",
+    "url": "/static/media/autocomplete.ed598483.png"
+  },
+  {
     "revision": "b8a6067138627e7690cbf35c22212a1a",
     "url": "/static/media/concurso-wollok-game-2019.b8a60671.jpg"
   },
@@ -80,12 +84,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/concurso-wollok-game-2021.3a3b18f4.png"
   },
   {
+    "revision": "190f47550bdec252a97b6122fa8e69af",
+    "url": "/static/media/console.190f4755.png"
+  },
+  {
     "revision": "8b14490b15e79b098064b7babcaec5e4",
     "url": "/static/media/convocatoria-docente.8b14490b.jpeg"
   },
   {
+    "revision": "ed6eaf742dd40a1d135ae7226be0de8d",
+    "url": "/static/media/debugger.ed6eaf74.png"
+  },
+  {
+    "revision": "35079fe970e37b90c099f7bed4377be5",
+    "url": "/static/media/dynamicDiagram.35079fe9.png"
+  },
+  {
     "revision": "65b472659a576ae4ee6eeb5074ead0ec",
     "url": "/static/media/encuentro-virtual.65b47265.jpg"
+  },
+  {
+    "revision": "f31e92656a248c65970875a5de2a599c",
+    "url": "/static/media/gameWeb.f31e9265.png"
   },
   {
     "revision": "4ff61a24d41eeb56035386a96f77a3bc",
@@ -110,6 +130,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0938c454fe1ded4116ba58e10f6344dd",
     "url": "/static/media/jornadas-docentes.0938c454.jpg"
+  },
+  {
+    "revision": "9147a3d2134e1ae6504986f9a670b2fb",
+    "url": "/static/media/labo_funciones_icon.9147a3d2.png"
+  },
+  {
+    "revision": "94d07e6580f9de7937ae16d97f5b0a86",
+    "url": "/static/media/linter.94d07e65.png"
   },
   {
     "revision": "4f2a531d62e75f01d5d2ca9b08709464",
@@ -152,6 +180,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/proyecto-yanapiri.4a4e30bf.png"
   },
   {
+    "revision": "61b78cc3c46e8dffeab72917bb7fa8b0",
+    "url": "/static/media/quickFixes.61b78cc3.png"
+  },
+  {
     "revision": "5fa810a9261a32a5f039f408993e79be",
     "url": "/static/media/red-email.5fa810a9.svg"
   },
@@ -170,6 +202,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab92d4b3f117d69526de636e8818e957",
     "url": "/static/media/red-youtube.ab92d4b3.svg"
+  },
+  {
+    "revision": "06b4be74a61c6856e8a7ac28f75547a3",
+    "url": "/static/media/staticDiagram.06b4be74.png"
+  },
+  {
+    "revision": "c37c891f3bfc21d499be6ef2c1e3d186",
+    "url": "/static/media/test_runner.c37c891f.png"
+  },
+  {
+    "revision": "115c58606b380b0821c720c3cde78f5a",
+    "url": "/static/media/typeSystem.115c5860.png"
   },
   {
     "revision": "44c40f61006d4edca8b56f82570a51bc",
@@ -202,5 +246,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "43d653040bd8c2505d052ee2f294af22",
     "url": "/static/media/votacion-concurso-wollok-game-2020.43d65304.jpg"
+  },
+  {
+    "revision": "6c48f9513ed05a0f05a5da5c1da50d34",
+    "url": "/static/media/wollok_mobile_icon.6c48f951.jpeg"
   }
 ]);
