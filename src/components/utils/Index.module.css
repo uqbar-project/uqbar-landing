@@ -48,6 +48,10 @@
 }
 .projectLogo img {
   width: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 8px;
 }
 .projectDescription {
   padding: 0.8rem 1.6rem 1.6rem;
