@@ -5,7 +5,8 @@ import autocompleteImg from './imgs/autocomplete.png'
 import testRunnerImg from './imgs/test_runner.png'
 import consoleImg from './imgs/console.png'
 import quickFixesImg from './imgs/quickFixes.png'
-import diagramsImg from './imgs/diagrams.png'
+import dynamicDiagramImg from './imgs/dynamicDiagram.png'
+import staticDiagramImg from './imgs/staticDiagram.png'
 import debuggerImg from './imgs/debugger.png'
 import typeSystemImg from './imgs/typeSystem.png'
 import gameWebImg from './imgs/gameWeb.png'
@@ -13,7 +14,7 @@ import gameWebImg from './imgs/gameWeb.png'
 // Contexts
 const wollokContext = "Wollok es un lenguaje de programación y entorno de desarrollo integrado (IDE) para ser utilizado en el dictado de materias iniciales de programación orientada a objetos con la capacidad de ir agregando conceptos de forma incremental y programando desde el primer día."
 
-const linterContext = `${wollokContext} Actualmente nos encontramos migrando la tecnología de base (IDE + Lenguaje) de la versión actual realizada sobre Eclipse a una basada en Language Server Protocol (LSP) en TypeScript para poder usarse desde, por ejemplo, VSCode. Esto implica además el desarrollo de todas las herramientas presentes en la versión actual.`
+const lspIdeContext = `${wollokContext} Actualmente nos encontramos migrando la tecnología de base (IDE + Lenguaje) de la versión actual realizada sobre Eclipse a una basada en Language Server Protocol (LSP) en TypeScript para poder usarse desde, por ejemplo, VSCode. Esto implica además el desarrollo de todas las herramientas presentes en la versión actual.`
 
 const gameContext = `${wollokContext} Además, Wollok cuenta con una herramienta que permite el desarrollo de videojuegos básicos llamada Wollok Game. En los últimos años estuvimos desarrollando un cliente web capaz de poder correr estos juegos desde un navegador, sin necesidad de instalarse el entorno de desarrollo.`
 
@@ -39,66 +40,74 @@ const ideas = [
     {
         name: "Wollok - Validador",
         img: linterImg,
-        context: linterContext,
+        context: lspIdeContext,
         goal: "El objetivo de esta idea es terminar de implementar todas las validaciones del lenguage en la nueva versión del mismo y poder mostrarlas (en más de un idioma) en el IDE.",
         url: linter,
-        mentors: [ fer, nicoS, alf ]
+        mentors: [fer, nicoS, alf]
     },
     {
         name: "Wollok - Autocompletado",
         img: autocompleteImg,
-        context: linterContext,
+        context: lspIdeContext,
         goal: "El objetivo aquí es desarrollar un módulo de sugerencias de autocompletado en el servidor LSP para poder ser consumido desde el IDE. Esto implica hacer búsqueda de mensajes, referencias, clases, objetos o palabras claves dependendiendo del contexto.",
         url: linter,
-        mentors: [ fer, nicoS, alf ]
+        mentors: [fer, nicoS, alf]
     },
     {
         name: "Wollok - Test Runner",
         img: testRunnerImg,
-        context: linterContext,
+        context: lspIdeContext,
         goal: "Wollok ya cuenta con una forma de definir y correr tests automatizados dentro del lenguaje. El objetivo es implementarlo como servicio LSP para poder ejecutar y visualizar los resultados de los tests desde el IDE.",
         url: linter,
-        mentors: [ fer, nicoS, nahue ]
+        mentors: [fer, nicoS, nahue]
     },
     {
         name: "Wollok - Consola",
         img: consoleImg,
-        context: linterContext,
+        context: lspIdeContext,
         goal: "En la versión actual Wollok cuenta con una consola REPL que permite hacer pruebas manuales sobre el código. El objetivo es contar con una herramienta similar (REPL o archivo worksheet como Scala) en la nueva versión del servidor LSP para poder usarse desde los nuevos IDEs.",
         url: linter,
-        mentors: [ fer, nicoS, nahue ]
+        mentors: [fer, nicoS, nahue]
     },
     {
         name: "Wollok - Quick fixes & Refactors",
         img: quickFixesImg,
-        context: linterContext,
+        context: lspIdeContext,
         goal: "El objetivo de esta idea es brindar ayuda para resolver los problemas detectados en el código (quick fixes) sugiriendo alternativas ya conocidas para editar el código de manera automática. De forma análoga, queremos ofrecer la posibilidad de hacer cambios al código de manera orgánica (refactors), como por ejemplo: renombrar algún elemento y sus usos, mover métodos entre entidades.",
         url: linter,
-        mentors: [ fer, nicoS, alf ]
+        mentors: [fer, nicoS, alf]
     },
     {
-        name: "Wollok - Diagramas",
-        img: diagramsImg,
-        context: linterContext,
-        goal: "Actualmente Wollok cuenta con varios diagramas que permiten visualizar el estado de los objetos vivos (dinámico) y del código que se está desarrollando (estático). El objetivo es tener estas dos herramientas, que ayudan en la compresión de los conceptos, disponibles para VSCode.",
+        name: "Wollok - Diagrama dinámico",
+        img: dynamicDiagramImg,
+        context: lspIdeContext,
+        goal: "Actualmente Wollok cuenta con un diagrama de objetos vivos que permite visualizar los objetos en el ambiente y las referencias entre ellos. El objetivo de esta tarea es tener este diagrama, muy útil durante los primeros pasos de la POO, disponible para VSCode.",
         url: linter,
-        mentors: [ fer, nicoS, alf ]
+        mentors: [fer, nicoS, alf]
+    },
+    {
+        name: "Wollok - Diagrama estático",
+        img: staticDiagramImg,
+        context: lspIdeContext,
+        goal: `Actualmente Wollok cuenta con un diagrama estático (o "de clases") que permite visualizar las entidades de un programa y sis relaciones (herencia, asociación, uso). El objetivo de esta tarea es tener este diagrama, útil en la compresión de conceptos y comunicación de un diseño, disponible para VSCode.`,
+        url: linter,
+        mentors: [fer, nicoS, alf]
     },
     {
         name: "Wollok - Debugger",
         img: debuggerImg,
-        context: linterContext,
+        context: lspIdeContext,
         goal: "El objetivo aquí es implementar un módulo en el servidor LSP que ofrezca la posibilidad de debuggear la ejecución de un programa. Actualmente la implementación del lenguaje ya cuenta con una API para poder debuggear su ejecución y tenemos hecha una prueba de concepto funcional en https://game.wollok.org/debugger.",
         url: linter,
-        mentors: [ fer, nicoS, nahue ]
+        mentors: [fer, nicoS, nahue]
     },
     {
         name: "Wollok - Sistema de tipos",
         img: typeSystemImg,
-        context: linterContext,
+        context: lspIdeContext,
         goal: "Wollok es un lenguaje de tipado dinámico sin notaciones de tipos en su sintaxis. La idea es tener una primera versión de un sistema de tipos que infiera, de manera estática, el tipo de las variables y expresiones en base al uso que se le da. Esta información debería ser brindada por el servidor LSP para poder visualizarse en el IDE.",
         url: wollokTS,
-        mentors: [ nahue, nicoS ]
+        mentors: [nahue, nicoS]
     },
     {
         name: "Wollok Game Web",
@@ -106,7 +115,7 @@ const ideas = [
         img: gameWebImg,
         goal: "El objetivo de esta idea es seguir con el desarrollo del cliente web para poder ejecutar todos los juegos desarrollados en el IDE. Esto implica mejorar algunos temas de performance, descubrir comportamientos extraños comparados con la versión del IDE actual (en Xtext) y mejorar en la interfaz de usuario del sitio.",
         url: wollokClient,
-        mentors: [ nahue, nicoS ]
+        mentors: [nahue, nicoS]
     },
     {
         name: "Wollok Mobile",
@@ -114,7 +123,7 @@ const ideas = [
         img: wollokMobileImg,
         goal: "Como éste es un proyecto nuevo y a prueba, hay varias líneas de trabajo. El objetivo principal es probar la aplicación y mejorar la forma propuesta para crear programas: visualización de entidades y métodos, armado de expresiones, navegación y layout.",
         url: wollokMobile,
-        mentors: [ nahue, ivo ]
+        mentors: [nahue, ivo]
     },
     {
         name: "Laboratorio de Funciones",
@@ -122,7 +131,7 @@ const ideas = [
         img: laboFuncionesImg,
         goal: "El objetivo de esta idea es continuar con el desarrollo de algunas funcionalidades como: definición de funciones propias, mejorar la visualización de errores, terminar la biblioteca de funciones básicas y sus reducciones",
         url: laboFunciones,
-        mentors: [ nahue, alf ]
+        mentors: [nahue, alf]
     },
 ]
 
