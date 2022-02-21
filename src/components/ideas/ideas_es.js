@@ -1,15 +1,8 @@
-import wollokMobileImg from './imgs/wollok_mobile_icon.jpeg'
-import laboFuncionesImg from './imgs/labo_funciones_icon.png'
-import linterImg from './imgs/linter.png'
-import autocompleteImg from './imgs/autocomplete.png'
-import testRunnerImg from './imgs/test_runner.png'
-import consoleImg from './imgs/console.png'
-import quickFixesImg from './imgs/quickFixes.png'
-import dynamicDiagramImg from './imgs/dynamicDiagram.png'
-import staticDiagramImg from './imgs/staticDiagram.png'
-import debuggerImg from './imgs/debugger.png'
-import typeSystemImg from './imgs/typeSystem.png'
-import gameWebImg from './imgs/gameWeb.png'
+import images from './images'
+import { alf, fer, ivo, juan, nahue, nicoS } from './mentors'
+import { lspIDE, wollokTS, wollokClient, wollokMobile, laboFunciones } from './repos'
+
+const { wollokMobileImg, laboFuncionesImg, linterImg, autocompleteImg, testRunnerImg, consoleImg, quickFixesImg, dynamicDiagramImg, staticDiagramImg, debuggerImg, typeSystemImg, gameWebImg } = images
 
 // Contexts
 const wollokContext = "Wollok es un lenguaje de programación y entorno de desarrollo integrado (IDE) para ser utilizado en el dictado de materias iniciales de programación orientada a objetos con la capacidad de ir agregando conceptos de forma incremental y programando desde el primer día."
@@ -22,19 +15,6 @@ const mobileContext = `${wollokContext} A modo de prueba, comenzamos a desarroll
 
 const laboContext = "Este proyecto fue creado con la intención de familiarizarse con el paradigma de programación Funcional. Consiste en visualizar las funciones y valores como bloques que se van encastrando, permitiendo entender la estructura de las expresiones más fácilmente que con texto. Cuenta con un chequeo de tipos, currificación posicional y reducción de algunas expresiones."
 
-// Mentors
-const alf = "Alfredo Sanzo - alfredo.sanzo@gmail.com"
-const fer = "Fernando Dodino - fernando.dodino@gmail.com"
-const ivo = "Ivan Jawerbaum - ivojawerbaum@gmail.com "
-const nahue = "Nahuel Palumbo - nahuel.palumbo@gmail.com"
-const nicoS = "Nicolás Scarcella - nscarcella@gmail.com"
-
-// URLs
-const linter = "https://github.com/uqbar-project/wollok-linter"
-const wollokTS = "https://github.com/uqbar-project/wollok-ts"
-const wollokClient = "https://github.com/uqbar-project/wollok-run-client"
-const wollokMobile = "https://github.com/uqbar-project/wollok-mobile"
-const laboFunciones = "https://github.com/uqbar-project/function-laboratory"
 
 const ideas = [
     {
@@ -42,7 +22,7 @@ const ideas = [
         img: linterImg,
         context: lspIdeContext,
         goal: "El objetivo de esta idea es terminar de implementar todas las validaciones del lenguage en la nueva versión del mismo y poder mostrarlas (en más de un idioma) en el IDE.",
-        url: linter,
+        url: lspIDE,
         mentors: [fer, nicoS, alf]
     },
     {
@@ -50,7 +30,7 @@ const ideas = [
         img: autocompleteImg,
         context: lspIdeContext,
         goal: "El objetivo aquí es desarrollar un módulo de sugerencias de autocompletado en el servidor LSP para poder ser consumido desde el IDE. Esto implica hacer búsqueda de mensajes, referencias, clases, objetos o palabras claves dependendiendo del contexto.",
-        url: linter,
+        url: lspIDE,
         mentors: [fer, nicoS, alf]
     },
     {
@@ -58,15 +38,15 @@ const ideas = [
         img: testRunnerImg,
         context: lspIdeContext,
         goal: "Wollok ya cuenta con una forma de definir y correr tests automatizados dentro del lenguaje. El objetivo es implementarlo como servicio LSP para poder ejecutar y visualizar los resultados de los tests desde el IDE.",
-        url: linter,
+        url: lspIDE,
         mentors: [fer, nicoS, nahue]
     },
     {
         name: "Wollok - Consola",
         img: consoleImg,
         context: lspIdeContext,
-        goal: "En la versión actual Wollok cuenta con una consola REPL que permite hacer pruebas manuales sobre el código. El objetivo es contar con una herramienta similar (REPL o archivo worksheet como Scala) en la nueva versión del servidor LSP para poder usarse desde los nuevos IDEs.",
-        url: linter,
+        goal: "La versión actual Wollok cuenta con una consola REPL que permite hacer pruebas manuales sobre el código. El objetivo es contar con una herramienta similar (REPL o archivo worksheet como Scala) en la nueva versión del servidor LSP para poder usarse desde los nuevos IDEs.",
+        url: lspIDE,
         mentors: [fer, nicoS, nahue]
     },
     {
@@ -74,23 +54,23 @@ const ideas = [
         img: quickFixesImg,
         context: lspIdeContext,
         goal: "El objetivo de esta idea es brindar ayuda para resolver los problemas detectados en el código (quick fixes) sugiriendo alternativas ya conocidas para editar el código de manera automática. De forma análoga, queremos ofrecer la posibilidad de hacer cambios al código de manera orgánica (refactors), como por ejemplo: renombrar algún elemento y sus usos, mover métodos entre entidades.",
-        url: linter,
+        url: lspIDE,
         mentors: [fer, nicoS, alf]
     },
     {
         name: "Wollok - Diagrama dinámico",
         img: dynamicDiagramImg,
         context: lspIdeContext,
-        goal: "Actualmente Wollok cuenta con un diagrama de objetos vivos que permite visualizar los objetos en el ambiente y las referencias entre ellos. El objetivo de esta tarea es tener este diagrama, muy útil durante los primeros pasos de la POO, disponible para VSCode.",
-        url: linter,
+        goal: "Actualmente Wollok cuenta con un diagrama de objetos vivos que permite visualizar los objetos que están en el ambiente y las referencias entre ellos. El objetivo de esta tarea es tener este diagrama, muy útil durante los primeros pasos de la POO, disponible para VSCode.",
+        url: lspIDE,
         mentors: [fer, nicoS, alf]
     },
     {
         name: "Wollok - Diagrama estático",
         img: staticDiagramImg,
         context: lspIdeContext,
-        goal: `Actualmente Wollok cuenta con un diagrama estático (o "de clases") que permite visualizar las entidades de un programa y sis relaciones (herencia, asociación, uso). El objetivo de esta tarea es tener este diagrama, útil en la compresión de conceptos y comunicación de un diseño, disponible para VSCode.`,
-        url: linter,
+        goal: `Actualmente Wollok cuenta con un diagrama estático (o "de clases") que permite visualizar las entidades de un programa y sus relaciones (herencia, asociación, uso). El objetivo de esta tarea es tener este diagrama, útil en la compresión de conceptos y comunicación de un diseño, disponible para VSCode.`,
+        url: lspIDE,
         mentors: [fer, nicoS, alf]
     },
     {
@@ -98,7 +78,7 @@ const ideas = [
         img: debuggerImg,
         context: lspIdeContext,
         goal: "El objetivo aquí es implementar un módulo en el servidor LSP que ofrezca la posibilidad de debuggear la ejecución de un programa. Actualmente la implementación del lenguaje ya cuenta con una API para poder debuggear su ejecución y tenemos hecha una prueba de concepto funcional en https://game.wollok.org/debugger.",
-        url: linter,
+        url: lspIDE,
         mentors: [fer, nicoS, nahue]
     },
     {
@@ -131,7 +111,7 @@ const ideas = [
         img: laboFuncionesImg,
         goal: "El objetivo de esta idea es continuar con el desarrollo de algunas funcionalidades como: definición de funciones propias, mejorar la visualización de errores, terminar la biblioteca de funciones básicas y sus reducciones",
         url: laboFunciones,
-        mentors: [nahue, alf]
+        mentors: [juan, nahue, alf]
     },
 ]
 

@@ -1,0 +1,6 @@
+export const alf = "Alfredo Sanzo - alfredo.sanzo@gmail.com"
+export const fer = "Fernando Dodino - fernando.dodino@gmail.com"
+export const ivo = "Ivan Jawerbaum - ivojawerbaum@gmail.com"
+export const juan = "Juan Fernandes dos Santos - juan9794@gmail.com"
+export const nahue = "Nahuel Palumbo - nahuel.palumbo@gmail.com"
+export const nicoS = "Nicolás Scarcella - nscarcella@gmail.com"

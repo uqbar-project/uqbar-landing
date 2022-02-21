@@ -1,0 +1,5 @@
+export const lspIDE = "https://github.com/uqbar-project/wollok-lsp-ide"
+export const wollokTS = "https://github.com/uqbar-project/wollok-ts"
+export const wollokClient = "https://github.com/uqbar-project/wollok-run-client"
+export const wollokMobile = "https://github.com/uqbar-project/wollok-mobile"
+export const laboFunciones = "https://github.com/uqbar-project/function-laboratory"

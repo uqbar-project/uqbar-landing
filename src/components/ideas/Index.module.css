@@ -1,3 +1,8 @@
+.lang-buttons {
+    float:right;
+    text-align:right;
+}
+
 .modal {
     position: absolute;
     width: 90%;
@@ -13,7 +18,6 @@
     border-radius: 8px;
     overflow-y: auto;
 }
-
 
 .modal h2 {
     display: flex;
