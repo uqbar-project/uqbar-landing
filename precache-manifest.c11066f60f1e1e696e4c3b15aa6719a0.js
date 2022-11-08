@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee62bb97bc13b0fba98553a21365fc7c",
+    "revision": "f126c7e622a8e4f1cd651e233ba64dc4",
     "url": "/index.html"
   },
   {
-    "revision": "2674b99e6dc18d31a23c",
+    "revision": "6e138dea1ba4b9c9471a",
     "url": "/static/css/main.1211db80.chunk.css"
   },
   {
-    "revision": "2002b519526fd45fe003",
-    "url": "/static/js/2.22370170.chunk.js"
+    "revision": "20f47cacbaf236bdabc2",
+    "url": "/static/js/2.35fbc7a9.chunk.js"
   },
   {
     "revision": "03ffe45858ec13b5e4d5dc93aa818310",
-    "url": "/static/js/2.22370170.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.35fbc7a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2674b99e6dc18d31a23c",
-    "url": "/static/js/main.d4088a5d.chunk.js"
+    "revision": "6e138dea1ba4b9c9471a",
+    "url": "/static/js/main.8faff627.chunk.js"
   },
   {
     "revision": "e53dba2f5f20724c9356",
@@ -148,6 +148,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ludover.bfefcda4.png"
   },
   {
+    "revision": "649a209843060e15a53a2b74b174e230",
+    "url": "/static/media/maquinas-virtuales-2022.649a2098.jpg"
+  },
+  {
     "revision": "24d2f720af321f941d16adf6a0111b81",
     "url": "/static/media/maquinas-virtuales.24d2f720.jpg"
   },
@@ -202,6 +206,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab92d4b3f117d69526de636e8818e957",
     "url": "/static/media/red-youtube.ab92d4b3.svg"
+  },
+  {
+    "revision": "bf377ef6094f22e367ec3a0d15e767e1",
+    "url": "/static/media/software-libre-2022.bf377ef6.jpg"
   },
   {
     "revision": "06b4be74a61c6856e8a7ac28f75547a3",

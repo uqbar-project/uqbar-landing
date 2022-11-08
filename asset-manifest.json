@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1211db80.chunk.css",
-    "main.js": "/static/js/main.d4088a5d.chunk.js",
-    "main.js.map": "/static/js/main.d4088a5d.chunk.js.map",
+    "main.js": "/static/js/main.8faff627.chunk.js",
+    "main.js.map": "/static/js/main.8faff627.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.08fc9823.js",
     "runtime-main.js.map": "/static/js/runtime-main.08fc9823.js.map",
-    "static/js/2.22370170.chunk.js": "/static/js/2.22370170.chunk.js",
-    "static/js/2.22370170.chunk.js.map": "/static/js/2.22370170.chunk.js.map",
+    "static/js/2.35fbc7a9.chunk.js": "/static/js/2.35fbc7a9.chunk.js",
+    "static/js/2.35fbc7a9.chunk.js.map": "/static/js/2.35fbc7a9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cb9978a5286b8578a918bfd464f4f235.js": "/precache-manifest.cb9978a5286b8578a918bfd464f4f235.js",
+    "precache-manifest.c11066f60f1e1e696e4c3b15aa6719a0.js": "/precache-manifest.c11066f60f1e1e696e4c3b15aa6719a0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.1211db80.chunk.css.map": "/static/css/main.1211db80.chunk.css.map",
-    "static/js/2.22370170.chunk.js.LICENSE.txt": "/static/js/2.22370170.chunk.js.LICENSE.txt",
+    "static/js/2.35fbc7a9.chunk.js.LICENSE.txt": "/static/js/2.35fbc7a9.chunk.js.LICENSE.txt",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
     "static/media/Discord-Logo-Color.svg": "/static/media/Discord-Logo-Color.f8389ca1.svg",
     "static/media/Fernando Dodino.jpg": "/static/media/Fernando Dodino.44c7f9e4.jpg",
@@ -43,6 +43,7 @@
     "static/media/linter.png": "/static/media/linter.94d07e65.png",
     "static/media/logo.svg": "/static/media/logo.4f2a531d.svg",
     "static/media/ludover.png": "/static/media/ludover.bfefcda4.png",
+    "static/media/maquinas-virtuales-2022.jpg": "/static/media/maquinas-virtuales-2022.649a2098.jpg",
     "static/media/maquinas-virtuales.jpg": "/static/media/maquinas-virtuales.24d2f720.jpg",
     "static/media/mercadopago.svg": "/static/media/mercadopago.bb0623b8.svg",
     "static/media/proyecto-arena.png": "/static/media/proyecto-arena.f8889df2.png",
@@ -53,6 +54,7 @@
     "static/media/proyecto-yanapiri.png": "/static/media/proyecto-yanapiri.4a4e30bf.png",
     "static/media/quickFixes.png": "/static/media/quickFixes.61b78cc3.png",
     "static/media/Index.module.css": "/static/media/valores04.9643593f.svg",
+    "static/media/software-libre-2022.jpg": "/static/media/software-libre-2022.bf377ef6.jpg",
     "static/media/staticDiagram.png": "/static/media/staticDiagram.06b4be74.png",
     "static/media/test_runner.png": "/static/media/test_runner.c37c891f.png",
     "static/media/typeSystem.png": "/static/media/typeSystem.115c5860.png",
@@ -64,8 +66,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.08fc9823.js",
-    "static/js/2.22370170.chunk.js",
+    "static/js/2.35fbc7a9.chunk.js",
     "static/css/main.1211db80.chunk.css",
-    "static/js/main.d4088a5d.chunk.js"
+    "static/js/main.8faff627.chunk.js"
   ]
 }
