@@ -12,27 +12,33 @@ import concursoWollokGame2021 from "./imgs/concurso-wollok-game-2021.png";
 import softwareLibre2022 from "./imgs/software-libre-2022.jpg";
 import maquinasVirtuales2022 from "./imgs/maquinas-virtuales-2022.jpg"
 
+export function Eventos2022() {
+  return (
+    <UqbarCardGrid>
+      <UqbarCard
+        link="https://docs.google.com/document/d/1yeuf6M0-W8HPfojV9ch56nFH6o1FTCWehJ84OAvQGX4/edit?usp=sharing"
+        projectLogo={softwareLibre2022}
+        projectName="Proyectos Innovadores con Software Libre"
+        projectDescription="Aunque a veces es poco visible para el gran público por fuera de los especialistas informáticos, el software libre es un pilar fundamental para el funcionamiento de muchos de los recursos tecnológicos que usamos a diario, así como de los proyectos más innovadores y creativos. En esta jornada contaremos tres experiencias concretas de utilización de software libre para aplicaciones de alta demanda y complejidad, repasando las ventajas y los desafíos de haber encarado los diferentes proyectos con esa estrategia, así como los retos y objetivos de cara al futuro."
+      />
+      <UqbarCard
+        link="https://docs.google.com/document/d/1FTdlT7WH3EJIC68BYJRkXeLhPQYAzg27Ya4t3RylOKs/edit?usp=sharing"
+        projectLogo={maquinasVirtuales2022}
+        projectName="Máquinas Virtuales Performantes y Robustas"
+        projectDescription="En esta charla vamos a visitar las máquinas virtuales desde sus técnicas fundadoras hasta sus desafíos actuales usando la máquina virtual del lenguaje Pharo como ejemplo.
+      La VM de Pharo esta escrita en Pharo mismo y basada en un sistema de simulación y transpilación.
+      Vamos a empezar por los problemas de la interpretación, la traducción dinámica o compilación JIT, las cachés polimórficas, y la compilación adaptativa.
+      Vamos a visitar la creación de compiladores usando técnicas de meta-compilación, y distintos ejemplos del problema de la validación de compiladores. Finalmente, vamos a discutir desafíos aun no resueltos con respecto a la ejecución manejada, la evaluación de performance, la gestion de memoria automática con hardware reciente y la seguridad."
+      />
+    </UqbarCardGrid>
+  )
+}
+
 export default function Eventos() {
   return (
     <div className="container" id="Eventos">
       <h2>ACTUALES</h2>
-      <UqbarCardGrid>
-        <UqbarCard
-          link="https://docs.google.com/document/d/1yeuf6M0-W8HPfojV9ch56nFH6o1FTCWehJ84OAvQGX4/edit?usp=sharing"
-          projectLogo={softwareLibre2022}
-          projectName="Proyectos Innovadores con Software Libre"
-          projectDescription="Aunque a veces es poco visible para el gran público por fuera de los especialistas informáticos, el software libre es un pilar fundamental para el funcionamiento de muchos de los recursos tecnológicos que usamos a diario, así como de los proyectos más innovadores y creativos. En esta jornada contaremos tres experiencias concretas de utilización de software libre para aplicaciones de alta demanda y complejidad, repasando las ventajas y los desafíos de haber encarado los diferentes proyectos con esa estrategia, así como los retos y objetivos de cara al futuro."
-        />
-        <UqbarCard
-          link="https://docs.google.com/document/d/1FTdlT7WH3EJIC68BYJRkXeLhPQYAzg27Ya4t3RylOKs/edit?usp=sharing"
-          projectLogo={maquinasVirtuales2022}
-          projectName="Máquinas Virtuales Performantes y Robustas"
-          projectDescription="En esta charla vamos a visitar las máquinas virtuales desde sus técnicas fundadoras hasta sus desafíos actuales usando la máquina virtual del lenguaje Pharo como ejemplo.
-          La VM de Pharo esta escrita en Pharo mismo y basada en un sistema de simulación y transpilación.
-          Vamos a empezar por los problemas de la interpretación, la traducción dinámica o compilación JIT, las cachés polimórficas, y la compilación adaptativa.
-          Vamos a visitar la creación de compiladores usando técnicas de meta-compilación, y distintos ejemplos del problema de la validación de compiladores. Finalmente, vamos a discutir desafíos aun no resueltos con respecto a la ejecución manejada, la evaluación de performance, la gestion de memoria automática con hardware reciente y la seguridad."
-        />
-      </UqbarCardGrid>
+      <Eventos2022 />
 
       <h2>2021</h2>
       <UqbarCardGrid>
