@@ -9,11 +9,32 @@ import concursoWollokGame2020 from "./imgs/votacion-concurso-wollok-game-2020.jp
 import ultimoEvento2020 from "./imgs/ultimo-evento-2020.jpg";
 import ultimoEvento2021 from "./imgs/ultimo-evento-2021.jpg";
 import concursoWollokGame2021 from "./imgs/concurso-wollok-game-2021.png";
+import softwareLibre2022 from "./imgs/software-libre-2022.jpg";
+import maquinasVirtuales2022 from "./imgs/maquinas-virtuales-2022.jpg"
 
 export default function Eventos() {
   return (
     <div className="container" id="Eventos">
       <h2>ACTUALES</h2>
+      <UqbarCardGrid>
+        <UqbarCard
+          link="https://docs.google.com/document/d/e/2PACX-1vSxR8Kna9mxcXVJmcooGxPYok05MQUyj7eQwOeMPGCL48KujVS41vsYNyLDKsno1E7_EMCBQJ3aF3fS/pub"
+          projectLogo={softwareLibre2022}
+          projectName="¡Último evento del año!"
+          projectDescription="El próximo viernes 17 de diciembre, a las 18 horas, nos reuniremos de manera virtual para presentar los trabajos realizados a lo largo del año sobre nuestros diferentes proyectos y realizaremos el cierre del concurso de Wollok Game: ¡Ya finalizaron las inscripciones y es el momento de elegir a los juegos ganadores y entregarles sus premios!"
+        />
+        <UqbarCard
+          link="https://docs.google.com/document/d/e/2PACX-1vSxR8Kna9mxcXVJmcooGxPYok05MQUyj7eQwOeMPGCL48KujVS41vsYNyLDKsno1E7_EMCBQJ3aF3fS/pub"
+          projectLogo={maquinasVirtuales2022}
+          projectName="Máquinas Virtuales Performantes y Robustas"
+          projectDescription="En esta charla vamos a visitar las máquinas virtuales desde sus técnicas fundadoras hasta sus desafíos actuales usando la máquina virtual del lenguaje Pharo como ejemplo.
+          La VM de Pharo esta escrita en Pharo mismo y basada en un sistema de simulación y transpilación.
+          Vamos a empezar por los problemas de la interpretación, la traducción dinámica o compilación JIT, las cachés polimórficas, y la compilación adaptativa.
+          Vamos a visitar la creación de compiladores usando técnicas de meta-compilación, y distintos ejemplos del problema de la validación de compiladores. Finalmente, vamos a discutir desafíos aun no resueltos con respecto a la ejecución manejada, la evaluación de performance, la gestion de memoria automática con hardware reciente y la seguridad."
+        />
+      </UqbarCardGrid>
+
+      <h2>2021</h2>
       <UqbarCardGrid>
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vSxR8Kna9mxcXVJmcooGxPYok05MQUyj7eQwOeMPGCL48KujVS41vsYNyLDKsno1E7_EMCBQJ3aF3fS/pub"
@@ -28,7 +49,7 @@ export default function Eventos() {
           projectDescription="Si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y querés mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
         />
       </UqbarCardGrid>
-    
+
       <h2>2020</h2>
       <UqbarCardGrid>
         <UqbarCard
