@@ -21,10 +21,10 @@ export default function Eventos() {
           link="https://docs.google.com/document/d/e/2PACX-1vSxR8Kna9mxcXVJmcooGxPYok05MQUyj7eQwOeMPGCL48KujVS41vsYNyLDKsno1E7_EMCBQJ3aF3fS/pub"
           projectLogo={softwareLibre2022}
           projectName="Proyectos Innovadores con Software Libre"
-          projectDescription="Aunque a veces es poco visible para el gran público por fuera de los especialistas informáticos, el software libre es un pilar fundamental para el funcionamiento de muchos de los recursos tecnológicos que usamos a diario, así como de los proyectos más innovadores y creativos.En esta jornada contaremos tres experiencias concretas de utilización de software libre para aplicaciones de alta demanda y complejidad, repasando las ventajas y los desafíos de haber encarado los diferentes proyectos con esa estrategia, así como los retos y objetivos de cara al futuro."
+          projectDescription="Aunque a veces es poco visible para el gran público por fuera de los especialistas informáticos, el software libre es un pilar fundamental para el funcionamiento de muchos de los recursos tecnológicos que usamos a diario, así como de los proyectos más innovadores y creativos. En esta jornada contaremos tres experiencias concretas de utilización de software libre para aplicaciones de alta demanda y complejidad, repasando las ventajas y los desafíos de haber encarado los diferentes proyectos con esa estrategia, así como los retos y objetivos de cara al futuro."
         />
         <UqbarCard
-          link="https://docs.google.com/document/d/e/2PACX-1vSxR8Kna9mxcXVJmcooGxPYok05MQUyj7eQwOeMPGCL48KujVS41vsYNyLDKsno1E7_EMCBQJ3aF3fS/pub"
+          link="https://docs.google.com/document/d/1FTdlT7WH3EJIC68BYJRkXeLhPQYAzg27Ya4t3RylOKs/edit?usp=sharing"
           projectLogo={maquinasVirtuales2022}
           projectName="Máquinas Virtuales Performantes y Robustas"
           projectDescription="En esta charla vamos a visitar las máquinas virtuales desde sus técnicas fundadoras hasta sus desafíos actuales usando la máquina virtual del lenguaje Pharo como ejemplo.
