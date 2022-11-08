@@ -20,8 +20,8 @@ export default function Eventos() {
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vSxR8Kna9mxcXVJmcooGxPYok05MQUyj7eQwOeMPGCL48KujVS41vsYNyLDKsno1E7_EMCBQJ3aF3fS/pub"
           projectLogo={softwareLibre2022}
-          projectName="¡Último evento del año!"
-          projectDescription="El próximo viernes 17 de diciembre, a las 18 horas, nos reuniremos de manera virtual para presentar los trabajos realizados a lo largo del año sobre nuestros diferentes proyectos y realizaremos el cierre del concurso de Wollok Game: ¡Ya finalizaron las inscripciones y es el momento de elegir a los juegos ganadores y entregarles sus premios!"
+          projectName="Proyectos Innovadores con Software Libre"
+          projectDescription="Aunque a veces es poco visible para el gran público por fuera de los especialistas informáticos, el software libre es un pilar fundamental para el funcionamiento de muchos de los recursos tecnológicos que usamos a diario, así como de los proyectos más innovadores y creativos.En esta jornada contaremos tres experiencias concretas de utilización de software libre para aplicaciones de alta demanda y complejidad, repasando las ventajas y los desafíos de haber encarado los diferentes proyectos con esa estrategia, así como los retos y objetivos de cara al futuro."
         />
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vSxR8Kna9mxcXVJmcooGxPYok05MQUyj7eQwOeMPGCL48KujVS41vsYNyLDKsno1E7_EMCBQJ3aF3fS/pub"
