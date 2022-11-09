@@ -9,7 +9,7 @@ const headers = [
 ]
 
 export default {
-  get: () => fetch(API_URL, { headers }).then(response => response.json()),
+  get: () => fetch(API_URL, { headers }).then(response => response.json()).catch(e => console.error(e)),
   update: (newData) => fetch(API_URL, {
     headers,
     method: "PUT",

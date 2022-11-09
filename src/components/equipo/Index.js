@@ -17,7 +17,7 @@ export function Miembro({ name, bio, email, badge, badgeData, sumBadgeClick }) {
         <div className={styles["name"]}>{name}</div>
         <div className={styles["bio"]}>{bio}</div>
         <div className={styles["bio"]}>{email}</div>
-        {badge &&
+        {badge && badgeData &&
           <Badge badgeContent={badgeData[badge.id]} color="primary" className={styles["badge"]}>
             <Button variant="outlined" onClick={event => { event.stopPropagation(); sumBadgeClick(badge.id) }}>
               {badge.text}
