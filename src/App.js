@@ -13,6 +13,7 @@ import {
   HashRouter as Router,
   Switch,
   Route,
+  Link
 } from "react-router-dom";
 import logo from "./components/header/logo.svg";
 
@@ -32,10 +33,10 @@ function App() {
             <Inicio />
             <div className="container">
               <h1>
-                <a href="/eventos">
+                <Link to="/eventos">
                   <img src={logo} alt="Logo Uqbar" />
                   Próximos Eventos
-                </a>
+                </Link>
               </h1>
               <Eventos2022 />
             </div>
