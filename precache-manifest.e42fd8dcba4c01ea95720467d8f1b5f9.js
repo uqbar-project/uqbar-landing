@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6640dcd070edf4e1f0f047b9d4a0380",
+    "revision": "71360f3f42b48d39425763c8655752ff",
     "url": "/index.html"
   },
   {
-    "revision": "aee740baad6a41f621ab",
+    "revision": "96854922ae90f6af8c80",
     "url": "/static/css/main.1211db80.chunk.css"
   },
   {
-    "revision": "600bc30a60e58c999e42",
-    "url": "/static/js/2.fcc33983.chunk.js"
+    "revision": "457c941a3a281ddb02c5",
+    "url": "/static/js/2.c25f8fdd.chunk.js"
   },
   {
     "revision": "03ffe45858ec13b5e4d5dc93aa818310",
-    "url": "/static/js/2.fcc33983.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c25f8fdd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aee740baad6a41f621ab",
-    "url": "/static/js/main.63b8196c.chunk.js"
+    "revision": "96854922ae90f6af8c80",
+    "url": "/static/js/main.4ae12ae5.chunk.js"
   },
   {
     "revision": "e53dba2f5f20724c9356",
@@ -32,12 +32,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Discord-Logo-Color.f8389ca1.svg"
   },
   {
+    "revision": "2a834cf60345bdcac8503fdd5b6255d5",
+    "url": "/static/media/Débora Fortini.2a834cf6.jpg"
+  },
+  {
     "revision": "44c7f9e41fe3087a288d3e5f40ee6927",
     "url": "/static/media/Fernando Dodino.44c7f9e4.jpg"
   },
   {
     "revision": "e9a02710b2a59efc69d909e5741e6203",
     "url": "/static/media/Gisela Decuzzi.e9a02710.jpg"
+  },
+  {
+    "revision": "33976f7e6d160743daf2f668d3add741",
+    "url": "/static/media/Guillermo Polito.33976f7e.jpg"
+  },
+  {
+    "revision": "b4760cea891da87d9ea30d8a1b960cc9",
+    "url": "/static/media/Juan Lagostena.b4760cea.jpg"
   },
   {
     "revision": "8c91ebd7b0f97b6a4c3431be10648a4f",

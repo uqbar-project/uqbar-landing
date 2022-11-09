@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.1211db80.chunk.css",
-    "main.js": "/static/js/main.63b8196c.chunk.js",
-    "main.js.map": "/static/js/main.63b8196c.chunk.js.map",
+    "main.js": "/static/js/main.4ae12ae5.chunk.js",
+    "main.js.map": "/static/js/main.4ae12ae5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.08fc9823.js",
     "runtime-main.js.map": "/static/js/runtime-main.08fc9823.js.map",
-    "static/js/2.fcc33983.chunk.js": "/static/js/2.fcc33983.chunk.js",
-    "static/js/2.fcc33983.chunk.js.map": "/static/js/2.fcc33983.chunk.js.map",
+    "static/js/2.c25f8fdd.chunk.js": "/static/js/2.c25f8fdd.chunk.js",
+    "static/js/2.c25f8fdd.chunk.js.map": "/static/js/2.c25f8fdd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d3efcb547c25200bf1d0925b5c95554d.js": "/precache-manifest.d3efcb547c25200bf1d0925b5c95554d.js",
+    "precache-manifest.e42fd8dcba4c01ea95720467d8f1b5f9.js": "/precache-manifest.e42fd8dcba4c01ea95720467d8f1b5f9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.1211db80.chunk.css.map": "/static/css/main.1211db80.chunk.css.map",
-    "static/js/2.fcc33983.chunk.js.LICENSE.txt": "/static/js/2.fcc33983.chunk.js.LICENSE.txt",
+    "static/js/2.c25f8fdd.chunk.js.LICENSE.txt": "/static/js/2.c25f8fdd.chunk.js.LICENSE.txt",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
     "static/media/Discord-Logo-Color.svg": "/static/media/Discord-Logo-Color.f8389ca1.svg",
+    "static/media/Débora Fortini.jpg": "/static/media/Débora Fortini.2a834cf6.jpg",
     "static/media/Fernando Dodino.jpg": "/static/media/Fernando Dodino.44c7f9e4.jpg",
     "static/media/Gisela Decuzzi.jpg": "/static/media/Gisela Decuzzi.e9a02710.jpg",
+    "static/media/Guillermo Polito.jpg": "/static/media/Guillermo Polito.33976f7e.jpg",
+    "static/media/Juan Lagostena.jpg": "/static/media/Juan Lagostena.b4760cea.jpg",
     "static/media/Lucas Spigariol.jpg": "/static/media/Lucas Spigariol.8c91ebd7.jpg",
     "static/media/Mariana Matos.jpg": "/static/media/Mariana Matos.7a8f6fd4.jpg",
     "static/media/Micaela Pizarro.jpg": "/static/media/Micaela Pizarro.180cd632.jpg",
@@ -66,8 +69,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.08fc9823.js",
-    "static/js/2.fcc33983.chunk.js",
+    "static/js/2.c25f8fdd.chunk.js",
     "static/css/main.1211db80.chunk.css",
-    "static/js/main.63b8196c.chunk.js"
+    "static/js/main.4ae12ae5.chunk.js"
   ]
 }
