@@ -57,5 +57,20 @@
         "name": "Mariana Matos",
         "bio": "Ingeniera en Sistemas de Información, violinista y docente de la UTN, donde trata de contagiar la pasión por el desarrollo de software a las nuevas generaciones. Jazzera vieja de alma, infantil en todo lo demás para compensar.",
         "email": "mmatos87@gmail.com"
+    },
+    {
+        "name": "Juan Lagostena",
+        "bio": "Ingeniero Informático de la Facultad de Ingenieria de la UBA y docente de la misma carrera pero en la Universidad Nacional de Avellaneda. En el pasado fue Director de Arquitectura de Sistemas de la AFIP y actualmente trabaja como Ingeniero de Software en la Agencia de Acceso a la Información Pública.",
+        "email": "jplagostena@gmail.com"
+    },
+    {
+        "name": "Débora Fortini",
+        "bio": "Ingeniera en Sistemas de Información UTN FRBA, donde también fue docente durante muchos años. También fue docente en la UNSAM y actualmente, en la UNQ. Siempre enseñando a programar desde las trincheras militando el uso del software libre y la inclusión de mas personas a esta hermosa profesión. Directora Provincial de Informática y Comunicaciones del Ministerio de Justicia y DDHH.",
+        "email": "deborafortini@gmail.com"
+    },
+    {
+        "name": "Guillermo Polito",
+        "bio": "Chargé de Recherche en el equipo RMoD del centro Inria de la Universidad de Lille, con un interés particular en meta-object-protocols, la implementación de lenguajes, los compiladores y el testing automático.",
+        "email": "guillermopolito@gmail.com"
     }
 ]
