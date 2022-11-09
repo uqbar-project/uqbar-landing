@@ -32,7 +32,7 @@ function App() {
             <Inicio />
             <div className="container">
               <h1>
-                <a href="eventos">
+                <a href="/eventos">
                   <img src={logo} alt="Logo Uqbar" />
                   Próximos Eventos
                 </a>
