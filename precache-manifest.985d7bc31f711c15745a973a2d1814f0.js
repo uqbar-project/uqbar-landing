@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5febbe38b49ff863b31dcf26724619a9",
+    "revision": "21e70875b975aa6f31350f569f55c90f",
     "url": "/index.html"
   },
   {
-    "revision": "d264a94e07aedc859723",
+    "revision": "3117cb13876dcef6692f",
     "url": "/static/css/main.1211db80.chunk.css"
   },
   {
-    "revision": "3526c7b8ef8accc71a95",
-    "url": "/static/js/2.d9c6d4c9.chunk.js"
+    "revision": "143c230e990e3c2e84a7",
+    "url": "/static/js/2.e8fb78cd.chunk.js"
   },
   {
     "revision": "03ffe45858ec13b5e4d5dc93aa818310",
-    "url": "/static/js/2.d9c6d4c9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e8fb78cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d264a94e07aedc859723",
-    "url": "/static/js/main.00a76e28.chunk.js"
+    "revision": "3117cb13876dcef6692f",
+    "url": "/static/js/main.9d7fba9c.chunk.js"
   },
   {
     "revision": "e53dba2f5f20724c9356",
@@ -94,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3a3b18f4b8be950f48a265da8a80836f",
     "url": "/static/media/concurso-wollok-game-2021.3a3b18f4.png"
+  },
+  {
+    "revision": "d31cf557386064bb825114e1428b31d7",
+    "url": "/static/media/concurso-wollok-game-2022.d31cf557.png"
   },
   {
     "revision": "190f47550bdec252a97b6122fa8e69af",

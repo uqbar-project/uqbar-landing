@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1211db80.chunk.css",
-    "main.js": "/static/js/main.00a76e28.chunk.js",
-    "main.js.map": "/static/js/main.00a76e28.chunk.js.map",
+    "main.js": "/static/js/main.9d7fba9c.chunk.js",
+    "main.js.map": "/static/js/main.9d7fba9c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.08fc9823.js",
     "runtime-main.js.map": "/static/js/runtime-main.08fc9823.js.map",
-    "static/js/2.d9c6d4c9.chunk.js": "/static/js/2.d9c6d4c9.chunk.js",
-    "static/js/2.d9c6d4c9.chunk.js.map": "/static/js/2.d9c6d4c9.chunk.js.map",
+    "static/js/2.e8fb78cd.chunk.js": "/static/js/2.e8fb78cd.chunk.js",
+    "static/js/2.e8fb78cd.chunk.js.map": "/static/js/2.e8fb78cd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f01b489a36a1e37ee5ac7b477f7f6981.js": "/precache-manifest.f01b489a36a1e37ee5ac7b477f7f6981.js",
+    "precache-manifest.985d7bc31f711c15745a973a2d1814f0.js": "/precache-manifest.985d7bc31f711c15745a973a2d1814f0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.1211db80.chunk.css.map": "/static/css/main.1211db80.chunk.css.map",
-    "static/js/2.d9c6d4c9.chunk.js.LICENSE.txt": "/static/js/2.d9c6d4c9.chunk.js.LICENSE.txt",
+    "static/js/2.e8fb78cd.chunk.js.LICENSE.txt": "/static/js/2.e8fb78cd.chunk.js.LICENSE.txt",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
     "static/media/Discord-Logo-Color.svg": "/static/media/Discord-Logo-Color.f8389ca1.svg",
     "static/media/Débora Fortini.jpg": "/static/media/Débora Fortini.2a834cf6.jpg",
@@ -30,6 +30,7 @@
     "static/media/autocomplete.png": "/static/media/autocomplete.ed598483.png",
     "static/media/concurso-wollok-game-2019.jpg": "/static/media/concurso-wollok-game-2019.b8a60671.jpg",
     "static/media/concurso-wollok-game-2021.png": "/static/media/concurso-wollok-game-2021.3a3b18f4.png",
+    "static/media/concurso-wollok-game-2022.png": "/static/media/concurso-wollok-game-2022.d31cf557.png",
     "static/media/console.png": "/static/media/console.190f4755.png",
     "static/media/convocatoria-docente.jpeg": "/static/media/convocatoria-docente.8b14490b.jpeg",
     "static/media/debugger.png": "/static/media/debugger.ed6eaf74.png",
@@ -69,8 +70,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.08fc9823.js",
-    "static/js/2.d9c6d4c9.chunk.js",
+    "static/js/2.e8fb78cd.chunk.js",
     "static/css/main.1211db80.chunk.css",
-    "static/js/main.00a76e28.chunk.js"
+    "static/js/main.9d7fba9c.chunk.js"
   ]
 }
