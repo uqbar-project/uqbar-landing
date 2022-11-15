@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1211db80.chunk.css",
-    "main.js": "/static/js/main.9d7fba9c.chunk.js",
-    "main.js.map": "/static/js/main.9d7fba9c.chunk.js.map",
+    "main.js": "/static/js/main.23bf3722.chunk.js",
+    "main.js.map": "/static/js/main.23bf3722.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.08fc9823.js",
     "runtime-main.js.map": "/static/js/runtime-main.08fc9823.js.map",
-    "static/js/2.e8fb78cd.chunk.js": "/static/js/2.e8fb78cd.chunk.js",
-    "static/js/2.e8fb78cd.chunk.js.map": "/static/js/2.e8fb78cd.chunk.js.map",
+    "static/js/2.a03be1a5.chunk.js": "/static/js/2.a03be1a5.chunk.js",
+    "static/js/2.a03be1a5.chunk.js.map": "/static/js/2.a03be1a5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.985d7bc31f711c15745a973a2d1814f0.js": "/precache-manifest.985d7bc31f711c15745a973a2d1814f0.js",
+    "precache-manifest.95cd32ef641b4771aa975078998cb418.js": "/precache-manifest.95cd32ef641b4771aa975078998cb418.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.1211db80.chunk.css.map": "/static/css/main.1211db80.chunk.css.map",
-    "static/js/2.e8fb78cd.chunk.js.LICENSE.txt": "/static/js/2.e8fb78cd.chunk.js.LICENSE.txt",
+    "static/js/2.a03be1a5.chunk.js.LICENSE.txt": "/static/js/2.a03be1a5.chunk.js.LICENSE.txt",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
     "static/media/Discord-Logo-Color.svg": "/static/media/Discord-Logo-Color.f8389ca1.svg",
     "static/media/Débora Fortini.jpg": "/static/media/Débora Fortini.2a834cf6.jpg",
@@ -38,6 +38,7 @@
     "static/media/encuentro-virtual.jpg": "/static/media/encuentro-virtual.65b47265.jpg",
     "static/media/gameWeb.png": "/static/media/gameWeb.f31e9265.png",
     "static/media/header-equipo.jpeg": "/static/media/header-equipo.4ff61a24.jpeg",
+    "static/media/header-eventos.png": "/static/media/header-eventos.ce4c5894.png",
     "static/media/header-proyectos.jpeg": "/static/media/header-proyectos.3744f34a.jpeg",
     "static/media/ilustracion01.svg": "/static/media/ilustracion01.ad3866ec.svg",
     "static/media/ilustracion02.svg": "/static/media/ilustracion02.754ea763.svg",
@@ -70,8 +71,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.08fc9823.js",
-    "static/js/2.e8fb78cd.chunk.js",
+    "static/js/2.a03be1a5.chunk.js",
     "static/css/main.1211db80.chunk.css",
-    "static/js/main.9d7fba9c.chunk.js"
+    "static/js/main.23bf3722.chunk.js"
   ]
 }
