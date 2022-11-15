@@ -2,33 +2,25 @@ import React from "react";
 import UqbarCard from "../utils/UqbarCard.js"
 import UqbarCardGrid from "../utils/UqbarCardGrid.js"
 import concursoWollokGame2019 from "./imgs/concurso-wollok-game-2019.jpg";
+import concursoWollokGame2020 from "./imgs/votacion-concurso-wollok-game-2020.jpg";
+import concursoWollokGame2021 from "./imgs/concurso-wollok-game-2021.png";
+import concursoWollokGame2022 from "./imgs/concurso-wollok-game-2022.png";
 import jornadasDocentes from "./imgs/jornadas-docentes.jpg";
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg";
 import encuentroVirtual from "./imgs/encuentro-virtual.jpg";
-import concursoWollokGame2020 from "./imgs/votacion-concurso-wollok-game-2020.jpg";
 import ultimoEvento2020 from "./imgs/ultimo-evento-2020.jpg";
 import ultimoEvento2021 from "./imgs/ultimo-evento-2021.jpg";
-import concursoWollokGame2021 from "./imgs/concurso-wollok-game-2021.png";
 import softwareLibre2022 from "./imgs/software-libre-2022.jpg";
 import maquinasVirtuales2022 from "./imgs/maquinas-virtuales-2022.jpg"
 
-export function Eventos2022() {
+export function EventosActuales() {
   return (
     <UqbarCardGrid>
       <UqbarCard
-        link="https://docs.google.com/document/d/e/2PACX-1vR6zTgX7xcT_IMwnpO56kaDBLiafHFce4Y1P12kdN_Goyi2Pc6nlVLLkUf6DlrOgCVFF-TpZ27Rp1p2/pub"
-        projectLogo={softwareLibre2022}
-        projectName="Proyectos Innovadores con Software Libre"
-        projectDescription="Aunque a veces es poco visible para el gran público por fuera de los especialistas informáticos, el software libre es un pilar fundamental para el funcionamiento de muchos de los recursos tecnológicos que usamos a diario, así como de los proyectos más innovadores y creativos. En esta jornada contaremos tres experiencias concretas de utilización de software libre para aplicaciones de alta demanda y complejidad, repasando las ventajas y los desafíos de haber encarado los diferentes proyectos con esa estrategia, así como los retos y objetivos de cara al futuro."
-      />
-      <UqbarCard
-        link="https://docs.google.com/document/d/1FTdlT7WH3EJIC68BYJRkXeLhPQYAzg27Ya4t3RylOKs/edit?usp=sharing"
-        projectLogo={maquinasVirtuales2022}
-        projectName="Máquinas Virtuales Performantes y Robustas"
-        projectDescription="En esta charla vamos a visitar las máquinas virtuales desde sus técnicas fundadoras hasta sus desafíos actuales usando la máquina virtual del lenguaje Pharo como ejemplo.
-      La VM de Pharo esta escrita en Pharo mismo y basada en un sistema de simulación y transpilación.
-      Vamos a empezar por los problemas de la interpretación, la traducción dinámica o compilación JIT, las cachés polimórficas, y la compilación adaptativa.
-      Vamos a visitar la creación de compiladores usando técnicas de meta-compilación, y distintos ejemplos del problema de la validación de compiladores. Finalmente, vamos a discutir desafíos aun no resueltos con respecto a la ejecución manejada, la evaluación de performance, la gestion de memoria automática con hardware reciente y la seguridad."
+        link="https://docs.google.com/document/d/e/2PACX-1vQUxRzRAH_dUPMIO-N39x8F_mHDTa_DJb9ENgSxoEn4Ezb09PdzGr6pyD4UUv9Nm5-n1oVVBFD2B9Pu/pub"
+        projectLogo={concursoWollokGame2022}
+        projectName="Concurso Wollok Game"
+        projectDescription="Si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y querés mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
       />
     </UqbarCardGrid>
   )
@@ -38,7 +30,26 @@ export default function Eventos() {
   return (
     <div className="container" id="Eventos">
       <h2>ACTUALES</h2>
-      <Eventos2022 />
+      <EventosActuales />
+
+      <h2>2022</h2>
+      <UqbarCardGrid>
+        <UqbarCard
+          link="https://docs.google.com/document/d/e/2PACX-1vR6zTgX7xcT_IMwnpO56kaDBLiafHFce4Y1P12kdN_Goyi2Pc6nlVLLkUf6DlrOgCVFF-TpZ27Rp1p2/pub"
+          projectLogo={softwareLibre2022}
+          projectName="Proyectos Innovadores con Software Libre"
+          projectDescription="Aunque a veces es poco visible para el gran público por fuera de los especialistas informáticos, el software libre es un pilar fundamental para el funcionamiento de muchos de los recursos tecnológicos que usamos a diario, así como de los proyectos más innovadores y creativos. En esta jornada contaremos tres experiencias concretas de utilización de software libre para aplicaciones de alta demanda y complejidad, repasando las ventajas y los desafíos de haber encarado los diferentes proyectos con esa estrategia, así como los retos y objetivos de cara al futuro."
+        />
+        <UqbarCard
+          link="https://docs.google.com/document/d/1FTdlT7WH3EJIC68BYJRkXeLhPQYAzg27Ya4t3RylOKs/edit?usp=sharing"
+          projectLogo={maquinasVirtuales2022}
+          projectName="Máquinas Virtuales Performantes y Robustas"
+          projectDescription="En esta charla vamos a visitar las máquinas virtuales desde sus técnicas fundadoras hasta sus desafíos actuales usando la máquina virtual del lenguaje Pharo como ejemplo.
+          La VM de Pharo esta escrita en Pharo mismo y basada en un sistema de simulación y transpilación.
+          Vamos a empezar por los problemas de la interpretación, la traducción dinámica o compilación JIT, las cachés polimórficas, y la compilación adaptativa.
+          Vamos a visitar la creación de compiladores usando técnicas de meta-compilación, y distintos ejemplos del problema de la validación de compiladores. Finalmente, vamos a discutir desafíos aun no resueltos con respecto a la ejecución manejada, la evaluación de performance, la gestion de memoria automática con hardware reciente y la seguridad."
+        />
+      </UqbarCardGrid>
 
       <h2>2021</h2>
       <UqbarCardGrid>
@@ -51,7 +62,7 @@ export default function Eventos() {
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vTmBpmoVX52Kn2KKJME6AkZNoCZcqaMgrV9cRWDeG0Wc3zuT8BRFuahmFtoUeVXJfBfwCF8Mn4FrobP/pub"
           projectLogo={concursoWollokGame2021}
-          projectName="Concurso Wollok Game"
+          projectName="Concurso Wollok Game 2021"
           projectDescription="Si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y querés mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
         />
       </UqbarCardGrid>

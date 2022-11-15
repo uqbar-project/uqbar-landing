@@ -7,7 +7,7 @@ import Proyectos from "./components/proyectos/Index.js";
 import Talleres from "./components/talleres/Index.js";
 import Equipo from "./components/equipo/Index.js";
 import Contacto from "./components/contacto/Index.js";
-import Eventos, { Eventos2022 } from "./components/eventos/Index.js";
+import Eventos, { EventosActuales } from "./components/eventos/Index.js";
 import Ideas from "./components/ideas/Index.jsx";
 import {
   HashRouter as Router,
@@ -38,7 +38,7 @@ function App() {
                   Próximos Eventos
                 </Link>
               </h1>
-              <Eventos2022 />
+              <EventosActuales />
             </div>
             <Talleres />
             <Proyectos />
