@@ -15,7 +15,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import logo from "./components/header/logo.svg";
+import headerEventos from "./components/eventos/header-eventos.png";
 
 function App() {
   return (
@@ -32,12 +32,11 @@ function App() {
           <Route path="/">
             <Inicio />
             <div className="container">
-              <h1>
+              <div className={"header projectLogo"}>
                 <Link to="/eventos">
-                  <img src={logo} alt="Logo Uqbar" />
-                  Próximos Eventos
+                  <img src={headerEventos} alt="Eventos" />
                 </Link>
-              </h1>
+              </div>
               <EventosActuales />
             </div>
             <Talleres />
