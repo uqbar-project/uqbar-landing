@@ -9,6 +9,7 @@ import Equipo from "./components/equipo/Index.js";
 import Contacto from "./components/contacto/Index.js";
 import Eventos, { EventosActuales } from "./components/eventos/Index.js";
 import Ideas from "./components/ideas/Index.jsx";
+import Suscribe from "./components/suscribe/Index.jsx";
 import {
   HashRouter as Router,
   Switch,
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/ideas">
             <Ideas />
+          </Route>
+          <Route path="/suscribe">
+            <Suscribe />
           </Route>
           <Route path="/">
             <Inicio />
