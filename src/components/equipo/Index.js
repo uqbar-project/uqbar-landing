@@ -11,7 +11,7 @@ export function Miembro({ name, bio, email, badge, badgeData, sumBadgeClick }) {
   return (
     <>
       <div className={styles["photo"]}>
-        <img src={require("./photos/" + name + ".jpg")} alt={name} />
+        <img src={require("./photos/" + name + ".jpg").default} alt={name} />
       </div>
       <div className={styles["description"]}>
         <div className={styles["name"]}>{name}</div>
@@ -33,7 +33,7 @@ export default function Equipo() {
   const [active, setActive] = useState(null);
   const [badgeData, setBadgeData] = useState({});
 
-  useEffect(() => { badgeApi.get().then(setBadgeData) }, [])
+  // useEffect(() => { badgeApi.get().then(setBadgeData) }, [])
 
   const sumBadgeClick = (id) => {
     const currentValue = badgeData[id] || 0
@@ -53,9 +53,9 @@ export default function Equipo() {
         <div className={styles["equipoListado"]}>
           {
             miembros.map((miembro, index) => (
-              <div key={index} 
-                className={[styles.member, isActive(index) ? styles.active : styles.inactive].join(" ")} 
-                onClick={() => setActive(isActive(index) ? null : index)} 
+              <div key={index}
+                className={[styles.member, isActive(index) ? styles.active : styles.inactive].join(" ")}
+                onClick={() => setActive(isActive(index) ? null : index)}
               >
                 <Miembro badgeData={badgeData} sumBadgeClick={sumBadgeClick} {...miembro} />
               </div>
