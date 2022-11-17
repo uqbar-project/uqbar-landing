@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Index.module.css";
 
 export default function Ideas() {
-  const mailchimpSuscribeForm = `<!-- Begin Mailchimp Signup Form -->
+  const mailchimpSubscribeForm = `<!-- Begin Mailchimp Signup Form -->
   <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
   <style type="text/css">
     #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  max-width:600px;}
@@ -55,7 +55,7 @@ export default function Ideas() {
   return (
     <div
       className={styles["subscribeForm-container"]}
-      dangerouslySetInnerHTML={{ __html: mailchimpSuscribeForm }}
+      dangerouslySetInnerHTML={{ __html: mailchimpSubscribeForm }}
     />
   );
 }
