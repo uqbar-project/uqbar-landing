@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./App.css";
 import Header from "./components/header/Index.js";
 import Inicio from "./components/inicio/Index.js";
@@ -14,7 +14,8 @@ import {
   HashRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
 import headerEventos from "./components/eventos/header-eventos.png";
 
@@ -24,35 +25,43 @@ function App() {
       <div className="app">
         <Header />
         <Switch>
-          <Route path="/eventos">
-            <Eventos />
-          </Route>
-          <Route path="/ideas">
-            <Ideas />
-          </Route>
-          <Route path="/subscribe">
-            <Subscribe />
-          </Route>
-          <Route path="/">
-            <Inicio />
-            <div className="container">
-              <div className={"header projectLogo"}>
-                <Link to="/eventos">
-                  <img src={headerEventos} alt="Eventos" />
-                </Link>
-              </div>
-              <EventosActuales />
-            </div>
-            <Talleres />
-            <Proyectos />
-            <Equipo />
-            <Donaciones />
-            <Contacto />
-          </Route>
+          <Route path="/eventos" component={Eventos} />
+          <Route path="/ideas" component={Ideas} />
+          <Route path="/subscribe" component={Subscribe} />
+          {/* Este parche se agregó el 16/11/22 porque salió un newsletter con un link erróneo, eventualmente debería eliminarse. */}
+          <Route path='/suscribe' element={<Redirect to="/subscribe" />} />
+          <Route path="/" component={Home} />
         </Switch>
       </div>
     </Router>
   );
+}
+
+function Home() {
+  return (
+    <Fragment>
+      <Inicio />
+      <EventosActualesForHome />
+      <Talleres />
+      <Proyectos />
+      <Equipo />
+      <Donaciones />
+      <Contacto />
+    </Fragment>
+  )
+}
+
+function EventosActualesForHome() {
+  return (
+    <div className="container">
+      <div className={"header projectLogo"}>
+        <Link to="/eventos">
+          <img src={headerEventos} alt="Eventos" />
+        </Link>
+      </div>
+      <EventosActuales />
+    </div>
+  )
 }
 
 export default App;
