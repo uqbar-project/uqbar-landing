@@ -15,7 +15,7 @@ import {
   Switch,
   Route,
   Link,
-  Redirect
+  Redirect,
 } from "react-router-dom";
 import headerEventos from "./components/eventos/header-eventos.png";
 
@@ -29,7 +29,7 @@ function App() {
           <Route path="/ideas" component={Ideas} />
           <Route path="/subscribe" component={Subscribe} />
           {/* Este parche se agregó el 16/11/22 porque salió un newsletter con un link erróneo, eventualmente debería eliminarse. */}
-          <Route path='/suscribe' element={<Redirect to="/subscribe" />} />
+          <Redirect from='/suscribe' to="/subscribe" />
           <Route path="/" component={Home} />
         </Switch>
       </div>
