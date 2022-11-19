@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.45bdc70b.chunk.css",
-    "main.js": "/static/js/main.fe74926c.chunk.js",
-    "main.js.map": "/static/js/main.fe74926c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.08fc9823.js",
-    "runtime-main.js.map": "/static/js/runtime-main.08fc9823.js.map",
-    "static/js/2.7f367f47.chunk.js": "/static/js/2.7f367f47.chunk.js",
-    "static/js/2.7f367f47.chunk.js.map": "/static/js/2.7f367f47.chunk.js.map",
+    "main.css": "/static/css/main.7fea0150.chunk.css",
+    "main.js": "/static/js/main.fcb150db.chunk.js",
+    "main.js.map": "/static/js/main.fcb150db.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b4d8036.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b4d8036.js.map",
+    "static/js/2.f3c42bb6.chunk.js": "/static/js/2.f3c42bb6.chunk.js",
+    "static/js/2.f3c42bb6.chunk.js.map": "/static/js/2.f3c42bb6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.347f50e31a1d7dba2ce526114ad35af5.js": "/precache-manifest.347f50e31a1d7dba2ce526114ad35af5.js",
+    "precache-manifest.c21f6dd72212b0e52c623516fabaf075.js": "/precache-manifest.c21f6dd72212b0e52c623516fabaf075.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.45bdc70b.chunk.css.map": "/static/css/main.45bdc70b.chunk.css.map",
-    "static/js/2.7f367f47.chunk.js.LICENSE.txt": "/static/js/2.7f367f47.chunk.js.LICENSE.txt",
+    "static/css/main.7fea0150.chunk.css.map": "/static/css/main.7fea0150.chunk.css.map",
+    "static/js/2.f3c42bb6.chunk.js.LICENSE.txt": "/static/js/2.f3c42bb6.chunk.js.LICENSE.txt",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
     "static/media/Discord-Logo-Color.svg": "/static/media/Discord-Logo-Color.f8389ca1.svg",
     "static/media/Débora Fortini.jpg": "/static/media/Débora Fortini.2a834cf6.jpg",
@@ -65,14 +65,15 @@
     "static/media/typeSystem.png": "/static/media/typeSystem.115c5860.png",
     "static/media/ultimo-evento-2020.jpg": "/static/media/ultimo-evento-2020.44c40f61.jpg",
     "static/media/ultimo-evento-2021.jpg": "/static/media/ultimo-evento-2021.881753a1.jpg",
+    "static/media/unahur-tic.jpeg": "/static/media/unahur-tic.8208919a.jpeg",
     "static/media/uqbar-talleres.jpeg": "/static/media/uqbar-talleres.2c6d0f3a.jpeg",
     "static/media/votacion-concurso-wollok-game-2020.jpg": "/static/media/votacion-concurso-wollok-game-2020.43d65304.jpg",
     "static/media/wollok_mobile_icon.jpeg": "/static/media/wollok_mobile_icon.6c48f951.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.08fc9823.js",
-    "static/js/2.7f367f47.chunk.js",
-    "static/css/main.45bdc70b.chunk.css",
-    "static/js/main.fe74926c.chunk.js"
+    "static/js/runtime-main.9b4d8036.js",
+    "static/js/2.f3c42bb6.chunk.js",
+    "static/css/main.7fea0150.chunk.css",
+    "static/js/main.fcb150db.chunk.js"
   ]
 }
