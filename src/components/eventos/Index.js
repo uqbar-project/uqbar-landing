@@ -12,6 +12,7 @@ import ultimoEvento2020 from "./imgs/ultimo-evento-2020.jpg";
 import ultimoEvento2021 from "./imgs/ultimo-evento-2021.jpg";
 import softwareLibre2022 from "./imgs/software-libre-2022.jpg";
 import maquinasVirtuales2022 from "./imgs/maquinas-virtuales-2022.jpg"
+import unahurTic from "./imgs/unahur-tic.jpeg"
 
 export function EventosActuales() {
   return (
@@ -21,6 +22,16 @@ export function EventosActuales() {
         projectLogo={concursoWollokGame2022}
         projectName="Concurso Wollok Game"
         projectDescription="Si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y querés mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
+      />
+      <UqbarCard
+        link="https://www.instagram.com/p/ClHPR0vPE-7/?utm_source=ig_web_copy_link"
+        projectLogo={unahurTic}
+        projectName="UNAHUR@TIC"
+        projectDescription='Encuentro de actualización Informática. Es una actividad que va a realizarse a en la Unahur @unahurlingham.
+        📆 Sábado 19/11 Para destacar:
+        ⏱11hs Débora Fortini "El software libre te lleva al mundial"
+        ⏱14hs Gerardo Gonzalez Tulian "De wollok a ..."
+        '
       />
     </UqbarCardGrid>
   )
