@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.7fea0150.chunk.css",
-    "main.js": "/static/js/main.fcb150db.chunk.js",
-    "main.js.map": "/static/js/main.fcb150db.chunk.js.map",
+    "main.js": "/static/js/main.1ecab73c.chunk.js",
+    "main.js.map": "/static/js/main.1ecab73c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b4d8036.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b4d8036.js.map",
-    "static/js/2.f3c42bb6.chunk.js": "/static/js/2.f3c42bb6.chunk.js",
-    "static/js/2.f3c42bb6.chunk.js.map": "/static/js/2.f3c42bb6.chunk.js.map",
+    "static/js/2.5e4f6f28.chunk.js": "/static/js/2.5e4f6f28.chunk.js",
+    "static/js/2.5e4f6f28.chunk.js.map": "/static/js/2.5e4f6f28.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c21f6dd72212b0e52c623516fabaf075.js": "/precache-manifest.c21f6dd72212b0e52c623516fabaf075.js",
+    "precache-manifest.b0ef5f6436472ba6de50efdf20935a98.js": "/precache-manifest.b0ef5f6436472ba6de50efdf20935a98.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7fea0150.chunk.css.map": "/static/css/main.7fea0150.chunk.css.map",
-    "static/js/2.f3c42bb6.chunk.js.LICENSE.txt": "/static/js/2.f3c42bb6.chunk.js.LICENSE.txt",
+    "static/js/2.5e4f6f28.chunk.js.LICENSE.txt": "/static/js/2.5e4f6f28.chunk.js.LICENSE.txt",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
     "static/media/Discord-Logo-Color.svg": "/static/media/Discord-Logo-Color.f8389ca1.svg",
     "static/media/Débora Fortini.jpg": "/static/media/Débora Fortini.2a834cf6.jpg",
@@ -72,8 +72,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9b4d8036.js",
-    "static/js/2.f3c42bb6.chunk.js",
+    "static/js/2.5e4f6f28.chunk.js",
     "static/css/main.7fea0150.chunk.css",
-    "static/js/main.fcb150db.chunk.js"
+    "static/js/main.1ecab73c.chunk.js"
   ]
 }
