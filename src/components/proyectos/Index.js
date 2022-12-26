@@ -60,7 +60,7 @@ export default function Proyectos() {
           link="https://github.com/uqbar-taller-de-lenguajes/taller-2017/wiki"
           projectLogo="https://raw.githubusercontent.com/wiki/uqbar-taller-de-lenguajes/taller-2017/images/temas.jpg"
           projectName="Taller de lenguajes"
-          projectDescription="Taler dictado en 2017 para aprender a construir las herramientas que definen un lenguaje desde un enfoque práctico."
+          projectDescription="Taller dictado en 2017 para aprender a construir las herramientas que definen un lenguaje desde un enfoque práctico."
         />
         <UqbarCard
           link="http://arena.uqbar-project.org/"

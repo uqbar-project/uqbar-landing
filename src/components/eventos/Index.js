@@ -13,25 +13,25 @@ import ultimoEvento2021 from "./imgs/ultimo-evento-2021.jpg";
 import softwareLibre2022 from "./imgs/software-libre-2022.jpg";
 import maquinasVirtuales2022 from "./imgs/maquinas-virtuales-2022.jpg"
 import unahurTic from "./imgs/unahur-tic.jpeg"
+import uqbarLogo from "./imgs/uqbar.png"
 
 export function EventosActuales() {
   return (
     <UqbarCardGrid>
       <UqbarCard
+        link="https://utn.zoom.us/j/87016722899"
+        projectLogo={uqbarLogo}
+        projectName="¡Cierre del año con Uqbar!"
+        projectDescription="Martes 27 de Diciembre: Les invitamos a cerrar del año con nosotrxs. 
+        Haremos un repaso de todas las cosas que se hicieron en Uqbar durante el año, y también presentaremos lxs ganadorxs del concurso Wollok Game 2022. La reunión será virtual en el link que se encuentra en la descripción de este evento. 
+        ¡Lxs esperamos para brindar por otro año en comunidad!"
+      />
+
+      <UqbarCard
         link="https://docs.google.com/document/d/e/2PACX-1vQUxRzRAH_dUPMIO-N39x8F_mHDTa_DJb9ENgSxoEn4Ezb09PdzGr6pyD4UUv9Nm5-n1oVVBFD2B9Pu/pub"
         projectLogo={concursoWollokGame2022}
         projectName="Concurso Wollok Game"
         projectDescription="Si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y querés mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
-      />
-      <UqbarCard
-        link="https://www.instagram.com/p/ClHPR0vPE-7/?utm_source=ig_web_copy_link"
-        projectLogo={unahurTic}
-        projectName="UNAHUR@TIC"
-        projectDescription='Encuentro de actualización Informática. Es una actividad que va a realizarse a en la Unahur @unahurlingham.
-        📆 Sábado 19/11 Para destacar:
-        ⏱11hs Débora Fortini "El software libre te lleva al mundial"
-        ⏱14hs Gerardo Gonzalez Tulian "De wollok a ..."
-        '
       />
     </UqbarCardGrid>
   )
@@ -45,6 +45,17 @@ export default function Eventos() {
 
       <h2>2022</h2>
       <UqbarCardGrid>
+        <UqbarCard
+          link="https://www.instagram.com/p/ClHPR0vPE-7/?utm_source=ig_web_copy_link"
+          projectLogo={unahurTic}
+          projectName="UNAHUR@TIC"
+          projectDescription='Encuentro de actualización Informática. Es una actividad que va a realizarse a en la Unahur @unahurlingham.
+          📆 Sábado 19/11 Para destacar:
+          ⏱11hs Débora Fortini "El software libre te lleva al mundial"
+          ⏱14hs Gerardo Gonzalez Tulian "De wollok a ..."
+          '
+        />
+
         <UqbarCard
           link="https://docs.google.com/document/d/e/2PACX-1vR6zTgX7xcT_IMwnpO56kaDBLiafHFce4Y1P12kdN_Goyi2Pc6nlVLLkUf6DlrOgCVFF-TpZ27Rp1p2/pub"
           projectLogo={softwareLibre2022}
