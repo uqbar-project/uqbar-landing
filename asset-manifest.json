@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7fea0150.chunk.css",
-    "main.js": "/static/js/main.1ecab73c.chunk.js",
-    "main.js.map": "/static/js/main.1ecab73c.chunk.js.map",
+    "main.css": "/static/css/main.76aea7a3.chunk.css",
+    "main.js": "/static/js/main.10222d14.chunk.js",
+    "main.js.map": "/static/js/main.10222d14.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b4d8036.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b4d8036.js.map",
-    "static/js/2.5e4f6f28.chunk.js": "/static/js/2.5e4f6f28.chunk.js",
-    "static/js/2.5e4f6f28.chunk.js.map": "/static/js/2.5e4f6f28.chunk.js.map",
+    "static/js/2.b88d1a87.chunk.js": "/static/js/2.b88d1a87.chunk.js",
+    "static/js/2.b88d1a87.chunk.js.map": "/static/js/2.b88d1a87.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b0ef5f6436472ba6de50efdf20935a98.js": "/precache-manifest.b0ef5f6436472ba6de50efdf20935a98.js",
+    "precache-manifest.731cb9c0f83e9d114a2912fdd3e76198.js": "/precache-manifest.731cb9c0f83e9d114a2912fdd3e76198.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7fea0150.chunk.css.map": "/static/css/main.7fea0150.chunk.css.map",
-    "static/js/2.5e4f6f28.chunk.js.LICENSE.txt": "/static/js/2.5e4f6f28.chunk.js.LICENSE.txt",
+    "static/css/main.76aea7a3.chunk.css.map": "/static/css/main.76aea7a3.chunk.css.map",
+    "static/js/2.b88d1a87.chunk.js.LICENSE.txt": "/static/js/2.b88d1a87.chunk.js.LICENSE.txt",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.2eb9fbbc.jpg",
     "static/media/Discord-Logo-Color.svg": "/static/media/Discord-Logo-Color.f8389ca1.svg",
     "static/media/Débora Fortini.jpg": "/static/media/Débora Fortini.2a834cf6.jpg",
@@ -31,6 +31,7 @@
     "static/media/concurso-wollok-game-2019.jpg": "/static/media/concurso-wollok-game-2019.b8a60671.jpg",
     "static/media/concurso-wollok-game-2021.png": "/static/media/concurso-wollok-game-2021.3a3b18f4.png",
     "static/media/concurso-wollok-game-2022.png": "/static/media/concurso-wollok-game-2022.d31cf557.png",
+    "static/media/concurso-wollok-game-2023.png": "/static/media/concurso-wollok-game-2023.fc0a02cb.png",
     "static/media/console.png": "/static/media/console.190f4755.png",
     "static/media/convocatoria-docente.jpeg": "/static/media/convocatoria-docente.8b14490b.jpeg",
     "static/media/debugger.png": "/static/media/debugger.ed6eaf74.png",
@@ -72,8 +73,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9b4d8036.js",
-    "static/js/2.5e4f6f28.chunk.js",
-    "static/css/main.7fea0150.chunk.css",
-    "static/js/main.1ecab73c.chunk.js"
+    "static/js/2.b88d1a87.chunk.js",
+    "static/css/main.76aea7a3.chunk.css",
+    "static/js/main.10222d14.chunk.js"
   ]
 }
