@@ -42,8 +42,8 @@ function Home() {
     <Fragment>
       <Inicio />
       {/* <EventosActualesForHome /> */}
-      <Talleres />
       <Proyectos />
+      <Talleres />
       <Equipo />
       <Donaciones />
       <Contacto />
