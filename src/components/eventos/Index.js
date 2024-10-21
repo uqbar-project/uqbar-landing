@@ -6,6 +6,7 @@ import concursoWollokGame2020 from "./imgs/votacion-concurso-wollok-game-2020.jp
 import concursoWollokGame2021 from "./imgs/concurso-wollok-game-2021.png";
 import concursoWollokGame2022 from "./imgs/concurso-wollok-game-2022.png";
 import concursoWollokGame2023 from "./imgs/concurso-wollok-game-2023.png";
+import concursoWollokGame2024 from "./imgs/concurso-wollok-game-2024.png";
 import jornadasDocentes from "./imgs/jornadas-docentes.jpg";
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg";
 import encuentroVirtual from "./imgs/encuentro-virtual.jpg";
@@ -20,10 +21,10 @@ export function EventosActuales() {
   return (
     <UqbarCardGrid>
       <UqbarCard
-        link="https://docs.google.com/document/d/e/2PACX-1vQOapZd5M2xEoq6RR9PiHCynvIJ0A2SRlP_1wTy2I2-D7go7jSan8dAjTBs3C74SmKH-y80jnBoWpM3/pub"
-        projectLogo={concursoWollokGame2023}
-        projectName="Concurso Wollok Game 2023"
-        projectDescription="¡Se hizo desear pero llegó el Concurso de Wollok Game 5ta edición! Así que ya sabés, si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y querés mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
+        link="https://docs.google.com/document/d/e/2PACX-1vS_--XeP1h6wVm6TB4NXwsV9_-w5Dvo9iXNU_kW83Q_vmvtmSEfGLl6MqQU0ejZq8CpNqI3dNHgSxui/pub"
+        projectLogo={concursoWollokGame2024}
+        projectName="Concurso Wollok Game 2024"
+        projectDescription="Ya se viene la 6ta edición el evento más esperado por la comunidad: el Concurso de Wollok Game. Con ediciones cada vez más épicas, les invitamos a mandar sus juegos, votar a sus favoritos y llevarse premios piolas en un encuentro lleno de sorpresas. ¡Nos vemos pronto!"
       />
     </UqbarCardGrid>
   )
@@ -34,6 +35,14 @@ export default function Eventos() {
     <div className="container" id="Eventos">
       <h2>ACTUALES</h2>
       <EventosActuales />
+
+      <h2>2023</h2>
+      <UqbarCard
+        link="https://docs.google.com/document/d/e/2PACX-1vQOapZd5M2xEoq6RR9PiHCynvIJ0A2SRlP_1wTy2I2-D7go7jSan8dAjTBs3C74SmKH-y80jnBoWpM3/pub"
+        projectLogo={concursoWollokGame2023}
+        projectName="Concurso Wollok Game 2023"
+        projectDescription="¡Se hizo desear pero llegó el Concurso de Wollok Game 5ta edición! Así que ya sabés, si hiciste o estás haciendo un juego con Wollok Game, si estás aprendiendo a programar en objetos con Wollok y tenés ganas de explorar la interfaz gráfica de Game, si sos docente y querés mantenerte actualizado con las herramientas de Wollok, ¡este concurso es para vos! Junto con tu grupo, o individualmente, pueden hacer el juego que prefieran, presentarlo, que sea analizado por el jurado y que el público dé su opinión."
+      />
 
       <h2>2022</h2>
       <UqbarCardGrid>
