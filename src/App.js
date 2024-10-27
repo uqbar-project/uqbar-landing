@@ -41,7 +41,7 @@ function Home() {
   return (
     <Fragment>
       <Inicio />
-      {/* <EventosActualesForHome /> */}
+      <EventosActualesForHome />
       <Proyectos />
       <Talleres />
       <Equipo />
