@@ -1,19 +1,20 @@
-import React from "react";
+import React from "react"
 import UqbarCard from "../utils/UqbarCard.js"
 import UqbarCardGrid from "../utils/UqbarCardGrid.js"
-import concursoWollokGame2019 from "./imgs/concurso-wollok-game-2019.jpg";
-import concursoWollokGame2020 from "./imgs/votacion-concurso-wollok-game-2020.jpg";
-import concursoWollokGame2021 from "./imgs/concurso-wollok-game-2021.png";
-import concursoWollokGame2022 from "./imgs/concurso-wollok-game-2022.png";
-import concursoWollokGame2023 from "./imgs/concurso-wollok-game-2023.png";
-import concursoWollokGame2024 from "./imgs/concurso-wollok-game-2024.png";
-import jornadasDocentes from "./imgs/jornadas-docentes.jpg";
-import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg";
-import encuentroVirtual from "./imgs/encuentro-virtual.jpg";
-import ultimoEvento2020 from "./imgs/ultimo-evento-2020.jpg";
-import ultimoEvento2021 from "./imgs/ultimo-evento-2021.jpg";
-import softwareLibre2022 from "./imgs/software-libre-2022.jpg";
+import concursoWollokGame2019 from "./imgs/concurso-wollok-game-2019.jpg"
+import concursoWollokGame2020 from "./imgs/votacion-concurso-wollok-game-2020.jpg"
+import concursoWollokGame2021 from "./imgs/concurso-wollok-game-2021.png"
+import concursoWollokGame2022 from "./imgs/concurso-wollok-game-2022.png"
+import concursoWollokGame2023 from "./imgs/concurso-wollok-game-2023.png"
+import concursoWollokGame2024 from "./imgs/concurso-wollok-game-2024.png"
+import jornadasDocentes from "./imgs/jornadas-docentes.jpg"
+import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg"
+import encuentroVirtual from "./imgs/encuentro-virtual.jpg"
+import ultimoEvento2020 from "./imgs/ultimo-evento-2020.jpg"
+import ultimoEvento2021 from "./imgs/ultimo-evento-2021.jpg"
+import softwareLibre2022 from "./imgs/software-libre-2022.jpg"
 import maquinasVirtuales2022 from "./imgs/maquinas-virtuales-2022.jpg"
+import pharoOptimizations2024 from "./imgs/pharo-optimizations-2024.png"
 import unahurTic from "./imgs/unahur-tic.jpeg"
 import uqbarLogo from "./imgs/uqbar.png"
 
@@ -21,10 +22,12 @@ export function EventosActuales() {
   return (
     <UqbarCardGrid>
       <UqbarCard
-        link="https://docs.google.com/document/d/e/2PACX-1vS_--XeP1h6wVm6TB4NXwsV9_-w5Dvo9iXNU_kW83Q_vmvtmSEfGLl6MqQU0ejZq8CpNqI3dNHgSxui/pub"
-        projectLogo={concursoWollokGame2024}
-        projectName="Concurso Wollok Game 2024"
-        projectDescription="Ya se viene la 6ta edición el evento más esperado por la comunidad: el Concurso de Wollok Game. Con ediciones cada vez más épicas, les invitamos a mandar sus juegos, votar a sus favoritos y llevarse premios piolas en un encuentro lleno de sorpresas. ¡Nos vemos pronto!"
+        link="https://discord.gg/jPMTCwZG3f"
+        projectLogo={pharoOptimizations2024}
+        projectName="Optimizaciones en la Máquina Virtual de Pharo"
+        projectDescription={<>
+        Nahuel vino de Francia para comentarnos cómo hace <a href="https://pharo.org/" target="_blank" rel="noopener noreferrer">Pharo</a> para ser eficiente ejecutando programas orientados a objetos. Nos presentará las optizaciones tradicionales en la industria y algunos de los experimentos que está haciendo con el equipo de la Máquina Virtual del lenguaje, en Inria.
+        </>}
       />
     </UqbarCardGrid>
   )
@@ -35,6 +38,14 @@ export default function Eventos() {
     <div className="container" id="Eventos">
       <h2>ACTUALES</h2>
       <EventosActuales />
+
+      <h2>2024</h2>
+      <UqbarCard
+        link="https://docs.google.com/document/d/e/2PACX-1vS_--XeP1h6wVm6TB4NXwsV9_-w5Dvo9iXNU_kW83Q_vmvtmSEfGLl6MqQU0ejZq8CpNqI3dNHgSxui/pub"
+        projectLogo={concursoWollokGame2024}
+        projectName="Concurso Wollok Game 2024"
+        projectDescription="Ya se viene la 6ta edición el evento más esperado por la comunidad: el Concurso de Wollok Game. Con ediciones cada vez más épicas, les invitamos a mandar sus juegos, votar a sus favoritos y llevarse premios piolas en un encuentro lleno de sorpresas. ¡Nos vemos pronto!"
+      />
 
       <h2>2023</h2>
       <UqbarCard
@@ -155,5 +166,5 @@ Una serie de encuentros virtuales para dialogar sobre las experiencias educativa
         />
       </UqbarCardGrid>
     </div>
-  );
+  )
 }
