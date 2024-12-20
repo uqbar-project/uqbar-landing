@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.3b1f71df.css",
-    "main.js": "/static/js/main.919c1d8f.js",
+    "main.js": "/static/js/main.8fd70177.js",
     "static/media/Mariana Matos.jpg": "/static/media/Mariana Matos.92974c7a0cf5423327e7.jpg",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.3beee1553ca1c08664be.jpg",
+    "static/media/pharo-optimizations-2024.png": "/static/media/pharo-optimizations-2024.e8530ae0916421d14314.png",
     "static/media/Pablo de Haro.jpg": "/static/media/Pablo de Haro.3a930f8f7e426435d4f0.jpg",
     "static/media/concurso-wollok-game-2024.png": "/static/media/concurso-wollok-game-2024.5935fb3ea19ee4d948dc.png",
     "static/media/Gisela Decuzzi.jpg": "/static/media/Gisela Decuzzi.087015bbc6c4bd094934.jpg",
@@ -71,10 +72,10 @@
     "static/media/red-youtube.svg": "/static/media/red-youtube.1254ad061548d096194a.svg",
     "static/media/red-email.svg": "/static/media/red-email.86ee5a9716fb5140a336.svg",
     "main.3b1f71df.css.map": "/static/css/main.3b1f71df.css.map",
-    "main.919c1d8f.js.map": "/static/js/main.919c1d8f.js.map"
+    "main.8fd70177.js.map": "/static/js/main.8fd70177.js.map"
   },
   "entrypoints": [
     "static/css/main.3b1f71df.css",
-    "static/js/main.919c1d8f.js"
+    "static/js/main.8fd70177.js"
   ]
 }
