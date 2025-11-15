@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b1f71df.css",
-    "main.js": "/static/js/main.8fd70177.js",
+    "main.js": "/static/js/main.aa286f6f.js",
     "static/media/Mariana Matos.jpg": "/static/media/Mariana Matos.92974c7a0cf5423327e7.jpg",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.3beee1553ca1c08664be.jpg",
     "static/media/pharo-optimizations-2024.png": "/static/media/pharo-optimizations-2024.e8530ae0916421d14314.png",
@@ -12,6 +12,7 @@
     "static/media/Fernando Dodino.jpg": "/static/media/Fernando Dodino.3d570fb5f200e55d4a7e.jpg",
     "static/media/concurso-wollok-game-2023.png": "/static/media/concurso-wollok-game-2023.82225d809ac7daa94655.png",
     "static/media/concurso-wollok-game-2022.png": "/static/media/concurso-wollok-game-2022.b2d14c27cbd685ad71ce.png",
+    "static/media/concurso-wollok-game-2025.jpg": "/static/media/concurso-wollok-game-2025.c4631069ec84db61fa3b.jpg",
     "static/media/ilustracion01.svg": "/static/media/ilustracion01.6cb57d6132acd0b4f5314e56e540f8a3.svg",
     "static/media/software-libre-2022.jpg": "/static/media/software-libre-2022.8ac41728ad049eaa0f46.jpg",
     "static/media/ilustracion02.svg": "/static/media/ilustracion02.e878a166ba4be129e7e4814be2f90366.svg",
@@ -72,10 +73,10 @@
     "static/media/red-youtube.svg": "/static/media/red-youtube.1254ad061548d096194a.svg",
     "static/media/red-email.svg": "/static/media/red-email.86ee5a9716fb5140a336.svg",
     "main.3b1f71df.css.map": "/static/css/main.3b1f71df.css.map",
-    "main.8fd70177.js.map": "/static/js/main.8fd70177.js.map"
+    "main.aa286f6f.js.map": "/static/js/main.aa286f6f.js.map"
   },
   "entrypoints": [
     "static/css/main.3b1f71df.css",
-    "static/js/main.8fd70177.js"
+    "static/js/main.aa286f6f.js"
   ]
 }
