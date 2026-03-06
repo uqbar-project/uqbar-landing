@@ -8,6 +8,7 @@ import concursoWollokGame2024 from "./imgs/concurso-wollok-game-2024.png"
 import concursoWollokGame2025 from "./imgs/concurso-wollok-game-2025.jpg"
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg"
 import encuentroVirtual from "./imgs/encuentro-virtual.jpg"
+import hackathonWollok2026 from "./imgs/hackathon-wollok-2026.jpg"
 import jornadasDocentes from "./imgs/jornadas-docentes.jpg"
 import maquinasVirtuales2022 from "./imgs/maquinas-virtuales-2022.jpg"
 import pharoOptimizations2024 from "./imgs/pharo-optimizations-2024.png"
@@ -22,10 +23,10 @@ export function EventosActuales() {
   return (
     <UqbarCardGrid>
       <UqbarCard
-        link="https://docs.google.com/document/d/e/2PACX-1vRP4cpaTBdel3Yrc6E9V6ia1NZTf31ufxa9D7wQ4msj5QjdZZJD0xXmUSVOzpjjhQ/pub"
-        projectLogo={concursoWollokGame2025}
-        projectName="Concurso Wollok Game 2025"
-        projectDescription="Nos volvemos a encontrar en la ya 7ma edición del Concurso de Wollok Game. Esta vez con nuevo formato, les invitamos a presentar sus juegos y tanto el jurado como el público presente definirán los ganadores en vivo. Venite con tu juego y/o a jugar los juegos hechos en Wollok de este año. ¡Hasta pronto!"
+        link="https://discord.com/channels/737094307902914570/840658205940121601/1478468397292322967"
+        projectLogo={hackathonWollok2026}
+        projectName="Hackathon Wollok 2026"
+        projectDescription="El sábado 7 de Marzo a las 10 hs nos encontramos en UTN - sede medrano a conocer más acerca de cómo está hecho Wollok. Traé tu compu porque la idea es contribuir al proyecto. Wollok se formó a partir de discusiones entre docentes y estudiantes. Si te interesa aportar ideas o formar parte de quienes definen la herramienta, este es tu lugar."
       />
     </UqbarCardGrid>
   )
@@ -36,6 +37,14 @@ export default function Eventos() {
     <div className="container" id="Eventos">
       <h2>ACTUALES</h2>
       <EventosActuales />
+
+      <h2>2025</h2>
+      <UqbarCard
+        link="https://docs.google.com/document/d/e/2PACX-1vRP4cpaTBdel3Yrc6E9V6ia1NZTf31ufxa9D7wQ4msj5QjdZZJD0xXmUSVOzpjjhQ/pub"
+        projectLogo={concursoWollokGame2025}
+        projectName="Concurso Wollok Game 2025"
+        projectDescription="Nos volvemos a encontrar en la ya 7ma edición del Concurso de Wollok Game. Esta vez con nuevo formato, les invitamos a presentar sus juegos y tanto el jurado como el público presente definirán los ganadores en vivo. Venite con tu juego y/o a jugar los juegos hechos en Wollok de este año. ¡Hasta pronto!"
+      />
 
       <h2>2024</h2>
       <UqbarCardGrid>
