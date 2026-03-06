@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b1f71df.css",
-    "main.js": "/static/js/main.aa286f6f.js",
+    "main.js": "/static/js/main.0e857ae0.js",
     "static/media/Mariana Matos.jpg": "/static/media/Mariana Matos.92974c7a0cf5423327e7.jpg",
     "static/media/Alfredo Sanzo.jpg": "/static/media/Alfredo Sanzo.3beee1553ca1c08664be.jpg",
     "static/media/pharo-optimizations-2024.png": "/static/media/pharo-optimizations-2024.e8530ae0916421d14314.png",
@@ -27,6 +27,7 @@
     "static/media/concurso-wollok-game-2021.png": "/static/media/concurso-wollok-game-2021.c7b4c21bb224e718af43.png",
     "static/media/unahur-tic.jpeg": "/static/media/unahur-tic.b253f96e3b9c7d19996b.jpeg",
     "static/media/proyecto-podcast.png": "/static/media/proyecto-podcast.567ff4f9671088948af3.png",
+    "static/media/hackathon-wollok-2026.jpg": "/static/media/hackathon-wollok-2026.49c1fa81cd63f8596f40.jpg",
     "static/media/ludover.png": "/static/media/ludover.18accb263321922d8dfe.png",
     "static/media/Lucas Spigariol.jpg": "/static/media/Lucas Spigariol.46d531ae3d577470364d.jpg",
     "static/media/gameWeb.png": "/static/media/gameWeb.19d37bf5d23cf8025b15.png",
@@ -73,10 +74,10 @@
     "static/media/red-youtube.svg": "/static/media/red-youtube.1254ad061548d096194a.svg",
     "static/media/red-email.svg": "/static/media/red-email.86ee5a9716fb5140a336.svg",
     "main.3b1f71df.css.map": "/static/css/main.3b1f71df.css.map",
-    "main.aa286f6f.js.map": "/static/js/main.aa286f6f.js.map"
+    "main.0e857ae0.js.map": "/static/js/main.0e857ae0.js.map"
   },
   "entrypoints": [
     "static/css/main.3b1f71df.css",
-    "static/js/main.aa286f6f.js"
+    "static/js/main.0e857ae0.js"
   ]
 }
