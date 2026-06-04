@@ -8,7 +8,8 @@ import concursoWollokGame2024 from "./imgs/concurso-wollok-game-2024.png"
 import concursoWollokGame2025 from "./imgs/concurso-wollok-game-2025.jpg"
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg"
 import encuentroVirtual from "./imgs/encuentro-virtual.jpg"
-import hackathonWollok2026 from "./imgs/hackathon-wollok-2026.jpg"
+import hackathonWollokUTN2026 from "./imgs/hackathon-wollok-UTN-marzo-2026.jpg"
+import hackathonWollokUNQ2026 from "./imgs/hackathon-wollok-UNQ-junio-2026.png"
 import jornadasDocentes from "./imgs/jornadas-docentes.jpg"
 import maquinasVirtuales2022 from "./imgs/maquinas-virtuales-2022.jpg"
 import pharoOptimizations2024 from "./imgs/pharo-optimizations-2024.png"
@@ -23,10 +24,10 @@ export function EventosActuales() {
   return (
     <UqbarCardGrid>
       <UqbarCard
-        link="https://discord.com/channels/737094307902914570/840658205940121601/1478468397292322967"
-        projectLogo={hackathonWollok2026}
-        projectName="Hackathon Wollok 2026"
-        projectDescription="El sábado 7 de Marzo a las 10 hs nos encontramos en UTN - sede medrano a conocer más acerca de cómo está hecho Wollok. Traé tu compu porque la idea es contribuir al proyecto. Wollok se formó a partir de discusiones entre docentes y estudiantes. Si te interesa aportar ideas o formar parte de quienes definen la herramienta, este es tu lugar."
+        link="https://discord.com/channels/737094307902914570/840658205940121601/1511739639554244851"
+        projectLogo={hackathonWollokUNQ2026}
+        projectName="Hackathon Wollok en UNQ"
+        projectDescription="Este sábado 13 de junio nos volvemos a encontrar en la Universidad Nacional de Quilmes para una jornada de código, Wollok y comunidad 🫂. ¿Tenés ganas de contribuir, proponer ideas o sumarte a desarrollar nuevas funcionalidades? 💻 Traé tu compu porque la idea es meter mano en el proyecto. No hace falta haber contribuido antes. Y si ya lo hiciste, aprovechemos para reencontrarnos! 🤓"
       />
     </UqbarCardGrid>
   )
@@ -35,8 +36,16 @@ export function EventosActuales() {
 export default function Eventos() {
   return (
     <div className="container" id="Eventos">
-      <h2>ACTUALES</h2>
+      <h2>Próximos</h2>
       <EventosActuales />
+
+      <h2>2026</h2>
+      <UqbarCard
+        link="https://discord.com/channels/737094307902914570/840658205940121601/1478468397292322967"
+        projectLogo={hackathonWollokUTN2026}
+        projectName="Hackathon Wollok en UTN - FRBA"
+        projectDescription="El sábado 7 de Marzo a las 10 hs nos encontramos en UTN - sede medrano a conocer más acerca de cómo está hecho Wollok. Traé tu compu porque la idea es contribuir al proyecto. Wollok se formó a partir de discusiones entre docentes y estudiantes. Si te interesa aportar ideas o formar parte de quienes definen la herramienta, este es tu lugar."
+      />
 
       <h2>2025</h2>
       <UqbarCard
