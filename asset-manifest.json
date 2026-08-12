@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b1f71df.css",
-    "main.js": "/static/js/main.1f5b6463.js",
+    "main.js": "/static/js/main.eea25628.js",
     "static/media/hackathon-wollok-UNQ-junio-2026.png": "/static/media/hackathon-wollok-UNQ-junio-2026.0335ae1f2d43c1118dc0.png",
     "static/media/reunion-wollok-2026.png": "/static/media/reunion-wollok-2026.855db25545055afc485d.png",
     "static/media/Mariana Matos.jpg": "/static/media/Mariana Matos.92974c7a0cf5423327e7.jpg",
@@ -77,10 +77,10 @@
     "static/media/red-youtube.svg": "/static/media/red-youtube.1254ad061548d096194a.svg",
     "static/media/red-email.svg": "/static/media/red-email.86ee5a9716fb5140a336.svg",
     "main.3b1f71df.css.map": "/static/css/main.3b1f71df.css.map",
-    "main.1f5b6463.js.map": "/static/js/main.1f5b6463.js.map"
+    "main.eea25628.js.map": "/static/js/main.eea25628.js.map"
   },
   "entrypoints": [
     "static/css/main.3b1f71df.css",
-    "static/js/main.1f5b6463.js"
+    "static/js/main.eea25628.js"
   ]
 }
