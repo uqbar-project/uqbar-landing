@@ -25,12 +25,6 @@ import reunionWollok2026 from "./imgs/reunion-wollok-2026.png"
 export function EventosActuales() {
   return (
     <UqbarCardGrid>
-      <UqbarCard
-        link="https://forms.gle/iJmT9bYfwVqGH9fh7"
-        projectLogo={reunionWollok2026}
-        projectName="Reunión de Wollok 2026"
-        projectDescription="Queremos invitarte a la próxima reunión de la comunidad de Wollok. La idea es volver a encontrarnos quienes enseñamos, aprendemos y hacemos crecer el proyecto, para ponernos al día y conversar tanto sobre el camino recorrido como sobre lo que se viene. Si este año empezaste a dar clases, sos ayudante, o usás Wollok en otra institución, también nos encantaría que te sumes: la reunión está pensada justamente para conocernos, compartir experiencias y seguir construyendo la comunidad entre todxs."
-      />
     </UqbarCardGrid>
   )
 }
@@ -43,6 +37,13 @@ export default function Eventos() {
 
       <h2>2026</h2>
       <UqbarCardGrid>
+        <UqbarCard
+          link="https://docs.google.com/document/d/e/2PACX-1vTa5dlHVJWd0EeziHvHWmgqFOhRAYqtPyr2YxYdcFZ9zRJetf8ruBs8lnhcesG0TV357_AF4bmS1FXQ/pub"
+          projectLogo={reunionWollok2026}
+          projectName="Reunión de Wollok 2026"
+          projectDescription="Queremos invitarte a la próxima reunión de la comunidad de Wollok. La idea es volver a encontrarnos quienes enseñamos, aprendemos y hacemos crecer el proyecto, para ponernos al día y conversar tanto sobre el camino recorrido como sobre lo que se viene. Si este año empezaste a dar clases, sos ayudante, o usás Wollok en otra institución, también nos encantaría que te sumes: la reunión está pensada justamente para conocernos, compartir experiencias y seguir construyendo la comunidad entre todxs."
+        />
+
         <UqbarCard
           link="https://www.instagram.com/reel/DbBErnQjleI/?igsh=aXVtNGRjM3Bydm12"
           projectLogo={wollokGameUnahur2026}
