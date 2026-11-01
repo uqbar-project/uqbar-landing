@@ -6,6 +6,7 @@ import concursoWollokGame2022 from "./imgs/concurso-wollok-game-2022.png"
 import concursoWollokGame2023 from "./imgs/concurso-wollok-game-2023.png"
 import concursoWollokGame2024 from "./imgs/concurso-wollok-game-2024.png"
 import concursoWollokGame2025 from "./imgs/concurso-wollok-game-2025.jpg"
+import concursoWollokGame2026 from "./imgs/concurso-wollok-game-2026.jpeg"
 import convocatoriaDocente from "./imgs/convocatoria-docente.jpeg"
 import encuentroVirtual from "./imgs/encuentro-virtual.jpg"
 import hackathonWollokUNQ2026 from "./imgs/hackathon-wollok-UNQ-junio-2026.png"
@@ -25,6 +26,13 @@ import reunionWollok2026 from "./imgs/reunion-wollok-2026.png"
 export function EventosActuales() {
   return (
     <UqbarCardGrid>
+      <UqbarCard
+        link="https://docs.google.com/document/d/e/2PACX-1vQvpZzvKHKiwQ2vdsF5l80kFCod0W9OYKemUfIhCU5GBzIDjcQiMC4kQZwsoxDpGQ/pub"
+        projectLogo={concursoWollokGame2026}
+        projectName="Concurso Wollok Game 2026"
+        projectDescription="Se viene la 8va edición del concurso que está en boca de todxs. ¡Compartí tu juego de Wollok Game con la comunidad! Vení al evento presencial para conocernos, hay premios esperándote. Nos vemos!"
+      />
+
     </UqbarCardGrid>
   )
 }
